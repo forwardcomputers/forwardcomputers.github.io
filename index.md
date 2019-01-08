@@ -1,5 +1,5 @@
 <p align="center">
-<b>forwardcomputers.com projects status on GitHub</b><br>
+<h1>forwardcomputers.com projects status on GitHub</h1>
 </p>
 
 [![CircleCI](https://circleci.com/gh/forwardcomputers/audacity.svg?style=svg)](https://circleci.com/gh/forwardcomputers/audacity)
