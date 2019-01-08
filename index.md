@@ -1,10 +1,3 @@
-# Heading 1
-
-<div class="something" markdown="1">
-  ## Heading 2
-  Some **bold** text.
-</div>
-
 <h1 align=center>forwardcomputers.com projects status on GitHub</h1>
 
 [![CircleCI](https://circleci.com/gh/forwardcomputers/audacity.svg?style=svg)](https://circleci.com/gh/forwardcomputers/audacity)
