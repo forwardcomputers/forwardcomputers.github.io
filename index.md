@@ -1,8 +1,5 @@
 # forwardcomputers.com projects status on GitHub
 
-<a href="https://hub.docker.com/r/forwardcomputers/audacity"><img src="https://img.shields.io/badge/pushed%20on-2019--01--08%2018%3A01%3A01-blue.svg" /></a>
-
-
 [![CircleCI](https://circleci.com/gh/forwardcomputers/audacity.svg?style=svg)](https://circleci.com/gh/forwardcomputers/audacity)
 [![Github](https://img.shields.io/badge/github-audacity-orange.svg?label=&logo=github)](https://github.com/forwardcomputers/audacity)
 [![Docker](https://img.shields.io/badge/docker-audacity-blue.svg?label=&logo=docker)](https://hub.docker.com/r/forwardcomputers/audacity)
