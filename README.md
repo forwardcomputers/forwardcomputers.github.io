@@ -1,4 +1,3 @@
-# forwardcomputers.com projects status on GitHub
 
 [![CircleCI](https://circleci.com/gh/forwardcomputers/audacity.svg?style=svg)](https://circleci.com/gh/forwardcomputers/audacity)
 [![Github](https://img.shields.io/badge/github-audacity-orange.svg?label=&logo=github)](https://github.com/forwardcomputers/audacity)
