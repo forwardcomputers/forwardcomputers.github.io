@@ -2,16 +2,6 @@
 
 <a href="https://hub.docker.com/r/forwardcomputers/audacity"><img src="https://img.shields.io/badge/pushed%20on-2019--01--08%2018%3A01%3A01-blue.svg" /></a>
 
-<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script src="date.format.js"></script>
-<script>
-    var date = "\/Date(1297246301973)\/";
-    var nowDate = new Date(parseInt(date.substr(6)));
-    var result = "";
-    result += nowDate.format("ddd mmm dd yyyy HH:MM:ss") + " : ddd mmm dd yyyy HH:MM:ss <br/>";
-</script>
-
-
 
 [![CircleCI](https://circleci.com/gh/forwardcomputers/audacity.svg?style=svg)](https://circleci.com/gh/forwardcomputers/audacity)
 [![Github](https://img.shields.io/badge/github-audacity-orange.svg?label=&logo=github)](https://github.com/forwardcomputers/audacity)
