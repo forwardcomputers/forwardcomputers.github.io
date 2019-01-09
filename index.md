@@ -48,3 +48,7 @@
 [![Docker release](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.name&label=latest%20tag&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/torbrowser/tags)](https://hub.docker.com/r/forwardcomputers/torbrowser)
 [![Docker push](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.last_updated&label=pushed%20on&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/torbrowser/tags)](https://hub.docker.com/r/forwardcomputers/audacity)
 [![Microbadger](https://images.microbadger.com/badges/image/forwardcomputers/torbrowser.svg)](http://microbadger.com/images/forwardcomputers/torbrowser "Image size")
+
+[GitHub status](https://www.githubstatus.com/)
+[CircleCI status](https://status.circleci.com/)
+[Docker status](https://status.docker.com/)
