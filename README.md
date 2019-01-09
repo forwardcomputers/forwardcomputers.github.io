@@ -50,5 +50,7 @@
 [![Microbadger](https://images.microbadger.com/badges/image/forwardcomputers/torbrowser.svg)](http://microbadger.com/images/forwardcomputers/torbrowser "Image size")
 
 [GitHub status](https://www.githubstatus.com/)
+
 [CircleCI status](https://status.circleci.com/)
+
 [Docker status](https://status.docker.com/)
