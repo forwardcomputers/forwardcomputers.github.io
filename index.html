@@ -8,9 +8,9 @@
 
         $(function () {
             $.ajax({
-                url:"https://registry.hub.docker.com/v2/repositories/forwardcomputers/audacity/tags",
+                url:"https://registry.hub.docker.com/v2/repositories/forwardcomputers/audacity/tags?callback=?",
                 type:'GET',
-                dataType:'xml',
+                dataType:'json',
                 complete: function(data){
                     console.log(data)
                 },
