@@ -1,26 +1,32 @@
 <html>
     <head>
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
-        <script type="text/javascript" src="https://raw.githubusercontent.com/forwardcomputers/forwardcomputers.github.io/master/jquery.ajax-cross-origin.min.js"></script>
     </head>
    
     <body>
         <script type = "text/javascript">
+        function createCORSRequest(method, url){
+        var xhr = new XMLHttpRequest();
+        if ("withCredentials" in xhr){
+            // XHR has 'withCredentials' property only if it supports CORS
+            xhr.open(method, url, true);
+        } else if (typeof XDomainRequest != "undefined"){ // if IE use XDR
+            xhr = new XDomainRequest();
+            xhr.open(method, url);
+        } else {
+            xhr = null;
+        }
+        return xhr;
+        }
 
-        $(function () {
-            $.ajax({
-                crossOrigin:true,
-                url:"https://registry.hub.docker.com/v2/repositories/forwardcomputers/audacity/tags",
-                type:'GET',
-                dataType:'xml',
-                complete: function(data){
-                    console.log(data)
-                },
-                success: function(data) {
-                    console.log(data)
-                }
-            });
-        });
+        var request = createCORSRequest( "get", "https://registry.hub.docker.com/v2/repositories/forwardcomputers/audacity/tags" );
+        if ( request ){
+        // Define a callback function
+        request.onload = function(){};
+        // Send request
+        request.send();
+        }
+
 
             document.write("<p>Hello World</p>")
             document.write(Date())
