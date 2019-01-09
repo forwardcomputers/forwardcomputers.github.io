@@ -1,25 +1,21 @@
 <html>
     <head>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
     </head>
    
     <body>
         <script type = "text/javascript">
 
         $(function () {
-            var script = document.createElement('script');
-            script.src = 
             $.ajax({
-                url: "https://registry.hub.docker.com/v2/repositories/forwardcomputers/audacity/tags",
+                url:"https://registry.hub.docker.com/v2/repositories/forwardcomputers/audacity/tags",
                 type:'GET',
-                dataType:'JSONP',
-                jsonp:'false',
-                jsonpCallback:'jsonp_reply',
+                dataType:'text',
                 complete: function(data){
                     console.log(data)
                 },
                 success: function(data) {
-                    console.log(data);
+                    console.log(data)
                 }
             });
         });
