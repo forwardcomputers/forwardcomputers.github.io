@@ -13,10 +13,10 @@
                 dataType:'JSONP',
                 jsonp:'false',
                 jsonpCallback:'jsonp_reply',
-                done: function(data){
+                complete: function(data){
                     console.log(data)
                 },
-                fail: function(data) {
+                success: function(data) {
                     console.log(data);
                 }
             });
