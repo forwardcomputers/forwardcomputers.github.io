@@ -1,3 +1,14 @@
-title: Hello
-description: ''
 theme: jekyll-theme-cayman
+title: 
+description: 
+lang: 
+google_analytics: 
+show_downloads:
+github:
+  is_project_page:
+  owner_name:
+  owner_url:
+  repository_name:
+  repository_url:
+  zip_url: 
+  tar_url:
