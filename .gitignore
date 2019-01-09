@@ -1,0 +1,38 @@
+docker_build_url
+
+# Synology
+@eaDIR
+
+# Linux
+*.swp
+
+# Windows
+*.cab
+*.lnk
+*.msi
+*.msix
+*.msm
+*.msp
+[Dd]esktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+.stackdump
+Thumbs.db
+
+# OSX
+._*
+.apdisk
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.com.apple.timemachine.donotpresent
+.DS_Store
+.DS_Store?
+.fseventsd
+Network Trash Folder
+.Spotlight-V100
+Temporary Items
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+TemporaryItems
