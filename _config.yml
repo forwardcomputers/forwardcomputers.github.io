@@ -1,11 +1,12 @@
 theme: jekyll-theme-minimal
 title: forwardcomputers.com
+twitter: https://twitter.com/fwdcomputers
 description: 
 lang: 
+logo:
 google_analytics: 
 show_downloads:
 github:
-  is_project_page:
   owner_name:
   owner_url:
   repository_name:
