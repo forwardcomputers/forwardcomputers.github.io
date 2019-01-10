@@ -6,11 +6,6 @@ lang:
 logo:
 google_analytics: 
 show_downloads:
-social:
-  name: forwardcomputers
-  links:
-    - https://twitter.com/fwdcomputers
-    - https://github.com/forwardcomputers
 twitter:
   username: fwdcomputers
   card: summary
