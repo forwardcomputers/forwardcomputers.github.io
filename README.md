@@ -2,7 +2,7 @@
 [![CircleCI](https://circleci.com/gh/forwardcomputers/audacity.svg?style=svg)](https://circleci.com/gh/forwardcomputers/audacity)
 [![Github](https://img.shields.io/badge/github-audacity-orange.svg?label=&logo=github)](https://github.com/forwardcomputers/audacity)
 [![Docker](https://img.shields.io/badge/docker-audacity-blue.svg?label=&logo=docker)](https://hub.docker.com/r/forwardcomputers/audacity)
-[![Docker release](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.name&label=latest%20tag&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/audacity/tags)](https://hub.docker.com/r/forwardcomputers/audacity) \
+[![Docker release](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.name&label=latest%20tag&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/audacity/tags)](https://hub.docker.com/r/forwardcomputers/audacity)\
 [![Docker push](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.last_updated&label=pushed%20on&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/audacity/tags)](https://hub.docker.com/r/forwardcomputers/audacity)
 [![Microbadger](https://images.microbadger.com/badges/image/forwardcomputers/audacity.svg)](http://microbadger.com/images/forwardcomputers/audacity "Image size")
 
