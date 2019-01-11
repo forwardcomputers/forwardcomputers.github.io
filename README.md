@@ -18,37 +18,42 @@
 [![CircleCI](https://circleci.com/gh/forwardcomputers/firefox.svg?style=svg)](https://circleci.com/gh/forwardcomputers/firefox)
 [![Github](https://img.shields.io/badge/github-firefox-orange.svg?label=&logo=github)](https://github.com/forwardcomputers/firefox)
 [![Docker](https://img.shields.io/badge/docker-firefox-blue.svg?label=&logo=docker)](https://hub.docker.com/r/forwardcomputers/firefox)
-[![Docker release](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.name&label=latest%20tag&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/firefox/tags)](https://hub.docker.com/r/forwardcomputers/firefox)<br/>
-[![Docker push](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.last_updated&label=pushed%20on&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/firefox/tags)](https://hub.docker.com/r/forwardcomputers/audacity)
+[![Docker release](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.name&label=latest%20tag&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/firefox/tags)](https://hub.docker.com/r/forwardcomputers/firefox)
 [![Microbadger](https://images.microbadger.com/badges/image/forwardcomputers/firefox.svg)](http://microbadger.com/images/forwardcomputers/firefox "Image size")
+<br/>
+[![Docker push](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.last_updated&label=pushed%20on&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/firefox/tags)](https://hub.docker.com/r/forwardcomputers/audacity)
 
 [![CircleCI](https://circleci.com/gh/forwardcomputers/firefox-esr.svg?style=svg)](https://circleci.com/gh/forwardcomputers/firefox-esr)
 [![Github](https://img.shields.io/badge/github-firefox&ndash;esr-orange.svg?label=&logo=github)](https://github.com/forwardcomputers/firefox-esr)
 [![Docker](https://img.shields.io/badge/docker-firefox&ndash;esr-blue.svg?label=&logo=docker)](https://hub.docker.com/r/forwardcomputers/firefox-esr)
-[![Docker release](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.name&label=latest%20tag&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/firefox-esr/tags)](https://hub.docker.com/r/forwardcomputers/firefox-esr)<br/>
-[![Docker push](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.last_updated&label=pushed%20on&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/firefox-esr/tags)](https://hub.docker.com/r/forwardcomputers/audacity)
+[![Docker release](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.name&label=latest%20tag&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/firefox-esr/tags)](https://hub.docker.com/r/forwardcomputers/firefox-esr)
 [![Microbadger](https://images.microbadger.com/badges/image/forwardcomputers/firefox-esr.svg)](http://microbadger.com/images/forwardcomputers/firefox-esr "Image size")
+<br/>
+[![Docker push](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.last_updated&label=pushed%20on&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/firefox-esr/tags)](https://hub.docker.com/r/forwardcomputers/audacity)
 
 [![CircleCI](https://circleci.com/gh/forwardcomputers/inkscape.svg?style=svg)](https://circleci.com/gh/forwardcomputers/inkscape)
 [![Github](https://img.shields.io/badge/github-inkscape-orange.svg?label=&logo=github)](https://github.com/forwardcomputers/inkscape)
 [![Docker](https://img.shields.io/badge/docker-inkscape-blue.svg?label=&logo=docker)](https://hub.docker.com/r/forwardcomputers/inkscape)
-[![Docker release](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.name&label=latest%20tag&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/inkscape/tags)](https://hub.docker.com/r/forwardcomputers/inkscape)<br/>
-[![Docker push](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.last_updated&label=pushed%20on&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/inkscape/tags)](https://hub.docker.com/r/forwardcomputers/audacity)
+[![Docker release](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.name&label=latest%20tag&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/inkscape/tags)](https://hub.docker.com/r/forwardcomputers/inkscape)
 [![Microbadger](https://images.microbadger.com/badges/image/forwardcomputers/inkscape.svg)](http://microbadger.com/images/forwardcomputers/inkscape "Image size")
+<br/>
+[![Docker push](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.last_updated&label=pushed%20on&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/inkscape/tags)](https://hub.docker.com/r/forwardcomputers/audacity)
 
 [![CircleCI](https://circleci.com/gh/forwardcomputers/shotcut.svg?style=svg)](https://circleci.com/gh/forwardcomputers/shotcut)
 [![Github](https://img.shields.io/badge/github-shotcut-orange.svg?label=&logo=github)](https://github.com/forwardcomputers/shotcut)
 [![Docker](https://img.shields.io/badge/docker-shotcut-blue.svg?label=&logo=docker)](https://hub.docker.com/r/forwardcomputers/shotcut)
-[![Docker release](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.name&label=latest%20tag&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/shotcut/tags)](https://hub.docker.com/r/forwardcomputers/shotcut)<br/>
-[![Docker push](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.last_updated&label=pushed%20on&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/shotcut/tags)](https://hub.docker.com/r/forwardcomputers/audacity)
+[![Docker release](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.name&label=latest%20tag&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/shotcut/tags)](https://hub.docker.com/r/forwardcomputers/shotcut)
 [![Microbadger](https://images.microbadger.com/badges/image/forwardcomputers/shotcut.svg)](http://microbadger.com/images/forwardcomputers/shotcut "Image size")
+<br/>
+[![Docker push](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.last_updated&label=pushed%20on&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/shotcut/tags)](https://hub.docker.com/r/forwardcomputers/audacity)
 
 [![CircleCI](https://circleci.com/gh/forwardcomputers/torbrowser.svg?style=svg)](https://circleci.com/gh/forwardcomputers/torbrowser)
 [![Github](https://img.shields.io/badge/github-torbrowser-orange.svg?label=&logo=github)](https://github.com/forwardcomputers/torbrowser)
 [![Docker](https://img.shields.io/badge/docker-torbrowser-blue.svg?label=&logo=docker)](https://hub.docker.com/r/forwardcomputers/torbrowser)
-[![Docker release](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.name&label=latest%20tag&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/torbrowser/tags)](https://hub.docker.com/r/forwardcomputers/torbrowser)<br/>
-[![Docker push](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.last_updated&label=pushed%20on&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/torbrowser/tags)](https://hub.docker.com/r/forwardcomputers/audacity)
+[![Docker release](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.name&label=latest%20tag&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/torbrowser/tags)](https://hub.docker.com/r/forwardcomputers/torbrowser)
 [![Microbadger](https://images.microbadger.com/badges/image/forwardcomputers/torbrowser.svg)](http://microbadger.com/images/forwardcomputers/torbrowser "Image size")
+<br/>
+[![Docker push](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.last_updated&label=pushed%20on&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/torbrowser/tags)](https://hub.docker.com/r/forwardcomputers/audacity)
 
 [![GitHub status](https://img.shields.io/badge/GitHub%20services%20status-grey.svg?label=)](https://www.githubstatus.com/)
 [![CircleCI status](https://img.shields.io/badge/CircleCI%20services%20status-grey.svg?label=)](https://status.circleci.com/)
