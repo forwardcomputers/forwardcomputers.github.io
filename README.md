@@ -49,7 +49,5 @@
 [![Microbadger](https://images.microbadger.com/badges/image/forwardcomputers/torbrowser.svg)](http://microbadger.com/images/forwardcomputers/torbrowser "Image size")
 
 [![GitHub status](https://img.shields.io/badge/https%3A%2F%2Fwww.githubstatus.com%2F-GitHub%20status-grey.svg?label=)](https://www.githubstatus.com/)
-
-[CircleCI status](https://status.circleci.com/)
-
-[Docker status](https://status.docker.com/)
+[![CircleCI status](https://img.shields.io/badge/circleci-GitHub%20status-grey.svg?label=)](https://status.circleci.com/)
+[![Docker status](https://img.shields.io/badge/docker-GitHub%20status-grey.svg?label=)](https://status.docker.com/)
