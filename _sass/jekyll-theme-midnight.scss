@@ -76,12 +76,11 @@ strong {
 }
 
 .wrapper {
-  left:0;
+  left:0px;
   top: 0px;
-  position:absolute;
+  position:relative;
   max-width:650px;
   margin:0 auto;
-  padding: 0 20px;
 }
 
 section img {
