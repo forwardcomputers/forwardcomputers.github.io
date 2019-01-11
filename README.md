@@ -48,6 +48,6 @@
 [![Docker push](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.last_updated&label=pushed%20on&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/torbrowser/tags)](https://hub.docker.com/r/forwardcomputers/audacity)
 [![Microbadger](https://images.microbadger.com/badges/image/forwardcomputers/torbrowser.svg)](http://microbadger.com/images/forwardcomputers/torbrowser "Image size")
 
-[![GitHub status](https://img.shields.io/badge/https%3A%2F%2Fwww.githubstatus.com%2F-GitHub%20status-grey.svg?label=)](https://www.githubstatus.com/)
-[![CircleCI status](https://img.shields.io/badge/circleci-GitHub%20status-grey.svg?label=)](https://status.circleci.com/)
-[![Docker status](https://img.shields.io/badge/docker-GitHub%20status-grey.svg?label=)](https://status.docker.com/)
+[![GitHub status](https://img.shields.io/badge/GitHub%20status-grey.svg?label=)](https://www.githubstatus.com/)
+[![CircleCI status](https://img.shields.io/badge/CircleCI%20status-grey.svg?label=)](https://status.circleci.com/)
+[![Docker status](https://img.shields.io/badge/Docker%20status-grey.svg?label=)](https://status.docker.com/)
