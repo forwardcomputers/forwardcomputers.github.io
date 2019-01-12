@@ -57,4 +57,4 @@
 
 [![GitHub status](https://img.shields.io/badge/GitHub%20services%20status-grey.svg?label=)](https://www.githubstatus.com/)
 [![CircleCI status](https://img.shields.io/badge/CircleCI%20services%20status-grey.svg?label=)](https://status.circleci.com/)
-[![Docker status](https://img.shields.io/badge/Docker%20services%20status-grey.svg?label=)](https://status.docker.com/)
+[![Docker status](https://img.shields.io/badge/Docker%20services%20status-grey.svg?label=)](<a href="https://status.docker.com/" target="_blank">example</a>)
