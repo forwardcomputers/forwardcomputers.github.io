@@ -1,5 +1,5 @@
 
-[![CircleCI](https://circleci.com/gh/forwardcomputers/dockerfiles.svg?style=svg)](https://circleci.com/gh/forwardcomputers/dockerfiles){:target="_blank"}
+[![CircleCI](https://circleci.com/gh/forwardcomputers/dotfiles.svg?style=svg)](https://circleci.com/gh/forwardcomputers/dotfiles){:target="_blank"}
 
 [![CircleCI](https://circleci.com/gh/forwardcomputers/audacity.svg?style=svg)](https://circleci.com/gh/forwardcomputers/audacity){:target="_blank"}
 [![Github](https://img.shields.io/badge/github-audacity-orange.svg?label=&logo=github)](https://github.com/forwardcomputers/audacity){:target="_blank"}
@@ -9,7 +9,7 @@
 <br/>
 [![Docker push](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.last_updated&label=pushed%20on&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/audacity/tags)](https://hub.docker.com/r/forwardcomputers/audacity){:target="_blank"}
 
-[![CircleCI](https://circleci.com/gh/forwardcomputers/chrome.svg?style=svg)](https://circleci.com/gh/forwardcomputers/chrome)
+[![CircleCI](https://circleci.com/gh/forwardcomputers/chrome.svg?style=svg)](https://circleci.com/gh/forwardcomputers/chrome){:target="_blank"}
 [![Github](https://img.shields.io/badge/github-chrome-orange.svg?label=&logo=github)](https://github.com/forwardcomputers/chrome){:target="_blank"}
 [![Docker](https://img.shields.io/badge/docker-chrome-blue.svg?label=&logo=docker)](https://registry.hub.docker.com/u/forwardcomputers/chrome/){:target="_blank"}
 [![Docker release](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.name&label=latest%20tag&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/chrome/tags)](https://hub.docker.com/r/forwardcomputers/chrome){:target="_blank"}
