@@ -1,5 +1,6 @@
 
 [![CircleCI](https://circleci.com/gh/forwardcomputers/dotfiles.svg?style=svg)](https://circleci.com/gh/forwardcomputers/dotfiles){:target="_blank"}
+[![Github](https://img.shields.io/badge/github-dotfiles-orange.svg?label=&logo=github)](https://github.com/forwardcomputers/dotfiles){:target="_blank"}
 
 [![CircleCI](https://circleci.com/gh/forwardcomputers/audacity.svg?style=svg)](https://circleci.com/gh/forwardcomputers/audacity){:target="_blank"}
 [![Github](https://img.shields.io/badge/github-audacity-orange.svg?label=&logo=github)](https://github.com/forwardcomputers/audacity){:target="_blank"}
