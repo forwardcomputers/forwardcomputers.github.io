@@ -50,6 +50,14 @@
 <br/>
 [![Docker push](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.last_updated&label=pushed%20on&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/inkscape/tags)](https://hub.docker.com/r/forwardcomputers/firefox){:target="_blank"}
 
+[![CircleCI](https://circleci.com/gh/forwardcomputers/pitivi.svg?style=svg)](https://circleci.com/gh/forwardcomputers/pitivi){:target="_blank"}
+[![Github](https://img.shields.io/badge/github-pitivi-orange.svg?label=&logo=github)](https://github.com/forwardcomputers/pitivi){:target="_blank"}
+[![Docker](https://img.shields.io/badge/docker-pitivi-blue.svg?label=&logo=docker)](https://hub.docker.com/r/forwardcomputers/pitivi){:target="_blank"}
+[![Docker release](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.name&label=latest%20tag&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/pitivi/tags)](https://hub.docker.com/r/forwardcomputers/pitivi){:target="_blank"}
+[![Microbadger](https://images.microbadger.com/badges/image/forwardcomputers/pitivi.svg)](http://microbadger.com/images/forwardcomputers/pitivi "Image size"){:target="_blank"}
+<br/>
+[![Docker push](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.last_updated&label=pushed%20on&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/pitivi/tags)](https://hub.docker.com/r/forwardcomputers/pitivi){:target="_blank"}
+
 [![CircleCI](https://circleci.com/gh/forwardcomputers/shotcut.svg?style=svg)](https://circleci.com/gh/forwardcomputers/shotcut){:target="_blank"}
 [![Github](https://img.shields.io/badge/github-shotcut-orange.svg?label=&logo=github)](https://github.com/forwardcomputers/shotcut){:target="_blank"}
 [![Docker](https://img.shields.io/badge/docker-shotcut-blue.svg?label=&logo=docker)](https://hub.docker.com/r/forwardcomputers/shotcut){:target="_blank"}
