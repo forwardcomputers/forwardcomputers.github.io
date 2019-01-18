@@ -2,7 +2,7 @@
 [![CircleCI](https://img.shields.io/circleci/project/github/forwardcomputers/dotfiles.svg?label=dotfiles)](https://circleci.com/gh/forwardcomputers/dotfiles)
 [![Github](https://img.shields.io/badge/github--orange.svg?label=&logo=github)](https://github.com/forwardcomputers/dotfiles)
 
-[[![CircleCI](https://img.shields.io/circleci/project/github/forwardcomputers/audacity.svg?style=svg?label=audacity)](https://circleci.com/gh/forwardcomputers/audacity)
+[![CircleCI](https://img.shields.io/circleci/project/github/forwardcomputers/audacity.svg?style=svg?label=audacity)](https://circleci.com/gh/forwardcomputers/audacity)
 [![Github](https://img.shields.io/badge/github--orange.svg?label=&logo=github)](https://github.com/forwardcomputers/audacity)
 [![Docker](https://img.shields.io/badge/docker--blue.svg?label=&logo=docker)](https://hub.docker.com/r/forwardcomputers/audacity)
 [![Docker release](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.name&label=latest%20tag&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/audacity/tags)](https://hub.docker.com/r/forwardcomputers/audacity)
