@@ -1,5 +1,5 @@
 
-[![CircleCI](https://circleci.com/gh/forwardcomputers/dotfiles.svg?style=shield&label=)](https://circleci.com/gh/forwardcomputers/dotfiles)
+[![CircleCI](https://circleci.com/gh/forwardcomputers/dotfiles.svg?label=&style=shield&)](https://circleci.com/gh/forwardcomputers/dotfiles)
 [![Github](https://img.shields.io/badge/github-dotfiles-orange.svg?label=&logo=github)](https://github.com/forwardcomputers/dotfiles)
 
 [![CircleCI](https://circleci.com/gh/forwardcomputers/audacity.svg?style=svg)](https://circleci.com/gh/forwardcomputers/audacity){:target="_blank"}
