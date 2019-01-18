@@ -1,5 +1,4 @@
 
-[![CircleCI](https://circleci.com/gh/forwardcomputers/dotfiles.svg?style=shield&label=)](https://circleci.com/gh/forwardcomputers/dotfiles)
 [![CircleCI](https://img.shields.io/circleci/project/github/forwardcomputers/dotfiles.svg?label=dotfiles)](https://circleci.com/gh/forwardcomputers/dotfiles)
 [![Github](https://img.shields.io/badge/github--orange.svg?label=&logo=github)](https://github.com/forwardcomputers/dotfiles)
 
