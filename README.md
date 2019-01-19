@@ -1,6 +1,6 @@
 
 [![CircleCI](https://img.shields.io/circleci/project/github/forwardcomputers/dotfiles.svg?label=dotfiles)](https://circleci.com/gh/forwardcomputers/dotfiles)
-[![Github](https://img.shields.io/badge/github-&thinsp;-orange.svg?label=&logo=github)](https://github.com/forwardcomputers/dotfiles)
+[![Github](https://img.shields.io/badge/github-&#8201;-orange.svg?label=&logo=github)](https://github.com/forwardcomputers/dotfiles)
 
 [![CircleCI](https://img.shields.io/circleci/project/github/forwardcomputers/audacity.svg?label=audacity)](https://circleci.com/gh/forwardcomputers/audacity)
 [![Github](https://img.shields.io/badge/github--orange.svg?label=&logo=github)](https://github.com/forwardcomputers/audacity)
