@@ -10,14 +10,6 @@
 <br/>
 [![Docker push](https://img.shields.io/badge/dynamic/json.svg?query=$.Labels.BuildDate&label=pushed%20on&url=https://api.microbadger.com/v1/images/forwardcomputers/audacity)](https://hub.docker.com/r/forwardcomputers/audacity)
 
-[![CircleCI](https://img.shields.io/circleci/project/github/forwardcomputers/chrome.svg?label=chrome)](https://circleci.com/gh/forwardcomputers/chrome)
-[![Github](https://img.shields.io/badge/github--orange.svg?label=&logo=github)](https://github.com/forwardcomputers/chrome)
-[![Docker](https://img.shields.io/badge/docker--blue.svg?label=&logo=docker)](https://registry.hub.docker.com/u/forwardcomputers/chrome/)
-[![Docker release](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.name&label=latest%20tag&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/chrome/tags)](https://hub.docker.com/r/forwardcomputers/chrome)
-[![Microbadger](https://images.microbadger.com/badges/image/forwardcomputers/chrome.svg)](http://microbadger.com/images/forwardcomputers/chrome "Image size")
-<br/>
-[![Docker push](https://img.shields.io/badge/dynamic/json.svg?query=$.Labels.BuildDate&label=pushed%20on&url=https://api.microbadger.com/v1/images/forwardcomputers/chrome)](https://hub.docker.com/r/forwardcomputers/chrome)
-
 [![CircleCI](https://img.shields.io/circleci/project/github/forwardcomputers/blender.svg?label=blender)](https://circleci.com/gh/forwardcomputers/blender)
 [![Github](https://img.shields.io/badge/github--orange.svg?label=&logo=github)](https://github.com/forwardcomputers/blender)
 [![Docker](https://img.shields.io/badge/docker--blue.svg?label=&logo=docker)](https://hub.docker.com/r/forwardcomputers/blender)
@@ -25,6 +17,14 @@
 [![Microbadger](https://images.microbadger.com/badges/image/forwardcomputers/blender.svg)](http://microbadger.com/images/forwardcomputers/blender "Image size")
 <br/>
 [![Docker push](https://img.shields.io/badge/dynamic/json.svg?query=$.Labels.BuildDate&label=pushed%20on&url=https://api.microbadger.com/v1/images/forwardcomputers/blender)](https://hub.docker.com/r/forwardcomputers/blender)
+
+[![CircleCI](https://img.shields.io/circleci/project/github/forwardcomputers/chrome.svg?label=chrome)](https://circleci.com/gh/forwardcomputers/chrome)
+[![Github](https://img.shields.io/badge/github--orange.svg?label=&logo=github)](https://github.com/forwardcomputers/chrome)
+[![Docker](https://img.shields.io/badge/docker--blue.svg?label=&logo=docker)](https://registry.hub.docker.com/u/forwardcomputers/chrome/)
+[![Docker release](https://img.shields.io/badge/dynamic/json.svg?query=$.results.0.name&label=latest%20tag&url=https://registry.hub.docker.com/v2/repositories/forwardcomputers/chrome/tags)](https://hub.docker.com/r/forwardcomputers/chrome)
+[![Microbadger](https://images.microbadger.com/badges/image/forwardcomputers/chrome.svg)](http://microbadger.com/images/forwardcomputers/chrome "Image size")
+<br/>
+[![Docker push](https://img.shields.io/badge/dynamic/json.svg?query=$.Labels.BuildDate&label=pushed%20on&url=https://api.microbadger.com/v1/images/forwardcomputers/chrome)](https://hub.docker.com/r/forwardcomputers/chrome)
 
 [![CircleCI](https://img.shields.io/circleci/project/github/forwardcomputers/firefox.svg?label=firefox)](https://circleci.com/gh/forwardcomputers/firefox)
 [![Github](https://img.shields.io/badge/github--orange.svg?label=&logo=github)](https://github.com/forwardcomputers/firefox)
