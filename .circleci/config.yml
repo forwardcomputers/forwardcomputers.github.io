@@ -18,7 +18,7 @@ jobs:
             echo "export CIRCLE_WORKING_DIRECTORY=/go/src/github.com/forwardcomputers/${CIRCLE_PROJECT_REPONAME}" >> $BASH_ENV
             source $BASH_ENV
             script/build
-            git add . && git commit -a -m "circleci update" && g push origin
+            git add . && git commit -a -m "circleci update" && git push origin
 
 workflows:
   version: 2.1
