@@ -11,6 +11,8 @@ jobs:
       - run: 
           name: Test files
           command: |
+            git config --global user.name "Ali Mustakim"
+            git config --global user.email alim@forwardcomputers.com
             mkdir -p /go/src/github.com/forwardcomputers
             mv -f /app /go/src/github.com/forwardcomputers/${CIRCLE_PROJECT_REPONAME}
             echo "export CIRCLE_WORKING_DIRECTORY=/go/src/github.com/forwardcomputers/${CIRCLE_PROJECT_REPONAME}" >> $BASH_ENV
