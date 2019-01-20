@@ -1,0 +1,38 @@
+version: 2.1
+
+jobs:
+  build:
+    working_directory: /app
+    docker:
+      - image: circleci/golang
+    steps:
+      - checkout
+      - run: 
+          name: Test files
+          command: |
+            mkdir -p /go/src/github.com/forwardcomputers
+            mv -f /app /go/src/github.com/forwardcomputers/${CIRCLE_PROJECT_REPONAME}
+            echo "export CIRCLE_WORKING_DIRECTORY=/go/src/github.com/forwardcomputers/${CIRCLE_PROJECT_REPONAME}" >> $BASH_ENV
+            source $BASH_ENV
+            script/build
+            git add . && git commit -a -m "circleci update" && g push origin
+
+workflows:
+  version: 2.1
+
+  commit:
+    jobs:
+      - build
+
+  nightly:
+    triggers:
+      - schedule:
+          # Times are in UTC, this job is run
+          # daily @ 14HRS = 9AM EST, 20HRS = 3PM EST
+          cron: "0 14,20 * * *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - build

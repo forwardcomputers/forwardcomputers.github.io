@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+URL_START="https://raw.githubusercontent.com/forwardcomputers/"
+URL_END="/master/README.md"
+#
+rm -f README.md
+while read repo; do
+    curl --silent "${URL_START}${repo}${URL_END}" | sed '/BlockStart/,/BlockEnd/!d;//d' >> README.md
+done < repos
