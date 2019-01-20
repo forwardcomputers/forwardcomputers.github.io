@@ -17,7 +17,24 @@
         <link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}">
         <![endif]-->
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <script src="date.format.js"></script>
+        <script>
+                var date = "\/Date(1297246301973)\/";
+                var nowDate = new Date(parseInt(date.substr(6)));
+                var result = "";
+                result += nowDate.format("ddd mmm dd yyyy HH:MM:ss") + " : ddd mmm dd yyyy HH:MM:ss <br/>";
+                result += nowDate.format("dd/mm/yyyy") + " : dd/mm/yyyy <br/>";
+                result += nowDate.format("m/d/yy") + " : m/d/yy <br/>";
+                result += nowDate.format("mmm d, yyyy") + " : mmm d, yyyy <br/>";
+                result += nowDate.format("mmmm d, yyyy") + " : mmmm d, yyyy <br/>";
+                result += nowDate.format("dddd, mmmm d, yyyy") + " : dddd, mmmm d, yyyy <br/>";
+                result += nowDate.format("yyyy-mm-dd'T'HH:MM:ss") + " : yyyy-mm-dd'T'HH:MM:ss <br/>";
+                result += nowDate.format("UTC:yyyy-mm-dd'T'HH:MM:ss'Z'") + " : UTC:yyyy-mm-dd'T'HH:MM:ss'Z'<br/>";
 
+                $(function() {
+                        $("#lblDate").html(result);
+                });
+        </script>
     </head>
     <body>
         <!--
@@ -52,7 +69,7 @@
 
             </section>
         </div>
-
+        <label id="lblDate" style="color:green;"></label>
         {% if site.google_analytics %}
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
