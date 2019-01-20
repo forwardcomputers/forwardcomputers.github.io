@@ -5,6 +5,7 @@ jobs:
     working_directory: /app
     docker:
       - image: circleci/golang
+        user: root
     steps:
       - checkout
       - run: 
