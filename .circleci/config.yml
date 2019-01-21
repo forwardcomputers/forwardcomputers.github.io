@@ -20,13 +20,9 @@ jobs:
             source $BASH_ENV
             script/build
             git add .
-            echo 1
-            git commit -a -m "circleci update [skip ci]"
-            echo 2
+            git diff-index --quiet HEAD || git commit -a -m "circleci update [skip ci]"
             git pull
-            echo 3
             git push origin
-            echo 4
 
 workflows:
   version: 2.1
