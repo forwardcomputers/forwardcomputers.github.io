@@ -1,3 +1,22 @@
+# dotfiles
+#### My dotfiles
+
+
+[//]: # (BlockStart)
+[![CircleCI](https://img.shields.io/circleci/project/github/forwardcomputers/dotfiles.svg?label=dotfiles)](https://circleci.com/gh/forwardcomputers/dotfiles)
+[![Github](https://img.shields.io/badge/github--grey.svg?label=&logo=github&logoColor=white)](https://github.com/forwardcomputers/dotfiles)
+
+[//]: # (BlockEnd)
+
+# Home Assistant
+#### Configuration files.
+
+
+[//]: # (BlockStart)
+[![CircleCI](https://img.shields.io/circleci/project/github/forwardcomputers/home-assistant.svg?label=home-assistant)](https://circleci.com/gh/forwardcomputers/home-assistant)
+[![Github](https://img.shields.io/badge/github--grey.svg?label=&logo=github&logoColor=white)](https://github.com/forwardcomputers/home-assistant)
+
+[//]: # (BlockEnd)
 [![CircleCI](https://img.shields.io/circleci/project/github/forwardcomputers/audacity.svg?label=audacity)](https://circleci.com/gh/forwardcomputers/audacity)
 [![Github](https://img.shields.io/badge/github--grey.svg?label=&logo=github&logoColor=white)](https://github.com/forwardcomputers/audacity)
 [![Docker](https://img.shields.io/badge/docker--E5E5E5.svg?label=&logo=docker)](https://hub.docker.com/r/forwardcomputers/audacity)
