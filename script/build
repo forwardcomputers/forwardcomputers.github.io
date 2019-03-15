@@ -1,5 +1,7 @@
 #!/bin/bash
 #
-URL="https://github.com/forwardcomputers/dockerfiles/raw/master/README.md"
+curl --silent --location --url https://github.com/forwardcomputers/dotfiles/raw/master/README.md > README.md
+curl --silent --location --url https://github.com/forwardcomputers/home-assistant/raw/master/README.md >> README.md
 #
-curl --silent --location --output README.md --url "${URL}"
+curl --silent --location --url https://github.com/forwardcomputers/dockerfiles/raw/master/README.md >> README.md
+#
