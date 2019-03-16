@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 curl --silent --location --url https://github.com/forwardcomputers/dotfiles/raw/master/README.md | sed '/BlockStart/,/BlockEnd/!d;//d' > README.md
-printf "\n" >> README.md
+printf "<br/>" >> README.md
 curl --silent --location --url https://github.com/forwardcomputers/home-assistant/raw/master/README.md | sed '/BlockStart/,/BlockEnd/!d;//d' >> README.md
 printf "\n" >> README.md
 #
