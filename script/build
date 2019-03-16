@@ -2,6 +2,7 @@
 #
 curl --silent --location --url https://github.com/forwardcomputers/dotfiles/raw/master/README.md | sed '/BlockStart/,/BlockEnd/!d;//d' > README.md
 curl --silent --location --url https://github.com/forwardcomputers/home-assistant/raw/master/README.md | sed '/BlockStart/,/BlockEnd/!d;//d' >> README.md
+printf "\n" >> README.md
 #
 curl --silent --location --url https://github.com/forwardcomputers/dockerfiles/raw/master/README.md | sed '/BlockStart/,/BlockEnd/!d;//d' >> README.md
 #
