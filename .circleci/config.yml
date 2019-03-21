@@ -18,7 +18,7 @@ jobs:
             mv -f /app /go/src/github.com/forwardcomputers/${CIRCLE_PROJECT_REPONAME}
             echo "export CIRCLE_WORKING_DIRECTORY=/go/src/github.com/forwardcomputers/${CIRCLE_PROJECT_REPONAME}" >> $BASH_ENV
             source $BASH_ENV
-            script/build
+            script/build.sh
             git add .
             git diff-index --quiet HEAD || git commit -a -m "circleci update [skip ci]"
             git pull
