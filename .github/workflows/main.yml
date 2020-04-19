@@ -17,6 +17,8 @@ jobs:
         run: |
           set -x
           script/build.sh
+          git config --local user.email "alim@forwardcomputers.com"
+          git config --local user.name "Ali Mustakim"
           git add .
           git diff-index --quiet HEAD || git commit -a -m "circleci update [skip ci]"
           git pull
