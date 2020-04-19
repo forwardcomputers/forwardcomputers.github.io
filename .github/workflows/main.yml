@@ -16,7 +16,8 @@ jobs:
       - name: Build readme file
         run: |
           set -x
-          pwd
-          ls -la
-          env
-          git status
+          script/build.sh
+          git add .
+          git diff-index --quiet HEAD || git commit -a -m "circleci update [skip ci]"
+          git pull
+          git push origin
