@@ -15,7 +15,6 @@ jobs:
         uses: actions/checkout@v2
       - name: Build readme file
         run: |
-          set -x
           script/build.sh
           git config --local user.email "alim@forwardcomputers.com"
           git config --local user.name "Ali Mustakim"
