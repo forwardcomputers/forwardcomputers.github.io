@@ -4,5 +4,7 @@ curl --silent --location --url https://github.com/forwardcomputers/dotfiles/raw/
 curl --silent --location --url https://github.com/forwardcomputers/home-assistant/raw/master/README.md | sed -n '/| [![]/,$p' >> README.md
 curl --silent --location --url https://github.com/forwardcomputers/pxe/raw/master/README.md | sed -n '/| [![]/,$p' >> README.md
 #
+curl --silent --location --url https://github.com/forwardcomputers/chocolatey-packages/raw/master/README.md | sed -n '/| [![]/,$p' >> README.md
+#
 curl --silent --location --url https://github.com/forwardcomputers/dockerfiles/raw/master/README.md | sed -n '/| [![]/,$p' >> README.md
 #
