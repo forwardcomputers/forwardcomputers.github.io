@@ -9,8 +9,8 @@ body {
   color:#f0e7d5;
   font-weight: normal;
   background: #000000;
-  background-attachment: fixed !important;
   background: linear_gradient(#2a2a29, #1c1c1c);
+  background-attachment: fixed !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -109,7 +109,7 @@ pre {
   background: #191919;
   border-radius: 2px;
   border:1px solid #121212;
-  box-shadow: inset 0 1px 3px rgba(0,0,0,.3);
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.3);
   overflow: auto;
   overflow-y: hidden;
 
@@ -165,11 +165,10 @@ dt {
   position: fixed;
   background: url(../images/nav-bg.gif) #353535;
   border-bottom: 4px solid #434343;
-  box-shadow: 0px 1px 3px rgba(0,0,0,.25);
+  box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
 
   nav {
     max-width: 650px;
-    margin: 0 auto;
     padding: 0 10px;
     background: blue;
     margin: 6px auto;
@@ -181,7 +180,7 @@ dt {
       display: inline;
       color: white;
       line-height: 50px;
-      text-shadow: 0px 1px 0px rgba(0,0,0,.2);
+      text-shadow: 0px 1px 0px rgba(0,0,0,0.2);
       font-size: 14px;
 
       a {
@@ -189,7 +188,7 @@ dt {
         border: 1px solid #5d910b;
         background: linear_gradient(#93bd20, #659e10);
         border-radius: 2px;
-        box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 3px 7px rgba(0,0,0,.7);
+        box-shadow: inset 0px 1px 0px rgba(255,255,255,0.3), 0px 3px 7px rgba(0,0,0,0.7);
 
         background-color: #93bd20;
         padding: 10px 12px;
@@ -203,7 +202,7 @@ dt {
           background: linear_gradient(#749619, #527f0e);
           background-color: #659e10;
           border: 1px solid #527f0e;
-          box-shadow: inset 0px 1px 1px rgba(0,0,0,.2), 0px 1px 0px rgba(0,0,0,.0);
+          box-shadow: inset 0px 1px 1px rgba(0,0,0,0.2), 0px 1px 0px rgba(0,0,0,0);
         }
       }
 
