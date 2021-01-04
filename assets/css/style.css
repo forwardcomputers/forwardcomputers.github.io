@@ -1,6 +1,6 @@
-/*@import "normalize";
+/* @import "normalize";
 @import "fonts";
-@import "rouge-base16-dark.scss";*/
+@import "rouge-base16-dark.scss"; */
 
 body {
   padding:0px 0 20px 0px;
@@ -9,7 +9,7 @@ body {
   color:#f0e7d5;
   font-weight: normal;
   background: #000000;
-  background: linear_gradient(#2a2a29, #1c1c1c);
+  /* background: linear_gradient(#2a2a29, #1c1c1c); */
   background-attachment: fixed !important;
 }
 
