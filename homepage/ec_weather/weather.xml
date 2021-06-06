@@ -6,18 +6,18 @@
  <month name="June">06</month>
  <day name="Sunday">06</day>
  <hour>22</hour>
- <minute>06</minute>
- <timeStamp>20210606220600</timeStamp>
- <textSummary>Sunday June 06, 2021 at 22:06 UTC</textSummary>
+ <minute>50</minute>
+ <timeStamp>20210606225000</timeStamp>
+ <textSummary>Sunday June 06, 2021 at 22:50 UTC</textSummary>
  </dateTime>
  <dateTime name="xmlCreation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Sunday">06</day>
  <hour>18</hour>
- <minute>06</minute>
- <timeStamp>20210606180600</timeStamp>
- <textSummary>Sunday June 06, 2021 at 18:06 EDT</textSummary>
+ <minute>50</minute>
+ <timeStamp>20210606185000</timeStamp>
+ <textSummary>Sunday June 06, 2021 at 18:50 EDT</textSummary>
  </dateTime>
  <location>
  <continent>North America</continent>
