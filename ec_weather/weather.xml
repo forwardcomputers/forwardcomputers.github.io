@@ -5,19 +5,19 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Sunday">06</day>
- <hour>05</hour>
- <minute>11</minute>
- <timeStamp>20210606051100</timeStamp>
- <textSummary>Sunday June 06, 2021 at 05:11 UTC</textSummary>
+ <hour>06</hour>
+ <minute>20</minute>
+ <timeStamp>20210606062000</timeStamp>
+ <textSummary>Sunday June 06, 2021 at 06:20 UTC</textSummary>
  </dateTime>
  <dateTime name="xmlCreation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Sunday">06</day>
- <hour>01</hour>
- <minute>11</minute>
- <timeStamp>20210606011100</timeStamp>
- <textSummary>Sunday June 06, 2021 at 01:11 EDT</textSummary>
+ <hour>02</hour>
+ <minute>20</minute>
+ <timeStamp>20210606022000</timeStamp>
+ <textSummary>Sunday June 06, 2021 at 02:20 EDT</textSummary>
  </dateTime>
  <location>
  <continent>North America</continent>
@@ -54,33 +54,33 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Sunday">06</day>
- <hour>05</hour>
+ <hour>06</hour>
  <minute>00</minute>
- <timeStamp>20210606050000</timeStamp>
- <textSummary>Sunday June 06, 2021 at 05:00 UTC</textSummary>
+ <timeStamp>20210606060000</timeStamp>
+ <textSummary>Sunday June 06, 2021 at 06:00 UTC</textSummary>
  </dateTime>
  <dateTime name="observation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Sunday">06</day>
- <hour>01</hour>
+ <hour>02</hour>
  <minute>00</minute>
- <timeStamp>20210606010000</timeStamp>
- <textSummary>Sunday June 06, 2021 at 01:00 EDT</textSummary>
+ <timeStamp>20210606020000</timeStamp>
+ <textSummary>Sunday June 06, 2021 at 02:00 EDT</textSummary>
  </dateTime>
  <condition>Mainly Clear</condition>
  <iconCode format="gif">31</iconCode>
- <temperature unitType="metric" units="C">23.4</temperature>
+ <temperature unitType="metric" units="C">21.9</temperature>
  <dewpoint unitType="metric" units="C">14.2</dewpoint>
- <humidex unitType="metric">27</humidex>
- <pressure unitType="metric" units="kPa" change="0.13" tendency="rising">101.3</pressure>
+ <humidex unitType="metric">25</humidex>
+ <pressure unitType="metric" units="kPa" change="0.07" tendency="rising">101.3</pressure>
  <visibility unitType="metric" units="km">24.1</visibility>
- <relativeHumidity units="%">56</relativeHumidity>
+ <relativeHumidity units="%">61</relativeHumidity>
  <wind>
- <speed unitType="metric" units="km/h">16</speed>
+ <speed unitType="metric" units="km/h">13</speed>
  <gust unitType="metric" units="km/h"/>
- <direction>SW</direction>
- <bearing units="degrees">235.0</bearing>
+ <direction>WSW</direction>
+ <bearing units="degrees">242.0</bearing>
  </wind>
  </currentConditions>
  <forecastGroup>
@@ -458,19 +458,6 @@
  <timeStamp>20210605153000</timeStamp>
  <textSummary>Saturday June 05, 2021 at 15:30 EDT</textSummary>
  </dateTime>
- <hourlyForecast dateTimeUTC="202106060600">
- <condition>Clear</condition>
- <iconCode format="png">30</iconCode>
- <temperature unitType="metric" units="C">22</temperature>
- <lop category="Nil" units="%">0</lop>
- <windChill unitType="metric"/>
- <humidex unitType="metric">25</humidex>
- <wind>
- <speed unitType="metric" units="km/h">20</speed>
- <direction windDirFull="Southwest">SW</direction>
- <gust unitType="metric" units="km/h"/>
- </wind>
- </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106060700">
  <condition>Clear</condition>
  <iconCode format="png">30</iconCode>
@@ -770,10 +757,23 @@
  <gust unitType="metric" units="km/h"/>
  </wind>
  </hourlyForecast>
+ <hourlyForecast dateTimeUTC="202106070600">
+ <condition>Clear</condition>
+ <iconCode format="png">30</iconCode>
+ <temperature unitType="metric" units="C">23</temperature>
+ <lop category="Nil" units="%">0</lop>
+ <windChill unitType="metric"/>
+ <humidex unitType="metric">25</humidex>
+ <wind>
+ <speed unitType="metric" units="km/h">15</speed>
+ <direction windDirFull="Southwest">SW</direction>
+ <gust unitType="metric" units="km/h"/>
+ </wind>
+ </hourlyForecast>
  </hourlyForecastGroup>
  <yesterdayConditions>
- <temperature unitType="metric" units="C" class="high">28.2</temperature>
- <temperature unitType="metric" units="C" class="low">15.7</temperature>
+ <temperature unitType="metric" units="C" class="high">32.5</temperature>
+ <temperature unitType="metric" units="C" class="low">19.6</temperature>
  <precip unitType="metric" units="mm">0.0</precip>
  </yesterdayConditions>
  <riseSet>
@@ -816,14 +816,14 @@
  </dateTime>
  </riseSet>
  <almanac>
- <temperature class="extremeMax" period="1938-2013" unitType="metric" units="C" year="1940">30.0</temperature>
- <temperature class="extremeMin" period="1938-2013" unitType="metric" units="C" year="1964">0.6</temperature>
- <temperature class="normalMax" unitType="metric" units="C">22.3</temperature>
- <temperature class="normalMin" unitType="metric" units="C">10.4</temperature>
- <temperature class="normalMean" unitType="metric" units="C">16.4</temperature>
- <precipitation class="extremeRainfall" period="1938-2013" unitType="metric" units="mm" year="1982">23.4</precipitation>
+ <temperature class="extremeMax" period="1938-2013" unitType="metric" units="C" year="2008">33.0</temperature>
+ <temperature class="extremeMin" period="1938-2013" unitType="metric" units="C" year="1964">3.3</temperature>
+ <temperature class="normalMax" unitType="metric" units="C">22.4</temperature>
+ <temperature class="normalMin" unitType="metric" units="C">10.5</temperature>
+ <temperature class="normalMean" unitType="metric" units="C">16.5</temperature>
+ <precipitation class="extremeRainfall" period="1938-2013" unitType="metric" units="mm" year="1963">33.8</precipitation>
  <precipitation class="extremeSnowfall" period="1938-2013" unitType="metric" units="cm" year="1938">0.0</precipitation>
- <precipitation class="extremePrecipitation" period="1938-2013" unitType="metric" units="mm" year="1982">23.4</precipitation>
+ <precipitation class="extremePrecipitation" period="1938-2013" unitType="metric" units="mm" year="1963">33.8</precipitation>
  <precipitation class="extremeSnowOnGround" period="1955-2013" unitType="metric" units="cm" year="1955">0.0</precipitation>
  <pop units="%">36.0</pop>
  </almanac>
