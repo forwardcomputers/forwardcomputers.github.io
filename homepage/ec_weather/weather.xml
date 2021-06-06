@@ -5,19 +5,19 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Sunday">06</day>
- <hour>22</hour>
- <minute>50</minute>
- <timeStamp>20210606225000</timeStamp>
- <textSummary>Sunday June 06, 2021 at 22:50 UTC</textSummary>
+ <hour>23</hour>
+ <minute>20</minute>
+ <timeStamp>20210606232000</timeStamp>
+ <textSummary>Sunday June 06, 2021 at 23:20 UTC</textSummary>
  </dateTime>
  <dateTime name="xmlCreation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Sunday">06</day>
- <hour>18</hour>
- <minute>50</minute>
- <timeStamp>20210606185000</timeStamp>
- <textSummary>Sunday June 06, 2021 at 18:50 EDT</textSummary>
+ <hour>19</hour>
+ <minute>20</minute>
+ <timeStamp>20210606192000</timeStamp>
+ <textSummary>Sunday June 06, 2021 at 19:20 EDT</textSummary>
  </dateTime>
  <location>
  <continent>North America</continent>
@@ -74,33 +74,33 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Sunday">06</day>
- <hour>22</hour>
+ <hour>23</hour>
  <minute>00</minute>
- <timeStamp>20210606220000</timeStamp>
- <textSummary>Sunday June 06, 2021 at 22:00 UTC</textSummary>
+ <timeStamp>20210606230000</timeStamp>
+ <textSummary>Sunday June 06, 2021 at 23:00 UTC</textSummary>
  </dateTime>
  <dateTime name="observation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Sunday">06</day>
- <hour>18</hour>
+ <hour>19</hour>
  <minute>00</minute>
- <timeStamp>20210606180000</timeStamp>
- <textSummary>Sunday June 06, 2021 at 18:00 EDT</textSummary>
+ <timeStamp>20210606190000</timeStamp>
+ <textSummary>Sunday June 06, 2021 at 19:00 EDT</textSummary>
  </dateTime>
  <condition>Partly Cloudy</condition>
  <iconCode format="gif">02</iconCode>
- <temperature unitType="metric" units="C">31.3</temperature>
- <dewpoint unitType="metric" units="C">16.4</dewpoint>
- <humidex unitType="metric">36</humidex>
+ <temperature unitType="metric" units="C">30.1</temperature>
+ <dewpoint unitType="metric" units="C">15.5</dewpoint>
+ <humidex unitType="metric">34</humidex>
  <pressure unitType="metric" units="kPa" change="0.08" tendency="falling">101.3</pressure>
  <visibility unitType="metric" units="km">24.1</visibility>
- <relativeHumidity units="%">40</relativeHumidity>
+ <relativeHumidity units="%">41</relativeHumidity>
  <wind>
- <speed unitType="metric" units="km/h">31</speed>
- <gust unitType="metric" units="km/h">42</gust>
+ <speed unitType="metric" units="km/h">29</speed>
+ <gust unitType="metric" units="km/h">46</gust>
  <direction>SW</direction>
- <bearing units="degrees">221.0</bearing>
+ <bearing units="degrees">215.0</bearing>
  </wind>
  </currentConditions>
  <forecastGroup>
@@ -518,19 +518,6 @@
  <timeStamp>20210606153000</timeStamp>
  <textSummary>Sunday June 06, 2021 at 15:30 EDT</textSummary>
  </dateTime>
- <hourlyForecast dateTimeUTC="202106062300">
- <condition>Sunny</condition>
- <iconCode format="png">00</iconCode>
- <temperature unitType="metric" units="C">30</temperature>
- <lop category="Nil" units="%">0</lop>
- <windChill unitType="metric"/>
- <humidex unitType="metric">33</humidex>
- <wind>
- <speed unitType="metric" units="km/h">20</speed>
- <direction windDirFull="Southwest">SW</direction>
- <gust unitType="metric" units="km/h"/>
- </wind>
- </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106070000">
  <condition>Sunny</condition>
  <iconCode format="png">00</iconCode>
@@ -818,6 +805,19 @@
  </wind>
  </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106072200">
+ <condition>Chance of showers</condition>
+ <iconCode format="png">06</iconCode>
+ <temperature unitType="metric" units="C">29</temperature>
+ <lop category="Low" units="%">30</lop>
+ <windChill unitType="metric"/>
+ <humidex unitType="metric">34</humidex>
+ <wind>
+ <speed unitType="metric" units="km/h">5</speed>
+ <direction windDirFull="Variable direction">VR</direction>
+ <gust unitType="metric" units="km/h"/>
+ </wind>
+ </hourlyForecast>
+ <hourlyForecast dateTimeUTC="202106072300">
  <condition>Chance of showers</condition>
  <iconCode format="png">06</iconCode>
  <temperature unitType="metric" units="C">29</temperature>
