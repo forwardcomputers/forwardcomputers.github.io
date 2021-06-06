@@ -1,0 +1,29 @@
+name: EC Weather
+
+on:
+  schedule:
+    - cron:  '*/20 * * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: check out repository
+        uses: actions/checkout@v2
+
+      - name: download image
+        run: |
+          baseURL='https://dd.weather.gc.ca/citypage_weather/xml/ON/s0000458_e.xml'
+          curl -sLo ec_weather/weather.xml "${baseURL}"
+
+      - name: commit and push
+        run: |
+          git config --local user.email "alim@forwardcomputers.com"
+          git config --local user.name "Ali Mustakim"
+          git add .
+          git diff-index --quiet HEAD || git commit -a -m "github actions update"
+          git pull
+          git push origin
+
