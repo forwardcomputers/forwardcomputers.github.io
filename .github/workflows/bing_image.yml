@@ -19,7 +19,7 @@ jobs:
           baseURL='https://www.bing.com'
           jsonURL="${baseURL}/HPImageArchive.aspx?format=js&idx=0&n=1"
           imageURL="${baseURL}"$( curl -s "${jsonURL}" | jq -r '.images[0].urlbase' )_UHD.jpg
-          curl -sLo homepage/today.jpg "${imageURL}"
+          curl -sLo homepage/images/today.jpg "${imageURL}"
 
       - name: update readme
         run: |
