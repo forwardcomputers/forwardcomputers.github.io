@@ -6,18 +6,18 @@
  <month name="June">06</month>
  <day name="Sunday">06</day>
  <hour>15</hour>
- <minute>10</minute>
- <timeStamp>20210606151000</timeStamp>
- <textSummary>Sunday June 06, 2021 at 15:10 UTC</textSummary>
+ <minute>50</minute>
+ <timeStamp>20210606155000</timeStamp>
+ <textSummary>Sunday June 06, 2021 at 15:50 UTC</textSummary>
  </dateTime>
  <dateTime name="xmlCreation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Sunday">06</day>
  <hour>11</hour>
- <minute>10</minute>
- <timeStamp>20210606111000</timeStamp>
- <textSummary>Sunday June 06, 2021 at 11:10 EDT</textSummary>
+ <minute>50</minute>
+ <timeStamp>20210606115000</timeStamp>
+ <textSummary>Sunday June 06, 2021 at 11:50 EDT</textSummary>
  </dateTime>
  <location>
  <continent>North America</continent>
@@ -109,18 +109,18 @@
  <month name="June">06</month>
  <day name="Sunday">06</day>
  <hour>15</hour>
- <minute>00</minute>
- <timeStamp>20210606150000</timeStamp>
- <textSummary>Sunday June 06, 2021 at 15:00 UTC</textSummary>
+ <minute>37</minute>
+ <timeStamp>20210606153700</timeStamp>
+ <textSummary>Sunday June 06, 2021 at 15:37 UTC</textSummary>
  </dateTime>
  <dateTime name="forecastIssue" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Sunday">06</day>
  <hour>11</hour>
- <minute>00</minute>
- <timeStamp>20210606110000</timeStamp>
- <textSummary>Sunday June 06, 2021 at 11:00 EDT</textSummary>
+ <minute>37</minute>
+ <timeStamp>20210606113700</timeStamp>
+ <textSummary>Sunday June 06, 2021 at 11:37 EDT</textSummary>
  </dateTime>
  <regionalNormals>
  <textSummary>Low 13. High 23.</textSummary>
@@ -489,18 +489,18 @@
  <month name="June">06</month>
  <day name="Sunday">06</day>
  <hour>15</hour>
- <minute>00</minute>
- <timeStamp>20210606150000</timeStamp>
- <textSummary>Sunday June 06, 2021 at 15:00 UTC</textSummary>
+ <minute>37</minute>
+ <timeStamp>20210606153700</timeStamp>
+ <textSummary>Sunday June 06, 2021 at 15:37 UTC</textSummary>
  </dateTime>
  <dateTime name="forecastIssue" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Sunday">06</day>
  <hour>11</hour>
- <minute>00</minute>
- <timeStamp>20210606110000</timeStamp>
- <textSummary>Sunday June 06, 2021 at 11:00 EDT</textSummary>
+ <minute>37</minute>
+ <timeStamp>20210606113700</timeStamp>
+ <textSummary>Sunday June 06, 2021 at 11:37 EDT</textSummary>
  </dateTime>
  <hourlyForecast dateTimeUTC="202106061600">
  <condition>Sunny</condition>
