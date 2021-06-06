@@ -23,7 +23,7 @@ jobs:
 
       - name: update readme
         run: |
-          sed -i "s|\(update: \).*$|\1$(date -u)|" README.md
+          sed -i "s|\(update: \).*$|\1$(date -u)|" homepage/README.md
 
       - name: commit and push
         run: |
