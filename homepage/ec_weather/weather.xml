@@ -5,19 +5,19 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Sunday">06</day>
- <hour>20</hour>
- <minute>50</minute>
- <timeStamp>20210606205000</timeStamp>
- <textSummary>Sunday June 06, 2021 at 20:50 UTC</textSummary>
+ <hour>21</hour>
+ <minute>14</minute>
+ <timeStamp>20210606211400</timeStamp>
+ <textSummary>Sunday June 06, 2021 at 21:14 UTC</textSummary>
  </dateTime>
  <dateTime name="xmlCreation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Sunday">06</day>
- <hour>16</hour>
- <minute>50</minute>
- <timeStamp>20210606165000</timeStamp>
- <textSummary>Sunday June 06, 2021 at 16:50 EDT</textSummary>
+ <hour>17</hour>
+ <minute>14</minute>
+ <timeStamp>20210606171400</timeStamp>
+ <textSummary>Sunday June 06, 2021 at 17:14 EDT</textSummary>
  </dateTime>
  <location>
  <continent>North America</continent>
@@ -52,19 +52,19 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Sunday">06</day>
- <hour>15</hour>
- <minute>02</minute>
- <timeStamp>20210606150200</timeStamp>
- <textSummary>Sunday June 06, 2021 at 15:02 UTC</textSummary>
+ <hour>21</hour>
+ <minute>13</minute>
+ <timeStamp>20210606211300</timeStamp>
+ <textSummary>Sunday June 06, 2021 at 21:13 UTC</textSummary>
  </dateTime>
  <dateTime name="eventIssue" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Sunday">06</day>
- <hour>11</hour>
- <minute>02</minute>
- <timeStamp>20210606110200</timeStamp>
- <textSummary>Sunday June 06, 2021 at 11:02 EDT</textSummary>
+ <hour>17</hour>
+ <minute>13</minute>
+ <timeStamp>20210606171300</timeStamp>
+ <textSummary>Sunday June 06, 2021 at 17:13 EDT</textSummary>
  </dateTime>
  </event>
  </warnings>
@@ -74,33 +74,33 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Sunday">06</day>
- <hour>20</hour>
+ <hour>21</hour>
  <minute>00</minute>
- <timeStamp>20210606200000</timeStamp>
- <textSummary>Sunday June 06, 2021 at 20:00 UTC</textSummary>
+ <timeStamp>20210606210000</timeStamp>
+ <textSummary>Sunday June 06, 2021 at 21:00 UTC</textSummary>
  </dateTime>
  <dateTime name="observation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Sunday">06</day>
- <hour>16</hour>
+ <hour>17</hour>
  <minute>00</minute>
- <timeStamp>20210606160000</timeStamp>
- <textSummary>Sunday June 06, 2021 at 16:00 EDT</textSummary>
+ <timeStamp>20210606170000</timeStamp>
+ <textSummary>Sunday June 06, 2021 at 17:00 EDT</textSummary>
  </dateTime>
  <condition>Partly Cloudy</condition>
  <iconCode format="gif">02</iconCode>
- <temperature unitType="metric" units="C">33.5</temperature>
- <dewpoint unitType="metric" units="C">16.6</dewpoint>
+ <temperature unitType="metric" units="C">33.1</temperature>
+ <dewpoint unitType="metric" units="C">17.2</dewpoint>
  <humidex unitType="metric">39</humidex>
- <pressure unitType="metric" units="kPa" change="0.02" tendency="falling">101.3</pressure>
+ <pressure unitType="metric" units="kPa" change="0.08" tendency="falling">101.3</pressure>
  <visibility unitType="metric" units="km">24.1</visibility>
- <relativeHumidity units="%">36</relativeHumidity>
+ <relativeHumidity units="%">38</relativeHumidity>
  <wind>
- <speed unitType="metric" units="km/h">25</speed>
- <gust unitType="metric" units="km/h"/>
- <direction>W</direction>
- <bearing units="degrees">259.0</bearing>
+ <speed unitType="metric" units="km/h">23</speed>
+ <gust unitType="metric" units="km/h">33</gust>
+ <direction>SW</direction>
+ <bearing units="degrees">217.0</bearing>
  </wind>
  </currentConditions>
  <forecastGroup>
@@ -518,19 +518,6 @@
  <timeStamp>20210606153000</timeStamp>
  <textSummary>Sunday June 06, 2021 at 15:30 EDT</textSummary>
  </dateTime>
- <hourlyForecast dateTimeUTC="202106062100">
- <condition>Sunny</condition>
- <iconCode format="png">00</iconCode>
- <temperature unitType="metric" units="C">32</temperature>
- <lop category="Nil" units="%">0</lop>
- <windChill unitType="metric"/>
- <humidex unitType="metric">38</humidex>
- <wind>
- <speed unitType="metric" units="km/h">20</speed>
- <direction windDirFull="South">S</direction>
- <gust unitType="metric" units="km/h">40</gust>
- </wind>
- </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106062200">
  <condition>Sunny</condition>
  <iconCode format="png">00</iconCode>
@@ -827,6 +814,19 @@
  <wind>
  <speed unitType="metric" units="km/h">15</speed>
  <direction windDirFull="Southwest">SW</direction>
+ <gust unitType="metric" units="km/h"/>
+ </wind>
+ </hourlyForecast>
+ <hourlyForecast dateTimeUTC="202106072100">
+ <condition>Chance of showers</condition>
+ <iconCode format="png">06</iconCode>
+ <temperature unitType="metric" units="C">30</temperature>
+ <lop category="Low" units="%">30</lop>
+ <windChill unitType="metric"/>
+ <humidex unitType="metric">35</humidex>
+ <wind>
+ <speed unitType="metric" units="km/h">5</speed>
+ <direction windDirFull="Variable direction">VR</direction>
  <gust unitType="metric" units="km/h"/>
  </wind>
  </hourlyForecast>
