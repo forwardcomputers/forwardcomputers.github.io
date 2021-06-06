@@ -1,4 +1,4 @@
-![Bing.com todays image](https://github.com/forwardcomputers/bing-daily/workflows/Daily/badge.svg)
+![Bing.com todays image](https://github.com/forwardcomputers/forwardcomputers.github.io/workflows/Bing%20Image/badge.svg)
 ## lastest image:
 ![](homepage/images/today.jpg)
 
