@@ -1,0 +1,36 @@
+name: Bing Image
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Times are in UTC
+    - cron:  '0 9 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: check out repository
+        uses: actions/checkout@v2
+
+      - name: download image
+        run: |
+          baseURL='https://www.bing.com'
+          jsonURL="${baseURL}/HPImageArchive.aspx?format=js&idx=0&n=1"
+          imageURL="${baseURL}"$( curl -s "${jsonURL}" | jq -r '.images[0].urlbase' )_UHD.jpg
+          curl -sLo homepage/today.jpg "${imageURL}"
+
+      - name: update readme
+        run: |
+          sed -i "s|\(update: \).*$|\1$(date -u)|" README.md
+
+      - name: commit and push
+        run: |
+          git config --local user.email "alim@forwardcomputers.com"
+          git config --local user.name "Ali Mustakim"
+          git add .
+          git diff-index --quiet HEAD || git commit -a -m "github actions update"
+          git pull
+          git push origin
+

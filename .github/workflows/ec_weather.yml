@@ -2,7 +2,7 @@ name: EC Weather
 
 on:
   schedule:
-    - cron:  '*/20 * * * *'
+    - cron:  '*/20,50 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -16,7 +16,7 @@ jobs:
       - name: download image
         run: |
           baseURL='https://dd.weather.gc.ca/citypage_weather/xml/ON/s0000458_e.xml'
-          curl -sLo ec_weather/weather.xml "${baseURL}"
+          curl -sLo homepage/ec_weather/weather.xml "${baseURL}"
 
       - name: commit and push
         run: |

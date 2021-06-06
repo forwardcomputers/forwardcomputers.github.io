@@ -1,0 +1,21 @@
+{
+	"name": "Ali's Home",
+	"short_name": "Ali",
+	"display": "browser",
+	"scope": "/",
+	"start_url": ".",
+	"icons": [
+		{
+			"src": "https://github.com/forwardcomputers/images/raw/main/www/homepage/favicon-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png",
+			"purpose": "any"
+		},
+		{
+			"src": "https://github.com/forwardcomputers/images/raw/main/www/homepage/favicon-192x192.svg",
+			"sizes": "192x192",
+			"type": "image/svg+xml",
+			"purpose": "any"
+		}
+	]
+}
