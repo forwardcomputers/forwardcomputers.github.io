@@ -4,20 +4,20 @@
  <dateTime name="xmlCreation" zone="UTC" UTCOffset="0">
  <year>2021</year>
  <month name="June">06</month>
- <day name="Sunday">06</day>
- <hour>23</hour>
- <minute>20</minute>
- <timeStamp>20210606232000</timeStamp>
- <textSummary>Sunday June 06, 2021 at 23:20 UTC</textSummary>
+ <day name="Monday">07</day>
+ <hour>00</hour>
+ <minute>00</minute>
+ <timeStamp>20210607000000</timeStamp>
+ <textSummary>Monday June 07, 2021 at 00:00 UTC</textSummary>
  </dateTime>
  <dateTime name="xmlCreation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Sunday">06</day>
- <hour>19</hour>
- <minute>20</minute>
- <timeStamp>20210606192000</timeStamp>
- <textSummary>Sunday June 06, 2021 at 19:20 EDT</textSummary>
+ <hour>20</hour>
+ <minute>00</minute>
+ <timeStamp>20210606200000</timeStamp>
+ <textSummary>Sunday June 06, 2021 at 20:00 EDT</textSummary>
  </dateTime>
  <location>
  <continent>North America</continent>
@@ -108,19 +108,19 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Sunday">06</day>
- <hour>19</hour>
- <minute>30</minute>
- <timeStamp>20210606193000</timeStamp>
- <textSummary>Sunday June 06, 2021 at 19:30 UTC</textSummary>
+ <hour>23</hour>
+ <minute>54</minute>
+ <timeStamp>20210606235400</timeStamp>
+ <textSummary>Sunday June 06, 2021 at 23:54 UTC</textSummary>
  </dateTime>
  <dateTime name="forecastIssue" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Sunday">06</day>
- <hour>15</hour>
- <minute>30</minute>
- <timeStamp>20210606153000</timeStamp>
- <textSummary>Sunday June 06, 2021 at 15:30 EDT</textSummary>
+ <hour>19</hour>
+ <minute>54</minute>
+ <timeStamp>20210606195400</timeStamp>
+ <textSummary>Sunday June 06, 2021 at 19:54 EDT</textSummary>
  </dateTime>
  <regionalNormals>
  <textSummary>Low 13. High 23.</textSummary>
@@ -129,7 +129,7 @@
  </regionalNormals>
  <forecast>
  <period textForecastName="Tonight">Sunday night</period>
- <textSummary>Clear. Becoming partly cloudy before morning. Wind south 20 km/h gusting to 40 becoming light this evening. Low 21.</textSummary>
+ <textSummary>Clear. Becoming partly cloudy before morning. Wind southwest 20 km/h becoming light this evening. Low 21.</textSummary>
  <cloudPrecip>
  <textSummary>Clear. Becoming partly cloudy before morning.</textSummary>
  </cloudPrecip>
@@ -143,7 +143,7 @@
  <temperature unitType="metric" units="C" class="low">21</temperature>
  </temperatures>
  <winds>
- <textSummary>Wind south 20 km/h gusting to 40 becoming light this evening.</textSummary>
+ <textSummary>Wind southwest 20 km/h becoming light this evening.</textSummary>
  <wind index="1" rank="major">
  <speed unitType="metric" units="km/h">20</speed>
  <gust unitType="metric" units="km/h">40</gust>
@@ -270,13 +270,13 @@
  </forecast>
  <forecast>
  <period textForecastName="Monday night">Monday night</period>
- <textSummary>Partly cloudy with 30 percent chance of showers. Low 21.</textSummary>
+ <textSummary>Partly cloudy with 40 percent chance of showers. Low 21.</textSummary>
  <cloudPrecip>
- <textSummary>Partly cloudy with 30 percent chance of showers.</textSummary>
+ <textSummary>Partly cloudy with 40 percent chance of showers.</textSummary>
  </cloudPrecip>
  <abbreviatedForecast>
  <iconCode format="gif">36</iconCode>
- <pop units="%">30</pop>
+ <pop units="%">40</pop>
  <textSummary>Chance of showers</textSummary>
  </abbreviatedForecast>
  <temperatures>
@@ -504,40 +504,27 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Sunday">06</day>
- <hour>19</hour>
- <minute>30</minute>
- <timeStamp>20210606193000</timeStamp>
- <textSummary>Sunday June 06, 2021 at 19:30 UTC</textSummary>
+ <hour>23</hour>
+ <minute>54</minute>
+ <timeStamp>20210606235400</timeStamp>
+ <textSummary>Sunday June 06, 2021 at 23:54 UTC</textSummary>
  </dateTime>
  <dateTime name="forecastIssue" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Sunday">06</day>
- <hour>15</hour>
- <minute>30</minute>
- <timeStamp>20210606153000</timeStamp>
- <textSummary>Sunday June 06, 2021 at 15:30 EDT</textSummary>
+ <hour>19</hour>
+ <minute>54</minute>
+ <timeStamp>20210606195400</timeStamp>
+ <textSummary>Sunday June 06, 2021 at 19:54 EDT</textSummary>
  </dateTime>
- <hourlyForecast dateTimeUTC="202106070000">
- <condition>Sunny</condition>
- <iconCode format="png">00</iconCode>
- <temperature unitType="metric" units="C">29</temperature>
- <lop category="Nil" units="%">0</lop>
- <windChill unitType="metric"/>
- <humidex unitType="metric">31</humidex>
- <wind>
- <speed unitType="metric" units="km/h">15</speed>
- <direction windDirFull="Southwest">SW</direction>
- <gust unitType="metric" units="km/h"/>
- </wind>
- </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106070100">
  <condition>Clear</condition>
  <iconCode format="png">30</iconCode>
- <temperature unitType="metric" units="C">28</temperature>
+ <temperature unitType="metric" units="C">27</temperature>
  <lop category="Nil" units="%">0</lop>
  <windChill unitType="metric"/>
- <humidex unitType="metric">30</humidex>
+ <humidex unitType="metric">29</humidex>
  <wind>
  <speed unitType="metric" units="km/h">15</speed>
  <direction windDirFull="Southwest">SW</direction>
@@ -808,7 +795,7 @@
  <condition>Chance of showers</condition>
  <iconCode format="png">06</iconCode>
  <temperature unitType="metric" units="C">29</temperature>
- <lop category="Low" units="%">30</lop>
+ <lop category="Low" units="%">40</lop>
  <windChill unitType="metric"/>
  <humidex unitType="metric">34</humidex>
  <wind>
@@ -821,12 +808,25 @@
  <condition>Chance of showers</condition>
  <iconCode format="png">06</iconCode>
  <temperature unitType="metric" units="C">29</temperature>
- <lop category="Low" units="%">30</lop>
+ <lop category="Low" units="%">40</lop>
  <windChill unitType="metric"/>
  <humidex unitType="metric">34</humidex>
  <wind>
  <speed unitType="metric" units="km/h">5</speed>
  <direction windDirFull="Variable direction">VR</direction>
+ <gust unitType="metric" units="km/h"/>
+ </wind>
+ </hourlyForecast>
+ <hourlyForecast dateTimeUTC="202106080000">
+ <condition>Chance of showers</condition>
+ <iconCode format="png">06</iconCode>
+ <temperature unitType="metric" units="C">28</temperature>
+ <lop category="Low" units="%">40</lop>
+ <windChill unitType="metric"/>
+ <humidex unitType="metric">33</humidex>
+ <wind>
+ <speed unitType="metric" units="km/h">10</speed>
+ <direction windDirFull="Southwest">SW</direction>
  <gust unitType="metric" units="km/h"/>
  </wind>
  </hourlyForecast>
