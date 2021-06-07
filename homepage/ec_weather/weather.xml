@@ -5,19 +5,19 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Monday">07</day>
- <hour>20</hour>
- <minute>20</minute>
- <timeStamp>20210607202000</timeStamp>
- <textSummary>Monday June 07, 2021 at 20:20 UTC</textSummary>
+ <hour>21</hour>
+ <minute>44</minute>
+ <timeStamp>20210607214400</timeStamp>
+ <textSummary>Monday June 07, 2021 at 21:44 UTC</textSummary>
  </dateTime>
  <dateTime name="xmlCreation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Monday">07</day>
- <hour>16</hour>
- <minute>20</minute>
- <timeStamp>20210607162000</timeStamp>
- <textSummary>Monday June 07, 2021 at 16:20 EDT</textSummary>
+ <hour>17</hour>
+ <minute>44</minute>
+ <timeStamp>20210607174400</timeStamp>
+ <textSummary>Monday June 07, 2021 at 17:44 EDT</textSummary>
  </dateTime>
  <location>
  <continent>North America</continent>
@@ -54,33 +54,33 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Monday">07</day>
- <hour>20</hour>
+ <hour>21</hour>
  <minute>00</minute>
- <timeStamp>20210607200000</timeStamp>
- <textSummary>Monday June 07, 2021 at 20:00 UTC</textSummary>
+ <timeStamp>20210607210000</timeStamp>
+ <textSummary>Monday June 07, 2021 at 21:00 UTC</textSummary>
  </dateTime>
  <dateTime name="observation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Monday">07</day>
- <hour>16</hour>
+ <hour>17</hour>
  <minute>00</minute>
- <timeStamp>20210607160000</timeStamp>
- <textSummary>Monday June 07, 2021 at 16:00 EDT</textSummary>
+ <timeStamp>20210607170000</timeStamp>
+ <textSummary>Monday June 07, 2021 at 17:00 EDT</textSummary>
  </dateTime>
  <condition>Mostly Cloudy</condition>
  <iconCode format="gif">03</iconCode>
- <temperature unitType="metric" units="C">31.1</temperature>
- <dewpoint unitType="metric" units="C">18.9</dewpoint>
+ <temperature unitType="metric" units="C">30.5</temperature>
+ <dewpoint unitType="metric" units="C">19.4</dewpoint>
  <humidex unitType="metric">38</humidex>
- <pressure unitType="metric" units="kPa" change="0.08" tendency="falling">101.4</pressure>
+ <pressure unitType="metric" units="kPa" change="0.07" tendency="falling">101.4</pressure>
  <visibility unitType="metric" units="km">24.1</visibility>
- <relativeHumidity units="%">47</relativeHumidity>
+ <relativeHumidity units="%">51</relativeHumidity>
  <wind>
- <speed unitType="metric" units="km/h">26</speed>
- <gust unitType="metric" units="km/h">43</gust>
+ <speed unitType="metric" units="km/h">27</speed>
+ <gust unitType="metric" units="km/h">36</gust>
  <direction>SW</direction>
- <bearing units="degrees">233.0</bearing>
+ <bearing units="degrees">225.0</bearing>
  </wind>
  </currentConditions>
  <forecastGroup>
@@ -442,19 +442,6 @@
  <timeStamp>20210607153000</timeStamp>
  <textSummary>Monday June 07, 2021 at 15:30 EDT</textSummary>
  </dateTime>
- <hourlyForecast dateTimeUTC="202106072100">
- <condition>A mix of sun and cloud</condition>
- <iconCode format="png">02</iconCode>
- <temperature unitType="metric" units="C">30</temperature>
- <lop category="Low" units="%">20</lop>
- <windChill unitType="metric"/>
- <humidex unitType="metric">35</humidex>
- <wind>
- <speed unitType="metric" units="km/h">20</speed>
- <direction windDirFull="Southwest">SW</direction>
- <gust unitType="metric" units="km/h">40</gust>
- </wind>
- </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106072200">
  <condition>A mix of sun and cloud</condition>
  <iconCode format="png">02</iconCode>
@@ -751,6 +738,19 @@
  <wind>
  <speed unitType="metric" units="km/h">10</speed>
  <direction windDirFull="Southwest">SW</direction>
+ <gust unitType="metric" units="km/h"/>
+ </wind>
+ </hourlyForecast>
+ <hourlyForecast dateTimeUTC="202106082100">
+ <condition>Chance of showers or thunderstorms</condition>
+ <iconCode format="png">09</iconCode>
+ <temperature unitType="metric" units="C">28</temperature>
+ <lop category="Medium" units="%">60</lop>
+ <windChill unitType="metric"/>
+ <humidex unitType="metric">36</humidex>
+ <wind>
+ <speed unitType="metric" units="km/h">5</speed>
+ <direction windDirFull="Variable direction">VR</direction>
  <gust unitType="metric" units="km/h"/>
  </wind>
  </hourlyForecast>
