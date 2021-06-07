@@ -5,19 +5,19 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Monday">07</day>
- <hour>14</hour>
- <minute>06</minute>
- <timeStamp>20210607140600</timeStamp>
- <textSummary>Monday June 07, 2021 at 14:06 UTC</textSummary>
+ <hour>15</hour>
+ <minute>00</minute>
+ <timeStamp>20210607150000</timeStamp>
+ <textSummary>Monday June 07, 2021 at 15:00 UTC</textSummary>
  </dateTime>
  <dateTime name="xmlCreation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Monday">07</day>
- <hour>10</hour>
- <minute>06</minute>
- <timeStamp>20210607100600</timeStamp>
- <textSummary>Monday June 07, 2021 at 10:06 EDT</textSummary>
+ <hour>11</hour>
+ <minute>00</minute>
+ <timeStamp>20210607110000</timeStamp>
+ <textSummary>Monday June 07, 2021 at 11:00 EDT</textSummary>
  </dateTime>
  <location>
  <continent>North America</continent>
@@ -32,19 +32,19 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Monday">07</day>
- <hour>08</hour>
- <minute>32</minute>
- <timeStamp>20210607083200</timeStamp>
- <textSummary>Monday June 07, 2021 at 08:32 UTC</textSummary>
+ <hour>14</hour>
+ <minute>43</minute>
+ <timeStamp>20210607144300</timeStamp>
+ <textSummary>Monday June 07, 2021 at 14:43 UTC</textSummary>
  </dateTime>
  <dateTime name="eventIssue" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Monday">07</day>
- <hour>04</hour>
- <minute>32</minute>
- <timeStamp>20210607043200</timeStamp>
- <textSummary>Monday June 07, 2021 at 04:32 EDT</textSummary>
+ <hour>10</hour>
+ <minute>43</minute>
+ <timeStamp>20210607104300</timeStamp>
+ <textSummary>Monday June 07, 2021 at 10:43 EDT</textSummary>
  </dateTime>
  </event>
  </warnings>
@@ -88,19 +88,19 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Monday">07</day>
- <hour>09</hour>
+ <hour>15</hour>
  <minute>00</minute>
- <timeStamp>20210607090000</timeStamp>
- <textSummary>Monday June 07, 2021 at 09:00 UTC</textSummary>
+ <timeStamp>20210607150000</timeStamp>
+ <textSummary>Monday June 07, 2021 at 15:00 UTC</textSummary>
  </dateTime>
  <dateTime name="forecastIssue" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Monday">07</day>
- <hour>05</hour>
+ <hour>11</hour>
  <minute>00</minute>
- <timeStamp>20210607050000</timeStamp>
- <textSummary>Monday June 07, 2021 at 05:00 EDT</textSummary>
+ <timeStamp>20210607110000</timeStamp>
+ <textSummary>Monday June 07, 2021 at 11:00 EDT</textSummary>
  </dateTime>
  <regionalNormals>
  <textSummary>Low 13. High 23.</textSummary>
@@ -109,9 +109,9 @@
  </regionalNormals>
  <forecast>
  <period textForecastName="Today">Monday</period>
- <textSummary>A mix of sun and cloud. 30 percent chance of showers this afternoon. Wind becoming southwest 20 km/h gusting to 40 late this morning. High 31. Humidex 38. UV index 9 or very high.</textSummary>
+ <textSummary>A mix of sun and cloud. 30 percent chance of showers. Wind becoming southwest 20 km/h gusting to 40 early this afternoon. High 31. Humidex 38. UV index 9 or very high.</textSummary>
  <cloudPrecip>
- <textSummary>A mix of sun and cloud. 30 percent chance of showers this afternoon.</textSummary>
+ <textSummary>A mix of sun and cloud. 30 percent chance of showers.</textSummary>
  </cloudPrecip>
  <abbreviatedForecast>
  <iconCode format="gif">06</iconCode>
@@ -123,26 +123,14 @@
  <temperature unitType="metric" units="C" class="high">31</temperature>
  </temperatures>
  <winds>
- <textSummary>Wind becoming southwest 20 km/h gusting to 40 late this morning.</textSummary>
- <wind index="1" rank="minor">
+ <textSummary>Wind becoming southwest 20 km/h gusting to 40 early this afternoon.</textSummary>
+ <wind index="1" rank="major">
  <speed unitType="metric" units="km/h">10</speed>
  <gust unitType="metric" units="km/h">00</gust>
  <direction>SW</direction>
  <bearing units="degrees">22</bearing>
  </wind>
- <wind index="2" rank="minor">
- <speed unitType="metric" units="km/h">10</speed>
- <gust unitType="metric" units="km/h">00</gust>
- <direction>S</direction>
- <bearing units="degrees">18</bearing>
- </wind>
- <wind index="3" rank="major">
- <speed unitType="metric" units="km/h">15</speed>
- <gust unitType="metric" units="km/h">00</gust>
- <direction>S</direction>
- <bearing units="degrees">18</bearing>
- </wind>
- <wind index="4" rank="major">
+ <wind index="2" rank="major">
  <speed unitType="metric" units="km/h">20</speed>
  <gust unitType="metric" units="km/h">40</gust>
  <direction>SW</direction>
@@ -238,52 +226,6 @@
  </forecast>
  <forecast>
  <period textForecastName="Tuesday night">Tuesday night</period>
- <textSummary>Cloudy with 30 percent chance of showers. Low 20.</textSummary>
- <cloudPrecip>
- <textSummary>Cloudy with 30 percent chance of showers.</textSummary>
- </cloudPrecip>
- <abbreviatedForecast>
- <iconCode format="gif">12</iconCode>
- <pop units="%">30</pop>
- <textSummary>Chance of showers</textSummary>
- </abbreviatedForecast>
- <temperatures>
- <textSummary>Low 20.</textSummary>
- <temperature unitType="metric" units="C" class="low">20</temperature>
- </temperatures>
- <winds/>
- <humidex/>
- <precipitation>
- <textSummary/>
- <precipType start="46" end="49">rain</precipType>
- </precipitation>
- <relativeHumidity units="%">80</relativeHumidity>
- </forecast>
- <forecast>
- <period textForecastName="Wednesday">Wednesday</period>
- <textSummary>A mix of sun and cloud. High 29.</textSummary>
- <cloudPrecip>
- <textSummary>A mix of sun and cloud.</textSummary>
- </cloudPrecip>
- <abbreviatedForecast>
- <iconCode format="gif">02</iconCode>
- <pop units="%"/>
- <textSummary>A mix of sun and cloud</textSummary>
- </abbreviatedForecast>
- <temperatures>
- <textSummary>High 29.</textSummary>
- <temperature unitType="metric" units="C" class="high">29</temperature>
- </temperatures>
- <winds/>
- <humidex/>
- <precipitation>
- <textSummary/>
- <precipType start="66" end="70">rain</precipType>
- </precipitation>
- <relativeHumidity units="%">55</relativeHumidity>
- </forecast>
- <forecast>
- <period textForecastName="Wednesday night">Wednesday night</period>
  <textSummary>Cloudy periods. Low 19.</textSummary>
  <cloudPrecip>
  <textSummary>Cloudy periods.</textSummary>
@@ -301,13 +243,59 @@
  <humidex/>
  <precipitation>
  <textSummary/>
+ <precipType start="" end=""/>
+ </precipitation>
+ <relativeHumidity units="%">90</relativeHumidity>
+ </forecast>
+ <forecast>
+ <period textForecastName="Wednesday">Wednesday</period>
+ <textSummary>Cloudy with 60 percent chance of showers. High 26.</textSummary>
+ <cloudPrecip>
+ <textSummary>Cloudy with 60 percent chance of showers.</textSummary>
+ </cloudPrecip>
+ <abbreviatedForecast>
+ <iconCode format="gif">12</iconCode>
+ <pop units="%">60</pop>
+ <textSummary>Chance of showers</textSummary>
+ </abbreviatedForecast>
+ <temperatures>
+ <textSummary>High 26.</textSummary>
+ <temperature unitType="metric" units="C" class="high">26</temperature>
+ </temperatures>
+ <winds/>
+ <humidex/>
+ <precipitation>
+ <textSummary/>
+ <precipType start="66" end="70">rain</precipType>
+ </precipitation>
+ <relativeHumidity units="%">70</relativeHumidity>
+ </forecast>
+ <forecast>
+ <period textForecastName="Wednesday night">Wednesday night</period>
+ <textSummary>Cloudy periods with 60 percent chance of showers. Low 18.</textSummary>
+ <cloudPrecip>
+ <textSummary>Cloudy periods with 60 percent chance of showers.</textSummary>
+ </cloudPrecip>
+ <abbreviatedForecast>
+ <iconCode format="gif">36</iconCode>
+ <pop units="%">60</pop>
+ <textSummary>Chance of showers</textSummary>
+ </abbreviatedForecast>
+ <temperatures>
+ <textSummary>Low 18.</textSummary>
+ <temperature unitType="metric" units="C" class="low">18</temperature>
+ </temperatures>
+ <winds/>
+ <humidex/>
+ <precipitation>
+ <textSummary/>
  <precipType start="70" end="72">rain</precipType>
  </precipitation>
  <relativeHumidity units="%">70</relativeHumidity>
  </forecast>
  <forecast>
  <period textForecastName="Thursday">Thursday</period>
- <textSummary>A mix of sun and cloud. High 25.</textSummary>
+ <textSummary>A mix of sun and cloud. High 24.</textSummary>
  <cloudPrecip>
  <textSummary>A mix of sun and cloud.</textSummary>
  </cloudPrecip>
@@ -317,8 +305,8 @@
  <textSummary>A mix of sun and cloud</textSummary>
  </abbreviatedForecast>
  <temperatures>
- <textSummary>High 25.</textSummary>
- <temperature unitType="metric" units="C" class="high">25</temperature>
+ <textSummary>High 24.</textSummary>
+ <temperature unitType="metric" units="C" class="high">24</temperature>
  </temperatures>
  <winds/>
  <humidex/>
@@ -326,16 +314,16 @@
  <textSummary/>
  <precipType start="" end=""/>
  </precipitation>
- <relativeHumidity units="%">55</relativeHumidity>
+ <relativeHumidity units="%">60</relativeHumidity>
  </forecast>
  <forecast>
  <period textForecastName="Thursday night">Thursday night</period>
- <textSummary>Cloudy with 30 percent chance of showers. Low 17.</textSummary>
+ <textSummary>Cloudy periods with 30 percent chance of showers. Low 17.</textSummary>
  <cloudPrecip>
- <textSummary>Cloudy with 30 percent chance of showers.</textSummary>
+ <textSummary>Cloudy periods with 30 percent chance of showers.</textSummary>
  </cloudPrecip>
  <abbreviatedForecast>
- <iconCode format="gif">12</iconCode>
+ <iconCode format="gif">36</iconCode>
  <pop units="%">30</pop>
  <textSummary>Chance of showers</textSummary>
  </abbreviatedForecast>
@@ -353,30 +341,30 @@
  </forecast>
  <forecast>
  <period textForecastName="Friday">Friday</period>
- <textSummary>Cloudy with 30 percent chance of showers. High 24.</textSummary>
+ <textSummary>A mix of sun and cloud with 30 percent chance of showers. High 23.</textSummary>
  <cloudPrecip>
- <textSummary>Cloudy with 30 percent chance of showers.</textSummary>
+ <textSummary>A mix of sun and cloud with 30 percent chance of showers.</textSummary>
  </cloudPrecip>
  <abbreviatedForecast>
- <iconCode format="gif">12</iconCode>
+ <iconCode format="gif">06</iconCode>
  <pop units="%">30</pop>
  <textSummary>Chance of showers</textSummary>
  </abbreviatedForecast>
  <temperatures>
- <textSummary>High 24.</textSummary>
- <temperature unitType="metric" units="C" class="high">24</temperature>
+ <textSummary>High 23.</textSummary>
+ <temperature unitType="metric" units="C" class="high">23</temperature>
  </temperatures>
  <winds/>
  <humidex/>
  <precipitation>
  <textSummary/>
- <precipType start="106" end="114">rain</precipType>
+ <precipType start="106" end="108">rain</precipType>
  </precipitation>
- <relativeHumidity units="%">70</relativeHumidity>
+ <relativeHumidity units="%">75</relativeHumidity>
  </forecast>
  <forecast>
  <period textForecastName="Friday night">Friday night</period>
- <textSummary>Cloudy periods. Low 17.</textSummary>
+ <textSummary>Cloudy periods. Low 16.</textSummary>
  <cloudPrecip>
  <textSummary>Cloudy periods.</textSummary>
  </cloudPrecip>
@@ -386,8 +374,8 @@
  <textSummary>Cloudy periods</textSummary>
  </abbreviatedForecast>
  <temperatures>
- <textSummary>Low 17.</textSummary>
- <temperature unitType="metric" units="C" class="low">17</temperature>
+ <textSummary>Low 16.</textSummary>
+ <temperature unitType="metric" units="C" class="low">16</temperature>
  </temperatures>
  <winds/>
  <humidex/>
@@ -395,7 +383,7 @@
  <textSummary/>
  <precipType start="" end=""/>
  </precipitation>
- <relativeHumidity units="%">90</relativeHumidity>
+ <relativeHumidity units="%">95</relativeHumidity>
  </forecast>
  <forecast>
  <period textForecastName="Saturday">Saturday</period>
@@ -418,7 +406,7 @@
  <textSummary/>
  <precipType start="" end=""/>
  </precipitation>
- <relativeHumidity units="%">60</relativeHumidity>
+ <relativeHumidity units="%">65</relativeHumidity>
  </forecast>
  <forecast>
  <period textForecastName="Saturday night">Saturday night</period>
@@ -445,18 +433,18 @@
  </forecast>
  <forecast>
  <period textForecastName="Sunday">Sunday</period>
- <textSummary>Sunny. High 27.</textSummary>
+ <textSummary>A mix of sun and cloud. High 25.</textSummary>
  <cloudPrecip>
- <textSummary>Sunny.</textSummary>
+ <textSummary>A mix of sun and cloud.</textSummary>
  </cloudPrecip>
  <abbreviatedForecast>
- <iconCode format="gif">00</iconCode>
+ <iconCode format="gif">02</iconCode>
  <pop units="%"/>
- <textSummary>Sunny</textSummary>
+ <textSummary>A mix of sun and cloud</textSummary>
  </abbreviatedForecast>
  <temperatures>
- <textSummary>High 27.</textSummary>
- <temperature unitType="metric" units="C" class="high">27</temperature>
+ <textSummary>High 25.</textSummary>
+ <temperature unitType="metric" units="C" class="high">25</temperature>
  </temperatures>
  <winds/>
  <humidex/>
@@ -464,7 +452,7 @@
  <textSummary/>
  <precipType start="" end=""/>
  </precipitation>
- <relativeHumidity units="%">50</relativeHumidity>
+ <relativeHumidity units="%">55</relativeHumidity>
  </forecast>
  </forecastGroup>
  <hourlyForecastGroup>
@@ -472,33 +460,20 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Monday">07</day>
- <hour>09</hour>
+ <hour>15</hour>
  <minute>00</minute>
- <timeStamp>20210607090000</timeStamp>
- <textSummary>Monday June 07, 2021 at 09:00 UTC</textSummary>
+ <timeStamp>20210607150000</timeStamp>
+ <textSummary>Monday June 07, 2021 at 15:00 UTC</textSummary>
  </dateTime>
  <dateTime name="forecastIssue" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Monday">07</day>
- <hour>05</hour>
+ <hour>11</hour>
  <minute>00</minute>
- <timeStamp>20210607050000</timeStamp>
- <textSummary>Monday June 07, 2021 at 05:00 EDT</textSummary>
+ <timeStamp>20210607110000</timeStamp>
+ <textSummary>Monday June 07, 2021 at 11:00 EDT</textSummary>
  </dateTime>
- <hourlyForecast dateTimeUTC="202106071500">
- <condition>A mix of sun and cloud</condition>
- <iconCode format="png">02</iconCode>
- <temperature unitType="metric" units="C">30</temperature>
- <lop category="Low" units="%">20</lop>
- <windChill unitType="metric"/>
- <humidex unitType="metric">35</humidex>
- <wind>
- <speed unitType="metric" units="km/h">20</speed>
- <direction windDirFull="Southwest">SW</direction>
- <gust unitType="metric" units="km/h">40</gust>
- </wind>
- </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106071600">
  <condition>A mix of sun and cloud</condition>
  <iconCode format="png">02</iconCode>
@@ -507,9 +482,9 @@
  <windChill unitType="metric"/>
  <humidex unitType="metric">36</humidex>
  <wind>
- <speed unitType="metric" units="km/h">20</speed>
+ <speed unitType="metric" units="km/h">10</speed>
  <direction windDirFull="Southwest">SW</direction>
- <gust unitType="metric" units="km/h">40</gust>
+ <gust unitType="metric" units="km/h"/>
  </wind>
  </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106071700">
@@ -792,6 +767,19 @@
  <lop category="Low" units="%">40</lop>
  <windChill unitType="metric"/>
  <humidex unitType="metric">32</humidex>
+ <wind>
+ <speed unitType="metric" units="km/h">10</speed>
+ <direction windDirFull="South">S</direction>
+ <gust unitType="metric" units="km/h"/>
+ </wind>
+ </hourlyForecast>
+ <hourlyForecast dateTimeUTC="202106081500">
+ <condition>Chance of showers. Risk of thunderstorms</condition>
+ <iconCode format="png">19</iconCode>
+ <temperature unitType="metric" units="C">27</temperature>
+ <lop category="Low" units="%">40</lop>
+ <windChill unitType="metric"/>
+ <humidex unitType="metric">33</humidex>
  <wind>
  <speed unitType="metric" units="km/h">10</speed>
  <direction windDirFull="South">S</direction>
