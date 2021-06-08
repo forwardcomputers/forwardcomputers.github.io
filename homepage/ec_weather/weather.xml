@@ -6,18 +6,18 @@
  <month name="June">06</month>
  <day name="Tuesday">08</day>
  <hour>21</hour>
- <minute>00</minute>
- <timeStamp>20210608210000</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 21:00 UTC</textSummary>
+ <minute>20</minute>
+ <timeStamp>20210608212000</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 21:20 UTC</textSummary>
  </dateTime>
  <dateTime name="xmlCreation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Tuesday">08</day>
  <hour>17</hour>
- <minute>00</minute>
- <timeStamp>20210608170000</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 17:00 EDT</textSummary>
+ <minute>20</minute>
+ <timeStamp>20210608172000</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 17:20 EDT</textSummary>
  </dateTime>
  <location>
  <continent>North America</continent>
@@ -54,33 +54,33 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Tuesday">08</day>
- <hour>20</hour>
- <minute>40</minute>
- <timeStamp>20210608204000</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 20:40 UTC</textSummary>
+ <hour>21</hour>
+ <minute>00</minute>
+ <timeStamp>20210608210000</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 21:00 UTC</textSummary>
  </dateTime>
  <dateTime name="observation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Tuesday">08</day>
- <hour>16</hour>
- <minute>40</minute>
- <timeStamp>20210608164000</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 16:40 EDT</textSummary>
+ <hour>17</hour>
+ <minute>00</minute>
+ <timeStamp>20210608170000</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 17:00 EDT</textSummary>
  </dateTime>
  <condition>Light Rainshower</condition>
  <iconCode format="gif">06</iconCode>
- <temperature unitType="metric" units="C">24.7</temperature>
- <dewpoint unitType="metric" units="C">21.5</dewpoint>
- <humidex unitType="metric">34</humidex>
- <pressure unitType="metric" units="kPa" change="0.10" tendency="falling">101.6</pressure>
+ <temperature unitType="metric" units="C">24.3</temperature>
+ <dewpoint unitType="metric" units="C">23.1</dewpoint>
+ <humidex unitType="metric">35</humidex>
+ <pressure unitType="metric" units="kPa" change="0.11" tendency="falling">101.6</pressure>
  <visibility unitType="metric" units="km">19.3</visibility>
- <relativeHumidity units="%">82</relativeHumidity>
+ <relativeHumidity units="%">93</relativeHumidity>
  <wind>
- <speed unitType="metric" units="km/h">7</speed>
+ <speed unitType="metric" units="km/h">13</speed>
  <gust unitType="metric" units="km/h"/>
- <direction>WSW</direction>
- <bearing units="degrees">243.0</bearing>
+ <direction>SSW</direction>
+ <bearing units="degrees">208.0</bearing>
  </wind>
  </currentConditions>
  <forecastGroup>
