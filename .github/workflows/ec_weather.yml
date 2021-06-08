@@ -1,6 +1,7 @@
 name: EC Weather
 
 on:
+  repository_dispatch:
 #  schedule:
 #    - cron:  '5/15 * * * *'
   workflow_dispatch:
