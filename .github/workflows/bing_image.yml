@@ -26,7 +26,7 @@ jobs:
           imageDesc=$(echo "${jsonData}" | jq -r '.images[0].copyright')
           curl -sLo homepage/images/today_clean.jpg "${imageURL}"
           convert -list configure
-          identify -list font
+          convert -list font
           convert -pointsize 65 -background '#00000080' -fill white label:"${imageDesc}" miff:- | \
             composite -gravity southeast -geometry +0+3 - homepage/images/today_clean.jpg homepage/images/today.jpg
 
