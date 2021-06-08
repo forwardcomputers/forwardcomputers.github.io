@@ -3,7 +3,7 @@ name: EC Weather
 on:
   repository_dispatch:
     types:
-      - webhook
+      - ec_weather
 #  schedule:
 #    - cron:  '5/15 * * * *'
   workflow_dispatch:
