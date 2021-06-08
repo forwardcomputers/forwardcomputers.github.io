@@ -5,19 +5,19 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Tuesday">08</day>
- <hour>07</hour>
- <minute>44</minute>
- <timeStamp>20210608074400</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 07:44 UTC</textSummary>
+ <hour>08</hour>
+ <minute>00</minute>
+ <timeStamp>20210608080000</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 08:00 UTC</textSummary>
  </dateTime>
  <dateTime name="xmlCreation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Tuesday">08</day>
- <hour>03</hour>
- <minute>44</minute>
- <timeStamp>20210608034400</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 03:44 EDT</textSummary>
+ <hour>04</hour>
+ <minute>00</minute>
+ <timeStamp>20210608040000</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 04:00 EDT</textSummary>
  </dateTime>
  <location>
  <continent>North America</continent>
@@ -410,19 +410,6 @@
  <timeStamp>20210607185900</timeStamp>
  <textSummary>Monday June 07, 2021 at 18:59 EDT</textSummary>
  </dateTime>
- <hourlyForecast dateTimeUTC="202106080800">
- <condition>Chance of showers. Risk of thunderstorms</condition>
- <iconCode format="png">39</iconCode>
- <temperature unitType="metric" units="C">22</temperature>
- <lop category="Low" units="%">30</lop>
- <windChill unitType="metric"/>
- <humidex unitType="metric">27</humidex>
- <wind>
- <speed unitType="metric" units="km/h">10</speed>
- <direction windDirFull="Southwest">SW</direction>
- <gust unitType="metric" units="km/h"/>
- </wind>
- </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106080900">
  <condition>Chance of showers. Risk of thunderstorms</condition>
  <iconCode format="png">39</iconCode>
@@ -716,6 +703,19 @@
  <lop category="Low" units="%">20</lop>
  <windChill unitType="metric"/>
  <humidex unitType="metric">25</humidex>
+ <wind>
+ <speed unitType="metric" units="km/h">5</speed>
+ <direction windDirFull="Variable direction">VR</direction>
+ <gust unitType="metric" units="km/h"/>
+ </wind>
+ </hourlyForecast>
+ <hourlyForecast dateTimeUTC="202106090800">
+ <condition>Mainly cloudy</condition>
+ <iconCode format="png">33</iconCode>
+ <temperature unitType="metric" units="C">19</temperature>
+ <lop category="Low" units="%">20</lop>
+ <windChill unitType="metric"/>
+ <humidex/>
  <wind>
  <speed unitType="metric" units="km/h">5</speed>
  <direction windDirFull="Variable direction">VR</direction>
