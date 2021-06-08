@@ -5,19 +5,19 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Tuesday">08</day>
- <hour>22</hour>
- <minute>50</minute>
- <timeStamp>20210608225000</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 22:50 UTC</textSummary>
+ <hour>23</hour>
+ <minute>00</minute>
+ <timeStamp>20210608230000</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 23:00 UTC</textSummary>
  </dateTime>
  <dateTime name="xmlCreation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Tuesday">08</day>
- <hour>18</hour>
- <minute>50</minute>
- <timeStamp>20210608185000</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 18:50 EDT</textSummary>
+ <hour>19</hour>
+ <minute>00</minute>
+ <timeStamp>20210608190000</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 19:00 EDT</textSummary>
  </dateTime>
  <location>
  <continent>North America</continent>
@@ -410,19 +410,6 @@
  <timeStamp>20210608153000</timeStamp>
  <textSummary>Tuesday June 08, 2021 at 15:30 EDT</textSummary>
  </dateTime>
- <hourlyForecast dateTimeUTC="202106082300">
- <condition>Chance of showers. Risk of thunderstorms</condition>
- <iconCode format="png">09</iconCode>
- <temperature unitType="metric" units="C">26</temperature>
- <lop category="Low" units="%">30</lop>
- <windChill unitType="metric"/>
- <humidex unitType="metric">34</humidex>
- <wind>
- <speed unitType="metric" units="km/h">5</speed>
- <direction windDirFull="Variable direction">VR</direction>
- <gust unitType="metric" units="km/h"/>
- </wind>
- </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106090000">
  <condition>Chance of showers. Risk of thunderstorms</condition>
  <iconCode format="png">09</iconCode>
@@ -718,6 +705,19 @@
  <humidex unitType="metric">34</humidex>
  <wind>
  <speed unitType="metric" units="km/h">10</speed>
+ <direction windDirFull="East">E</direction>
+ <gust unitType="metric" units="km/h"/>
+ </wind>
+ </hourlyForecast>
+ <hourlyForecast dateTimeUTC="202106092300">
+ <condition>Chance of showers. Risk of thunderstorms</condition>
+ <iconCode format="png">09</iconCode>
+ <temperature unitType="metric" units="C">27</temperature>
+ <lop category="Low" units="%">30</lop>
+ <windChill unitType="metric"/>
+ <humidex unitType="metric">34</humidex>
+ <wind>
+ <speed unitType="metric" units="km/h">15</speed>
  <direction windDirFull="East">E</direction>
  <gust unitType="metric" units="km/h"/>
  </wind>
