@@ -27,7 +27,7 @@ jobs:
           curl -sLo homepage/images/today_clean.jpg "${imageURL}"
           convert -list configure
           convert -list font
-          convert -pointsize 65 -background '#00000080' -fill white label:"${imageDesc}" miff:- | \
+          convert -font DejaVu-Sans -pointsize 65 -background '#00000080' -fill white label:"${imageDesc}" miff:- | \
             composite -gravity southeast -geometry +0+3 - homepage/images/today_clean.jpg homepage/images/today.jpg
 
       - name: update readme
