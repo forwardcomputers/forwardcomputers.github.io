@@ -6,18 +6,18 @@
  <month name="June">06</month>
  <day name="Tuesday">08</day>
  <hour>23</hour>
- <minute>00</minute>
- <timeStamp>20210608230000</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 23:00 UTC</textSummary>
+ <minute>20</minute>
+ <timeStamp>20210608232000</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 23:20 UTC</textSummary>
  </dateTime>
  <dateTime name="xmlCreation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Tuesday">08</day>
  <hour>19</hour>
- <minute>00</minute>
- <timeStamp>20210608190000</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 19:00 EDT</textSummary>
+ <minute>20</minute>
+ <timeStamp>20210608192000</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 19:20 EDT</textSummary>
  </dateTime>
  <location>
  <continent>North America</continent>
@@ -32,19 +32,19 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Tuesday">08</day>
- <hour>17</hour>
- <minute>14</minute>
- <timeStamp>20210608171400</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 17:14 UTC</textSummary>
+ <hour>23</hour>
+ <minute>00</minute>
+ <timeStamp>20210608230000</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 23:00 UTC</textSummary>
  </dateTime>
  <dateTime name="eventIssue" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Tuesday">08</day>
- <hour>13</hour>
- <minute>14</minute>
- <timeStamp>20210608131400</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 13:14 EDT</textSummary>
+ <hour>19</hour>
+ <minute>00</minute>
+ <timeStamp>20210608190000</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 19:00 EDT</textSummary>
  </dateTime>
  </event>
  </warnings>
@@ -54,33 +54,33 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Tuesday">08</day>
- <hour>22</hour>
+ <hour>23</hour>
  <minute>00</minute>
- <timeStamp>20210608220000</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 22:00 UTC</textSummary>
+ <timeStamp>20210608230000</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 23:00 UTC</textSummary>
  </dateTime>
  <dateTime name="observation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Tuesday">08</day>
- <hour>18</hour>
+ <hour>19</hour>
  <minute>00</minute>
- <timeStamp>20210608180000</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 18:00 EDT</textSummary>
+ <timeStamp>20210608190000</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 19:00 EDT</textSummary>
  </dateTime>
  <condition>Mostly Cloudy</condition>
  <iconCode format="gif">03</iconCode>
- <temperature unitType="metric" units="C">24.1</temperature>
- <dewpoint unitType="metric" units="C">22.3</dewpoint>
+ <temperature unitType="metric" units="C">24.6</temperature>
+ <dewpoint unitType="metric" units="C">22.2</dewpoint>
  <humidex unitType="metric">34</humidex>
  <pressure unitType="metric" units="kPa" change="0.11" tendency="falling">101.6</pressure>
  <visibility unitType="metric" units="km">24.1</visibility>
- <relativeHumidity units="%">90</relativeHumidity>
+ <relativeHumidity units="%">87</relativeHumidity>
  <wind>
- <speed unitType="metric" units="km/h">11</speed>
+ <speed unitType="metric" units="km/h">3</speed>
  <gust unitType="metric" units="km/h"/>
- <direction>W</direction>
- <bearing units="degrees">264.0</bearing>
+ <direction>N</direction>
+ <bearing units="degrees">0.0</bearing>
  </wind>
  </currentConditions>
  <forecastGroup>
