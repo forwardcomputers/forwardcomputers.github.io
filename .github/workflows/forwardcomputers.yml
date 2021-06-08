@@ -2,10 +2,10 @@ name: forwardcomputers
 
 on:
   push:
-  workflow_dispatch:
   schedule:
     # Times are in UTC, this job is run daily @ 14HRS = 9AM EST, 20HRS = 3PM EST
     - cron: "0 14,20 * * *"
+  workflow_dispatch:
 
 jobs:
   build:
