@@ -5,19 +5,19 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Tuesday">08</day>
- <hour>15</hour>
- <minute>40</minute>
- <timeStamp>20210608154000</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 15:40 UTC</textSummary>
+ <hour>17</hour>
+ <minute>06</minute>
+ <timeStamp>20210608170600</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 17:06 UTC</textSummary>
  </dateTime>
  <dateTime name="xmlCreation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Tuesday">08</day>
- <hour>11</hour>
- <minute>40</minute>
- <timeStamp>20210608114000</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 11:40 EDT</textSummary>
+ <hour>13</hour>
+ <minute>06</minute>
+ <timeStamp>20210608130600</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 13:06 EDT</textSummary>
  </dateTime>
  <location>
  <continent>North America</continent>
@@ -33,33 +33,33 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Tuesday">08</day>
- <hour>15</hour>
- <minute>28</minute>
- <timeStamp>20210608152800</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 15:28 UTC</textSummary>
+ <hour>17</hour>
+ <minute>00</minute>
+ <timeStamp>20210608170000</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 17:00 UTC</textSummary>
  </dateTime>
  <dateTime name="observation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Tuesday">08</day>
- <hour>11</hour>
- <minute>28</minute>
- <timeStamp>20210608112800</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 11:28 EDT</textSummary>
+ <hour>13</hour>
+ <minute>00</minute>
+ <timeStamp>20210608130000</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 13:00 EDT</textSummary>
  </dateTime>
- <condition>Light Rainshower</condition>
- <iconCode format="gif">06</iconCode>
- <temperature unitType="metric" units="C">21.3</temperature>
- <dewpoint unitType="metric" units="C">21.3</dewpoint>
- <humidex unitType="metric">30</humidex>
- <pressure unitType="metric" units="kPa" change="0.07" tendency="rising">101.8</pressure>
- <visibility unitType="metric" units="km">4.8</visibility>
- <relativeHumidity units="%">100</relativeHumidity>
+ <condition>Mostly Cloudy</condition>
+ <iconCode format="gif">03</iconCode>
+ <temperature unitType="metric" units="C">24.5</temperature>
+ <dewpoint unitType="metric" units="C">22.4</dewpoint>
+ <humidex unitType="metric">34</humidex>
+ <pressure unitType="metric" units="kPa" change="0.07" tendency="rising">101.7</pressure>
+ <visibility unitType="metric" units="km">16.1</visibility>
+ <relativeHumidity units="%">88</relativeHumidity>
  <wind>
- <speed unitType="metric" units="km/h">9</speed>
+ <speed unitType="metric" units="km/h">4</speed>
  <gust unitType="metric" units="km/h"/>
- <direction>SE</direction>
- <bearing units="degrees">141.0</bearing>
+ <direction>ESE</direction>
+ <bearing units="degrees">113.0</bearing>
  </wind>
  </currentConditions>
  <forecastGroup>
@@ -423,32 +423,6 @@
  <timeStamp>20210608113900</timeStamp>
  <textSummary>Tuesday June 08, 2021 at 11:39 EDT</textSummary>
  </dateTime>
- <hourlyForecast dateTimeUTC="202106081600">
- <condition>Showers</condition>
- <iconCode format="png">12</iconCode>
- <temperature unitType="metric" units="C">24</temperature>
- <lop category="High" units="%">100</lop>
- <windChill unitType="metric"/>
- <humidex unitType="metric">32</humidex>
- <wind>
- <speed unitType="metric" units="km/h">10</speed>
- <direction windDirFull="Southeast">SE</direction>
- <gust unitType="metric" units="km/h"/>
- </wind>
- </hourlyForecast>
- <hourlyForecast dateTimeUTC="202106081700">
- <condition>Chance of showers or thunderstorms</condition>
- <iconCode format="png">19</iconCode>
- <temperature unitType="metric" units="C">25</temperature>
- <lop category="Medium" units="%">60</lop>
- <windChill unitType="metric"/>
- <humidex unitType="metric">33</humidex>
- <wind>
- <speed unitType="metric" units="km/h">10</speed>
- <direction windDirFull="Southeast">SE</direction>
- <gust unitType="metric" units="km/h"/>
- </wind>
- </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106081800">
  <condition>Chance of showers or thunderstorms</condition>
  <iconCode format="png">19</iconCode>
@@ -729,6 +703,32 @@
  <lop category="Low" units="%">20</lop>
  <windChill unitType="metric"/>
  <humidex unitType="metric">35</humidex>
+ <wind>
+ <speed unitType="metric" units="km/h">10</speed>
+ <direction windDirFull="East">E</direction>
+ <gust unitType="metric" units="km/h"/>
+ </wind>
+ </hourlyForecast>
+ <hourlyForecast dateTimeUTC="202106091600">
+ <condition>Chance of showers</condition>
+ <iconCode format="png">06</iconCode>
+ <temperature unitType="metric" units="C">29</temperature>
+ <lop category="Low" units="%">30</lop>
+ <windChill unitType="metric"/>
+ <humidex unitType="metric">35</humidex>
+ <wind>
+ <speed unitType="metric" units="km/h">10</speed>
+ <direction windDirFull="East">E</direction>
+ <gust unitType="metric" units="km/h"/>
+ </wind>
+ </hourlyForecast>
+ <hourlyForecast dateTimeUTC="202106091700">
+ <condition>Chance of showers</condition>
+ <iconCode format="png">06</iconCode>
+ <temperature unitType="metric" units="C">30</temperature>
+ <lop category="Low" units="%">30</lop>
+ <windChill unitType="metric"/>
+ <humidex unitType="metric">37</humidex>
  <wind>
  <speed unitType="metric" units="km/h">10</speed>
  <direction windDirFull="East">E</direction>
