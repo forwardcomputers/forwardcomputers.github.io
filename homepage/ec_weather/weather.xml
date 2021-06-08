@@ -5,19 +5,19 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Tuesday">08</day>
- <hour>17</hour>
- <minute>50</minute>
- <timeStamp>20210608175000</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 17:50 UTC</textSummary>
+ <hour>18</hour>
+ <minute>00</minute>
+ <timeStamp>20210608180000</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 18:00 UTC</textSummary>
  </dateTime>
  <dateTime name="xmlCreation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Tuesday">08</day>
- <hour>13</hour>
- <minute>50</minute>
- <timeStamp>20210608135000</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 13:50 EDT</textSummary>
+ <hour>14</hour>
+ <minute>00</minute>
+ <timeStamp>20210608140000</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 14:00 EDT</textSummary>
  </dateTime>
  <location>
  <continent>North America</continent>
@@ -55,32 +55,32 @@
  <month name="June">06</month>
  <day name="Tuesday">08</day>
  <hour>17</hour>
- <minute>00</minute>
- <timeStamp>20210608170000</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 17:00 UTC</textSummary>
+ <minute>52</minute>
+ <timeStamp>20210608175200</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 17:52 UTC</textSummary>
  </dateTime>
  <dateTime name="observation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Tuesday">08</day>
  <hour>13</hour>
- <minute>00</minute>
- <timeStamp>20210608130000</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 13:00 EDT</textSummary>
+ <minute>52</minute>
+ <timeStamp>20210608135200</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 13:52 EDT</textSummary>
  </dateTime>
- <condition>Mostly Cloudy</condition>
- <iconCode format="gif">03</iconCode>
- <temperature unitType="metric" units="C">24.5</temperature>
- <dewpoint unitType="metric" units="C">22.4</dewpoint>
+ <condition>Thunderstorm with light rainshowers</condition>
+ <iconCode format="gif">19</iconCode>
+ <temperature unitType="metric" units="C">24.8</temperature>
+ <dewpoint unitType="metric" units="C">22.0</dewpoint>
  <humidex unitType="metric">34</humidex>
  <pressure unitType="metric" units="kPa" change="0.07" tendency="rising">101.7</pressure>
- <visibility unitType="metric" units="km">16.1</visibility>
- <relativeHumidity units="%">88</relativeHumidity>
+ <visibility unitType="metric" units="km">12.9</visibility>
+ <relativeHumidity units="%">84</relativeHumidity>
  <wind>
  <speed unitType="metric" units="km/h">4</speed>
  <gust unitType="metric" units="km/h"/>
- <direction>ESE</direction>
- <bearing units="degrees">113.0</bearing>
+ <direction>N</direction>
+ <bearing units="degrees">8.0</bearing>
  </wind>
  </currentConditions>
  <forecastGroup>
@@ -444,19 +444,6 @@
  <timeStamp>20210608134200</timeStamp>
  <textSummary>Tuesday June 08, 2021 at 13:42 EDT</textSummary>
  </dateTime>
- <hourlyForecast dateTimeUTC="202106081800">
- <condition>Chance of showers or thunderstorms</condition>
- <iconCode format="png">09</iconCode>
- <temperature unitType="metric" units="C">27</temperature>
- <lop category="Medium" units="%">60</lop>
- <windChill unitType="metric"/>
- <humidex unitType="metric">35</humidex>
- <wind>
- <speed unitType="metric" units="km/h">5</speed>
- <direction windDirFull="Variable direction">VR</direction>
- <gust unitType="metric" units="km/h"/>
- </wind>
- </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106081900">
  <condition>Chance of showers or thunderstorms</condition>
  <iconCode format="png">09</iconCode>
@@ -744,6 +731,19 @@
  </wind>
  </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106091700">
+ <condition>Chance of showers</condition>
+ <iconCode format="png">06</iconCode>
+ <temperature unitType="metric" units="C">30</temperature>
+ <lop category="Low" units="%">30</lop>
+ <windChill unitType="metric"/>
+ <humidex unitType="metric">37</humidex>
+ <wind>
+ <speed unitType="metric" units="km/h">10</speed>
+ <direction windDirFull="East">E</direction>
+ <gust unitType="metric" units="km/h"/>
+ </wind>
+ </hourlyForecast>
+ <hourlyForecast dateTimeUTC="202106091800">
  <condition>Chance of showers</condition>
  <iconCode format="png">06</iconCode>
  <temperature unitType="metric" units="C">30</temperature>
