@@ -6,18 +6,18 @@
  <month name="June">06</month>
  <day name="Tuesday">08</day>
  <hour>15</hour>
- <minute>30</minute>
- <timeStamp>20210608153000</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 15:30 UTC</textSummary>
+ <minute>40</minute>
+ <timeStamp>20210608154000</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 15:40 UTC</textSummary>
  </dateTime>
  <dateTime name="xmlCreation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Tuesday">08</day>
  <hour>11</hour>
- <minute>30</minute>
- <timeStamp>20210608113000</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 11:30 EDT</textSummary>
+ <minute>40</minute>
+ <timeStamp>20210608114000</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 11:40 EDT</textSummary>
  </dateTime>
  <location>
  <continent>North America</continent>
@@ -68,18 +68,18 @@
  <month name="June">06</month>
  <day name="Tuesday">08</day>
  <hour>15</hour>
- <minute>00</minute>
- <timeStamp>20210608150000</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 15:00 UTC</textSummary>
+ <minute>39</minute>
+ <timeStamp>20210608153900</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 15:39 UTC</textSummary>
  </dateTime>
  <dateTime name="forecastIssue" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Tuesday">08</day>
  <hour>11</hour>
- <minute>00</minute>
- <timeStamp>20210608110000</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 11:00 EDT</textSummary>
+ <minute>39</minute>
+ <timeStamp>20210608113900</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 11:39 EDT</textSummary>
  </dateTime>
  <regionalNormals>
  <textSummary>Low 13. High 23.</textSummary>
@@ -88,9 +88,9 @@
  </regionalNormals>
  <forecast>
  <period textForecastName="Today">Tuesday</period>
- <textSummary>Cloudy with 60 percent chance of showers or thunderstorms. High 28. Humidex 36. UV index 5 or moderate.</textSummary>
+ <textSummary>Showers ending early this afternoon then cloudy with 60 percent chance of showers or thunderstorms. High 28. Humidex 36. UV index 5 or moderate.</textSummary>
  <cloudPrecip>
- <textSummary>Cloudy with 60 percent chance of showers or thunderstorms.</textSummary>
+ <textSummary>Showers ending early this afternoon then cloudy with 60 percent chance of showers or thunderstorms.</textSummary>
  </cloudPrecip>
  <abbreviatedForecast>
  <iconCode format="gif">19</iconCode>
@@ -109,6 +109,10 @@
  <precipitation>
  <textSummary/>
  <precipType start="15" end="22">rain</precipType>
+ <accumulation>
+ <name>rain</name>
+ <amount unitType="metric" units="mm">3</amount>
+ </accumulation>
  </precipitation>
  <uv category="moderate">
  <index>5</index>
@@ -406,29 +410,29 @@
  <month name="June">06</month>
  <day name="Tuesday">08</day>
  <hour>15</hour>
- <minute>00</minute>
- <timeStamp>20210608150000</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 15:00 UTC</textSummary>
+ <minute>39</minute>
+ <timeStamp>20210608153900</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 15:39 UTC</textSummary>
  </dateTime>
  <dateTime name="forecastIssue" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Tuesday">08</day>
  <hour>11</hour>
- <minute>00</minute>
- <timeStamp>20210608110000</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 11:00 EDT</textSummary>
+ <minute>39</minute>
+ <timeStamp>20210608113900</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 11:39 EDT</textSummary>
  </dateTime>
  <hourlyForecast dateTimeUTC="202106081600">
- <condition>Chance of showers or thunderstorms</condition>
- <iconCode format="png">19</iconCode>
+ <condition>Showers</condition>
+ <iconCode format="png">12</iconCode>
  <temperature unitType="metric" units="C">24</temperature>
- <lop category="Medium" units="%">60</lop>
+ <lop category="High" units="%">100</lop>
  <windChill unitType="metric"/>
  <humidex unitType="metric">32</humidex>
  <wind>
- <speed unitType="metric" units="km/h">15</speed>
- <direction windDirFull="East">E</direction>
+ <speed unitType="metric" units="km/h">10</speed>
+ <direction windDirFull="Southeast">SE</direction>
  <gust unitType="metric" units="km/h"/>
  </wind>
  </hourlyForecast>
@@ -440,8 +444,8 @@
  <windChill unitType="metric"/>
  <humidex unitType="metric">33</humidex>
  <wind>
- <speed unitType="metric" units="km/h">15</speed>
- <direction windDirFull="East">E</direction>
+ <speed unitType="metric" units="km/h">10</speed>
+ <direction windDirFull="Southeast">SE</direction>
  <gust unitType="metric" units="km/h"/>
  </wind>
  </hourlyForecast>
