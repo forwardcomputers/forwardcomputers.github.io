@@ -5,19 +5,19 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Tuesday">08</day>
- <hour>08</hour>
- <minute>44</minute>
- <timeStamp>20210608084400</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 08:44 UTC</textSummary>
+ <hour>09</hour>
+ <minute>00</minute>
+ <timeStamp>20210608090000</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 09:00 UTC</textSummary>
  </dateTime>
  <dateTime name="xmlCreation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Tuesday">08</day>
- <hour>04</hour>
- <minute>44</minute>
- <timeStamp>20210608044400</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 04:44 EDT</textSummary>
+ <hour>05</hour>
+ <minute>00</minute>
+ <timeStamp>20210608050000</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 05:00 EDT</textSummary>
  </dateTime>
  <location>
  <continent>North America</continent>
@@ -87,20 +87,20 @@
  <dateTime name="forecastIssue" zone="UTC" UTCOffset="0">
  <year>2021</year>
  <month name="June">06</month>
- <day name="Monday">07</day>
- <hour>22</hour>
- <minute>59</minute>
- <timeStamp>20210607225900</timeStamp>
- <textSummary>Monday June 07, 2021 at 22:59 UTC</textSummary>
+ <day name="Tuesday">08</day>
+ <hour>09</hour>
+ <minute>00</minute>
+ <timeStamp>20210608090000</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 09:00 UTC</textSummary>
  </dateTime>
  <dateTime name="forecastIssue" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
- <day name="Monday">07</day>
- <hour>18</hour>
- <minute>59</minute>
- <timeStamp>20210607185900</timeStamp>
- <textSummary>Monday June 07, 2021 at 18:59 EDT</textSummary>
+ <day name="Tuesday">08</day>
+ <hour>05</hour>
+ <minute>00</minute>
+ <timeStamp>20210608050000</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 05:00 EDT</textSummary>
  </dateTime>
  <regionalNormals>
  <textSummary>Low 13. High 23.</textSummary>
@@ -108,36 +108,13 @@
  <temperature unitType="metric" units="C" class="low">13</temperature>
  </regionalNormals>
  <forecast>
- <period textForecastName="Tonight">Monday night</period>
- <textSummary>Mainly cloudy with 30 percent chance of showers. Risk of a thunderstorm overnight. Low 21.</textSummary>
+ <period textForecastName="Today">Tuesday</period>
+ <textSummary>Cloudy with 60 percent chance of showers or thunderstorms. High 28. Humidex 36. UV index 5 or moderate.</textSummary>
  <cloudPrecip>
- <textSummary>Mainly cloudy with 30 percent chance of showers. Risk of a thunderstorm overnight.</textSummary>
+ <textSummary>Cloudy with 60 percent chance of showers or thunderstorms.</textSummary>
  </cloudPrecip>
  <abbreviatedForecast>
- <iconCode format="gif">39</iconCode>
- <pop units="%">30</pop>
- <textSummary>Chance of showers</textSummary>
- </abbreviatedForecast>
- <temperatures>
- <textSummary>Low 21.</textSummary>
- <temperature unitType="metric" units="C" class="low">21</temperature>
- </temperatures>
- <winds/>
- <humidex/>
- <precipitation>
- <textSummary/>
- <precipType start="24" end="34">rain</precipType>
- </precipitation>
- <relativeHumidity units="%">75</relativeHumidity>
- </forecast>
- <forecast>
- <period textForecastName="Tuesday">Tuesday</period>
- <textSummary>Mainly cloudy with 60 percent chance of showers or thunderstorms. High 28. Humidex 36. UV index 7 or high.</textSummary>
- <cloudPrecip>
- <textSummary>Mainly cloudy with 60 percent chance of showers or thunderstorms.</textSummary>
- </cloudPrecip>
- <abbreviatedForecast>
- <iconCode format="gif">09</iconCode>
+ <iconCode format="gif">19</iconCode>
  <pop units="%">60</pop>
  <textSummary>Chance of showers or thunderstorms</textSummary>
  </abbreviatedForecast>
@@ -152,19 +129,19 @@
  </humidex>
  <precipitation>
  <textSummary/>
- <precipType start="34" end="46">rain</precipType>
+ <precipType start="9" end="22">rain</precipType>
  </precipitation>
- <uv category="high">
- <index>7</index>
- <textSummary>UV index 7 or high.</textSummary>
+ <uv category="moderate">
+ <index>5</index>
+ <textSummary>UV index 5 or moderate.</textSummary>
  </uv>
  <relativeHumidity units="%">70</relativeHumidity>
  </forecast>
  <forecast>
- <period textForecastName="Tuesday night">Tuesday night</period>
- <textSummary>Mainly cloudy. 30 percent chance of showers early in the evening with risk of a thunderstorm. Low 19.</textSummary>
+ <period textForecastName="Tonight">Tuesday night</period>
+ <textSummary>Partly cloudy. 30 percent chance of showers early this evening with risk of a thunderstorm. Low 20.</textSummary>
  <cloudPrecip>
- <textSummary>Mainly cloudy. 30 percent chance of showers early in the evening with risk of a thunderstorm.</textSummary>
+ <textSummary>Partly cloudy. 30 percent chance of showers early this evening with risk of a thunderstorm.</textSummary>
  </cloudPrecip>
  <abbreviatedForecast>
  <iconCode format="gif">39</iconCode>
@@ -172,39 +149,46 @@
  <textSummary>Chance of showers</textSummary>
  </abbreviatedForecast>
  <temperatures>
- <textSummary>Low 19.</textSummary>
- <temperature unitType="metric" units="C" class="low">19</temperature>
+ <textSummary>Low 20.</textSummary>
+ <temperature unitType="metric" units="C" class="low">20</temperature>
  </temperatures>
  <winds/>
  <humidex/>
  <precipitation>
  <textSummary/>
- <precipType start="46" end="48">rain</precipType>
+ <precipType start="22" end="24">rain</precipType>
  </precipitation>
  <relativeHumidity units="%">80</relativeHumidity>
  </forecast>
  <forecast>
  <period textForecastName="Wednesday">Wednesday</period>
- <textSummary>Cloudy with 60 percent chance of showers. High 26.</textSummary>
+ <textSummary>A mix of sun and cloud. 30 percent chance of showers in the afternoon. High 30. Humidex 37. UV index 9 or very high.</textSummary>
  <cloudPrecip>
- <textSummary>Cloudy with 60 percent chance of showers.</textSummary>
+ <textSummary>A mix of sun and cloud. 30 percent chance of showers in the afternoon.</textSummary>
  </cloudPrecip>
  <abbreviatedForecast>
- <iconCode format="gif">12</iconCode>
- <pop units="%">60</pop>
+ <iconCode format="gif">06</iconCode>
+ <pop units="%">30</pop>
  <textSummary>Chance of showers</textSummary>
  </abbreviatedForecast>
  <temperatures>
- <textSummary>High 26.</textSummary>
- <temperature unitType="metric" units="C" class="high">26</temperature>
+ <textSummary>High 30.</textSummary>
+ <temperature unitType="metric" units="C" class="high">30</temperature>
  </temperatures>
  <winds/>
- <humidex/>
+ <humidex>
+ <calculated unitType="metric">37</calculated>
+ <textSummary>Humidex 37.</textSummary>
+ </humidex>
  <precipitation>
  <textSummary/>
- <precipType start="66" end="70">rain</precipType>
+ <precipType start="40" end="46">rain</precipType>
  </precipitation>
- <relativeHumidity units="%">70</relativeHumidity>
+ <uv category="very high">
+ <index>9</index>
+ <textSummary>UV index 9 or very high.</textSummary>
+ </uv>
+ <relativeHumidity units="%">60</relativeHumidity>
  </forecast>
  <forecast>
  <period textForecastName="Wednesday night">Wednesday night</period>
@@ -225,7 +209,7 @@
  <humidex/>
  <precipitation>
  <textSummary/>
- <precipType start="70" end="72">rain</precipType>
+ <precipType start="46" end="48">rain</precipType>
  </precipitation>
  <relativeHumidity units="%">70</relativeHumidity>
  </forecast>
@@ -271,7 +255,7 @@
  <humidex/>
  <precipitation>
  <textSummary/>
- <precipType start="102" end="106">rain</precipType>
+ <precipType start="78" end="82">rain</precipType>
  </precipitation>
  <relativeHumidity units="%">75</relativeHumidity>
  </forecast>
@@ -294,7 +278,7 @@
  <humidex/>
  <precipitation>
  <textSummary/>
- <precipType start="106" end="108">rain</precipType>
+ <precipType start="82" end="84">rain</precipType>
  </precipitation>
  <relativeHumidity units="%">75</relativeHumidity>
  </forecast>
@@ -390,56 +374,76 @@
  </precipitation>
  <relativeHumidity units="%">55</relativeHumidity>
  </forecast>
+ <forecast>
+ <period textForecastName="Sunday night">Sunday night</period>
+ <textSummary>Clear. Low 15.</textSummary>
+ <cloudPrecip>
+ <textSummary>Clear.</textSummary>
+ </cloudPrecip>
+ <abbreviatedForecast>
+ <iconCode format="gif">30</iconCode>
+ <pop units="%"/>
+ <textSummary>Clear</textSummary>
+ </abbreviatedForecast>
+ <temperatures>
+ <textSummary>Low 15.</textSummary>
+ <temperature unitType="metric" units="C" class="low">15</temperature>
+ </temperatures>
+ <winds/>
+ <humidex/>
+ <precipitation>
+ <textSummary/>
+ <precipType start="" end=""/>
+ </precipitation>
+ <relativeHumidity units="%">70</relativeHumidity>
+ </forecast>
+ <forecast>
+ <period textForecastName="Monday">Monday</period>
+ <textSummary>Sunny. High 23.</textSummary>
+ <cloudPrecip>
+ <textSummary>Sunny.</textSummary>
+ </cloudPrecip>
+ <abbreviatedForecast>
+ <iconCode format="gif">00</iconCode>
+ <pop units="%"/>
+ <textSummary>Sunny</textSummary>
+ </abbreviatedForecast>
+ <temperatures>
+ <textSummary>High 23.</textSummary>
+ <temperature unitType="metric" units="C" class="high">23</temperature>
+ </temperatures>
+ <winds/>
+ <humidex/>
+ <precipitation>
+ <textSummary/>
+ <precipType start="" end=""/>
+ </precipitation>
+ <relativeHumidity units="%">50</relativeHumidity>
+ </forecast>
  </forecastGroup>
  <hourlyForecastGroup>
  <dateTime name="forecastIssue" zone="UTC" UTCOffset="0">
  <year>2021</year>
  <month name="June">06</month>
- <day name="Monday">07</day>
- <hour>22</hour>
- <minute>59</minute>
- <timeStamp>20210607225900</timeStamp>
- <textSummary>Monday June 07, 2021 at 22:59 UTC</textSummary>
+ <day name="Tuesday">08</day>
+ <hour>09</hour>
+ <minute>00</minute>
+ <timeStamp>20210608090000</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 09:00 UTC</textSummary>
  </dateTime>
  <dateTime name="forecastIssue" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
- <day name="Monday">07</day>
- <hour>18</hour>
- <minute>59</minute>
- <timeStamp>20210607185900</timeStamp>
- <textSummary>Monday June 07, 2021 at 18:59 EDT</textSummary>
+ <day name="Tuesday">08</day>
+ <hour>05</hour>
+ <minute>00</minute>
+ <timeStamp>20210608050000</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 05:00 EDT</textSummary>
  </dateTime>
- <hourlyForecast dateTimeUTC="202106080900">
- <condition>Chance of showers. Risk of thunderstorms</condition>
- <iconCode format="png">39</iconCode>
- <temperature unitType="metric" units="C">21</temperature>
- <lop category="Low" units="%">30</lop>
- <windChill unitType="metric"/>
- <humidex unitType="metric">26</humidex>
- <wind>
- <speed unitType="metric" units="km/h">5</speed>
- <direction windDirFull="Variable direction">VR</direction>
- <gust unitType="metric" units="km/h"/>
- </wind>
- </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106081000">
  <condition>Chance of showers. Risk of thunderstorms</condition>
- <iconCode format="png">09</iconCode>
- <temperature unitType="metric" units="C">22</temperature>
- <lop category="Low" units="%">40</lop>
- <windChill unitType="metric"/>
- <humidex unitType="metric">27</humidex>
- <wind>
- <speed unitType="metric" units="km/h">5</speed>
- <direction windDirFull="Variable direction">VR</direction>
- <gust unitType="metric" units="km/h"/>
- </wind>
- </hourlyForecast>
- <hourlyForecast dateTimeUTC="202106081100">
- <condition>Chance of showers. Risk of thunderstorms</condition>
- <iconCode format="png">09</iconCode>
- <temperature unitType="metric" units="C">24</temperature>
+ <iconCode format="png">19</iconCode>
+ <temperature unitType="metric" units="C">23</temperature>
  <lop category="Low" units="%">40</lop>
  <windChill unitType="metric"/>
  <humidex unitType="metric">30</humidex>
@@ -449,13 +453,26 @@
  <gust unitType="metric" units="km/h"/>
  </wind>
  </hourlyForecast>
- <hourlyForecast dateTimeUTC="202106081200">
+ <hourlyForecast dateTimeUTC="202106081100">
  <condition>Chance of showers. Risk of thunderstorms</condition>
- <iconCode format="png">09</iconCode>
- <temperature unitType="metric" units="C">25</temperature>
+ <iconCode format="png">19</iconCode>
+ <temperature unitType="metric" units="C">22</temperature>
  <lop category="Low" units="%">40</lop>
  <windChill unitType="metric"/>
- <humidex unitType="metric">31</humidex>
+ <humidex unitType="metric">29</humidex>
+ <wind>
+ <speed unitType="metric" units="km/h">5</speed>
+ <direction windDirFull="Variable direction">VR</direction>
+ <gust unitType="metric" units="km/h"/>
+ </wind>
+ </hourlyForecast>
+ <hourlyForecast dateTimeUTC="202106081200">
+ <condition>Chance of showers. Risk of thunderstorms</condition>
+ <iconCode format="png">19</iconCode>
+ <temperature unitType="metric" units="C">22</temperature>
+ <lop category="Low" units="%">40</lop>
+ <windChill unitType="metric"/>
+ <humidex unitType="metric">29</humidex>
  <wind>
  <speed unitType="metric" units="km/h">5</speed>
  <direction windDirFull="Variable direction">VR</direction>
@@ -464,11 +481,11 @@
  </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106081300">
  <condition>Chance of showers. Risk of thunderstorms</condition>
- <iconCode format="png">09</iconCode>
- <temperature unitType="metric" units="C">26</temperature>
+ <iconCode format="png">19</iconCode>
+ <temperature unitType="metric" units="C">22</temperature>
  <lop category="Low" units="%">40</lop>
  <windChill unitType="metric"/>
- <humidex unitType="metric">32</humidex>
+ <humidex unitType="metric">28</humidex>
  <wind>
  <speed unitType="metric" units="km/h">5</speed>
  <direction windDirFull="Variable direction">VR</direction>
@@ -478,10 +495,10 @@
  <hourlyForecast dateTimeUTC="202106081400">
  <condition>Chance of showers. Risk of thunderstorms</condition>
  <iconCode format="png">19</iconCode>
- <temperature unitType="metric" units="C">26</temperature>
+ <temperature unitType="metric" units="C">22</temperature>
  <lop category="Low" units="%">40</lop>
  <windChill unitType="metric"/>
- <humidex unitType="metric">32</humidex>
+ <humidex unitType="metric">28</humidex>
  <wind>
  <speed unitType="metric" units="km/h">5</speed>
  <direction windDirFull="Variable direction">VR</direction>
@@ -491,91 +508,91 @@
  <hourlyForecast dateTimeUTC="202106081500">
  <condition>Chance of showers. Risk of thunderstorms</condition>
  <iconCode format="png">19</iconCode>
- <temperature unitType="metric" units="C">27</temperature>
+ <temperature unitType="metric" units="C">22</temperature>
  <lop category="Low" units="%">40</lop>
  <windChill unitType="metric"/>
- <humidex unitType="metric">33</humidex>
+ <humidex unitType="metric">27</humidex>
  <wind>
- <speed unitType="metric" units="km/h">5</speed>
- <direction windDirFull="Variable direction">VR</direction>
+ <speed unitType="metric" units="km/h">15</speed>
+ <direction windDirFull="South">S</direction>
  <gust unitType="metric" units="km/h"/>
  </wind>
  </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106081600">
  <condition>Chance of showers or thunderstorms</condition>
  <iconCode format="png">19</iconCode>
- <temperature unitType="metric" units="C">27</temperature>
+ <temperature unitType="metric" units="C">24</temperature>
  <lop category="Medium" units="%">60</lop>
  <windChill unitType="metric"/>
- <humidex unitType="metric">33</humidex>
+ <humidex unitType="metric">30</humidex>
  <wind>
- <speed unitType="metric" units="km/h">5</speed>
- <direction windDirFull="Variable direction">VR</direction>
+ <speed unitType="metric" units="km/h">15</speed>
+ <direction windDirFull="South">S</direction>
  <gust unitType="metric" units="km/h"/>
  </wind>
  </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106081700">
  <condition>Chance of showers or thunderstorms</condition>
  <iconCode format="png">19</iconCode>
- <temperature unitType="metric" units="C">27</temperature>
+ <temperature unitType="metric" units="C">25</temperature>
  <lop category="Medium" units="%">60</lop>
  <windChill unitType="metric"/>
- <humidex unitType="metric">33</humidex>
+ <humidex unitType="metric">32</humidex>
  <wind>
- <speed unitType="metric" units="km/h">5</speed>
- <direction windDirFull="Variable direction">VR</direction>
+ <speed unitType="metric" units="km/h">15</speed>
+ <direction windDirFull="South">S</direction>
  <gust unitType="metric" units="km/h"/>
  </wind>
  </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106081800">
  <condition>Chance of showers or thunderstorms</condition>
- <iconCode format="png">19</iconCode>
+ <iconCode format="png">09</iconCode>
  <temperature unitType="metric" units="C">27</temperature>
  <lop category="Medium" units="%">60</lop>
  <windChill unitType="metric"/>
- <humidex unitType="metric">33</humidex>
+ <humidex unitType="metric">35</humidex>
  <wind>
- <speed unitType="metric" units="km/h">5</speed>
- <direction windDirFull="Variable direction">VR</direction>
+ <speed unitType="metric" units="km/h">15</speed>
+ <direction windDirFull="South">S</direction>
  <gust unitType="metric" units="km/h"/>
  </wind>
  </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106081900">
  <condition>Chance of showers or thunderstorms</condition>
- <iconCode format="png">19</iconCode>
+ <iconCode format="png">09</iconCode>
  <temperature unitType="metric" units="C">27</temperature>
  <lop category="Medium" units="%">60</lop>
  <windChill unitType="metric"/>
- <humidex unitType="metric">34</humidex>
+ <humidex unitType="metric">35</humidex>
  <wind>
- <speed unitType="metric" units="km/h">5</speed>
- <direction windDirFull="Variable direction">VR</direction>
+ <speed unitType="metric" units="km/h">15</speed>
+ <direction windDirFull="South">S</direction>
  <gust unitType="metric" units="km/h"/>
  </wind>
  </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106082000">
  <condition>Chance of showers or thunderstorms</condition>
- <iconCode format="png">19</iconCode>
- <temperature unitType="metric" units="C">28</temperature>
+ <iconCode format="png">09</iconCode>
+ <temperature unitType="metric" units="C">27</temperature>
  <lop category="Medium" units="%">60</lop>
  <windChill unitType="metric"/>
- <humidex unitType="metric">36</humidex>
+ <humidex unitType="metric">35</humidex>
  <wind>
- <speed unitType="metric" units="km/h">10</speed>
- <direction windDirFull="Southwest">SW</direction>
+ <speed unitType="metric" units="km/h">15</speed>
+ <direction windDirFull="South">S</direction>
  <gust unitType="metric" units="km/h"/>
  </wind>
  </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106082100">
  <condition>Chance of showers or thunderstorms</condition>
  <iconCode format="png">09</iconCode>
- <temperature unitType="metric" units="C">28</temperature>
+ <temperature unitType="metric" units="C">27</temperature>
  <lop category="Medium" units="%">60</lop>
  <windChill unitType="metric"/>
- <humidex unitType="metric">36</humidex>
+ <humidex unitType="metric">35</humidex>
  <wind>
- <speed unitType="metric" units="km/h">5</speed>
- <direction windDirFull="Variable direction">VR</direction>
+ <speed unitType="metric" units="km/h">10</speed>
+ <direction windDirFull="Southwest">SW</direction>
  <gust unitType="metric" units="km/h"/>
  </wind>
  </hourlyForecast>
@@ -587,92 +604,131 @@
  <windChill unitType="metric"/>
  <humidex unitType="metric">35</humidex>
  <wind>
- <speed unitType="metric" units="km/h">5</speed>
- <direction windDirFull="Variable direction">VR</direction>
+ <speed unitType="metric" units="km/h">10</speed>
+ <direction windDirFull="Southwest">SW</direction>
  <gust unitType="metric" units="km/h"/>
  </wind>
  </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106082300">
  <condition>Chance of showers. Risk of thunderstorms</condition>
  <iconCode format="png">09</iconCode>
- <temperature unitType="metric" units="C">25</temperature>
+ <temperature unitType="metric" units="C">28</temperature>
  <lop category="Low" units="%">30</lop>
  <windChill unitType="metric"/>
- <humidex unitType="metric">33</humidex>
+ <humidex unitType="metric">36</humidex>
  <wind>
- <speed unitType="metric" units="km/h">5</speed>
- <direction windDirFull="Variable direction">VR</direction>
+ <speed unitType="metric" units="km/h">10</speed>
+ <direction windDirFull="Southwest">SW</direction>
  <gust unitType="metric" units="km/h"/>
  </wind>
  </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106090000">
- <condition>Mainly cloudy</condition>
- <iconCode format="png">03</iconCode>
+ <condition>A mix of sun and cloud</condition>
+ <iconCode format="png">02</iconCode>
+ <temperature unitType="metric" units="C">28</temperature>
+ <lop category="Low" units="%">20</lop>
+ <windChill unitType="metric"/>
+ <humidex unitType="metric">36</humidex>
+ <wind>
+ <speed unitType="metric" units="km/h">10</speed>
+ <direction windDirFull="Southwest">SW</direction>
+ <gust unitType="metric" units="km/h"/>
+ </wind>
+ </hourlyForecast>
+ <hourlyForecast dateTimeUTC="202106090100">
+ <condition>Partly cloudy</condition>
+ <iconCode format="png">32</iconCode>
+ <temperature unitType="metric" units="C">27</temperature>
+ <lop category="Low" units="%">20</lop>
+ <windChill unitType="metric"/>
+ <humidex unitType="metric">35</humidex>
+ <wind>
+ <speed unitType="metric" units="km/h">10</speed>
+ <direction windDirFull="Southwest">SW</direction>
+ <gust unitType="metric" units="km/h"/>
+ </wind>
+ </hourlyForecast>
+ <hourlyForecast dateTimeUTC="202106090200">
+ <condition>Partly cloudy</condition>
+ <iconCode format="png">32</iconCode>
+ <temperature unitType="metric" units="C">25</temperature>
+ <lop category="Low" units="%">20</lop>
+ <windChill unitType="metric"/>
+ <humidex unitType="metric">33</humidex>
+ <wind>
+ <speed unitType="metric" units="km/h">10</speed>
+ <direction windDirFull="Southwest">SW</direction>
+ <gust unitType="metric" units="km/h"/>
+ </wind>
+ </hourlyForecast>
+ <hourlyForecast dateTimeUTC="202106090300">
+ <condition>Partly cloudy</condition>
+ <iconCode format="png">32</iconCode>
  <temperature unitType="metric" units="C">24</temperature>
  <lop category="Low" units="%">20</lop>
  <windChill unitType="metric"/>
  <humidex unitType="metric">32</humidex>
  <wind>
- <speed unitType="metric" units="km/h">5</speed>
- <direction windDirFull="Variable direction">VR</direction>
- <gust unitType="metric" units="km/h"/>
- </wind>
- </hourlyForecast>
- <hourlyForecast dateTimeUTC="202106090100">
- <condition>Mainly cloudy</condition>
- <iconCode format="png">33</iconCode>
- <temperature unitType="metric" units="C">23</temperature>
- <lop category="Low" units="%">20</lop>
- <windChill unitType="metric"/>
- <humidex unitType="metric">31</humidex>
- <wind>
- <speed unitType="metric" units="km/h">5</speed>
- <direction windDirFull="Variable direction">VR</direction>
- <gust unitType="metric" units="km/h"/>
- </wind>
- </hourlyForecast>
- <hourlyForecast dateTimeUTC="202106090200">
- <condition>Mainly cloudy</condition>
- <iconCode format="png">33</iconCode>
- <temperature unitType="metric" units="C">23</temperature>
- <lop category="Low" units="%">20</lop>
- <windChill unitType="metric"/>
- <humidex unitType="metric">31</humidex>
- <wind>
- <speed unitType="metric" units="km/h">5</speed>
- <direction windDirFull="Variable direction">VR</direction>
- <gust unitType="metric" units="km/h"/>
- </wind>
- </hourlyForecast>
- <hourlyForecast dateTimeUTC="202106090300">
- <condition>Mainly cloudy</condition>
- <iconCode format="png">33</iconCode>
- <temperature unitType="metric" units="C">22</temperature>
- <lop category="Low" units="%">20</lop>
- <windChill unitType="metric"/>
- <humidex unitType="metric">30</humidex>
- <wind>
- <speed unitType="metric" units="km/h">5</speed>
- <direction windDirFull="Variable direction">VR</direction>
+ <speed unitType="metric" units="km/h">10</speed>
+ <direction windDirFull="Southwest">SW</direction>
  <gust unitType="metric" units="km/h"/>
  </wind>
  </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106090400">
- <condition>Mainly cloudy</condition>
- <iconCode format="png">33</iconCode>
- <temperature unitType="metric" units="C">21</temperature>
+ <condition>Partly cloudy</condition>
+ <iconCode format="png">32</iconCode>
+ <temperature unitType="metric" units="C">23</temperature>
  <lop category="Low" units="%">20</lop>
  <windChill unitType="metric"/>
- <humidex unitType="metric">28</humidex>
+ <humidex unitType="metric">30</humidex>
+ <wind>
+ <speed unitType="metric" units="km/h">10</speed>
+ <direction windDirFull="Southwest">SW</direction>
+ <gust unitType="metric" units="km/h"/>
+ </wind>
+ </hourlyForecast>
+ <hourlyForecast dateTimeUTC="202106090500">
+ <condition>Partly cloudy</condition>
+ <iconCode format="png">32</iconCode>
+ <temperature unitType="metric" units="C">23</temperature>
+ <lop category="Low" units="%">20</lop>
+ <windChill unitType="metric"/>
+ <humidex unitType="metric">29</humidex>
+ <wind>
+ <speed unitType="metric" units="km/h">10</speed>
+ <direction windDirFull="Southwest">SW</direction>
+ <gust unitType="metric" units="km/h"/>
+ </wind>
+ </hourlyForecast>
+ <hourlyForecast dateTimeUTC="202106090600">
+ <condition>A few clouds</condition>
+ <iconCode format="png">31</iconCode>
+ <temperature unitType="metric" units="C">22</temperature>
+ <lop category="Low" units="%">20</lop>
+ <windChill unitType="metric"/>
+ <humidex unitType="metric">27</humidex>
  <wind>
  <speed unitType="metric" units="km/h">5</speed>
  <direction windDirFull="Variable direction">VR</direction>
  <gust unitType="metric" units="km/h"/>
  </wind>
  </hourlyForecast>
- <hourlyForecast dateTimeUTC="202106090500">
- <condition>Mainly cloudy</condition>
- <iconCode format="png">33</iconCode>
+ <hourlyForecast dateTimeUTC="202106090700">
+ <condition>A few clouds</condition>
+ <iconCode format="png">31</iconCode>
+ <temperature unitType="metric" units="C">21</temperature>
+ <lop category="Low" units="%">20</lop>
+ <windChill unitType="metric"/>
+ <humidex unitType="metric">26</humidex>
+ <wind>
+ <speed unitType="metric" units="km/h">5</speed>
+ <direction windDirFull="Variable direction">VR</direction>
+ <gust unitType="metric" units="km/h"/>
+ </wind>
+ </hourlyForecast>
+ <hourlyForecast dateTimeUTC="202106090800">
+ <condition>A few clouds</condition>
+ <iconCode format="png">31</iconCode>
  <temperature unitType="metric" units="C">21</temperature>
  <lop category="Low" units="%">20</lop>
  <windChill unitType="metric"/>
@@ -683,39 +739,13 @@
  <gust unitType="metric" units="km/h"/>
  </wind>
  </hourlyForecast>
- <hourlyForecast dateTimeUTC="202106090600">
- <condition>Mainly cloudy</condition>
- <iconCode format="png">33</iconCode>
+ <hourlyForecast dateTimeUTC="202106090900">
+ <condition>A few clouds</condition>
+ <iconCode format="png">31</iconCode>
  <temperature unitType="metric" units="C">20</temperature>
  <lop category="Low" units="%">20</lop>
  <windChill unitType="metric"/>
- <humidex unitType="metric">25</humidex>
- <wind>
- <speed unitType="metric" units="km/h">5</speed>
- <direction windDirFull="Variable direction">VR</direction>
- <gust unitType="metric" units="km/h"/>
- </wind>
- </hourlyForecast>
- <hourlyForecast dateTimeUTC="202106090700">
- <condition>Mainly cloudy</condition>
- <iconCode format="png">33</iconCode>
- <temperature unitType="metric" units="C">20</temperature>
- <lop category="Low" units="%">20</lop>
- <windChill unitType="metric"/>
- <humidex unitType="metric">25</humidex>
- <wind>
- <speed unitType="metric" units="km/h">5</speed>
- <direction windDirFull="Variable direction">VR</direction>
- <gust unitType="metric" units="km/h"/>
- </wind>
- </hourlyForecast>
- <hourlyForecast dateTimeUTC="202106090800">
- <condition>Mainly cloudy</condition>
- <iconCode format="png">33</iconCode>
- <temperature unitType="metric" units="C">19</temperature>
- <lop category="Low" units="%">20</lop>
- <windChill unitType="metric"/>
- <humidex/>
+ <humidex unitType="metric">26</humidex>
  <wind>
  <speed unitType="metric" units="km/h">5</speed>
  <direction windDirFull="Variable direction">VR</direction>
