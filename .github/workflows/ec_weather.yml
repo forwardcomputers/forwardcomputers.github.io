@@ -1,8 +1,8 @@
 name: EC Weather
 
 on:
-  schedule:
-    - cron:  '20,50 * * * *'
+#  schedule:
+#    - cron:  '5/15 * * * *'
   workflow_dispatch:
 
 jobs:
