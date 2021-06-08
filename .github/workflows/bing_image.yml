@@ -14,16 +14,23 @@ jobs:
       - name: check out repository
         uses: actions/checkout@v2
 
+      - name: install imagemagic
+        run: sudo apt-get inatall imagemagic
+
       - name: download image
         run: |
           baseURL='https://www.bing.com'
           jsonURL="${baseURL}/HPImageArchive.aspx?format=js&idx=0&n=1"
-          imageURL="${baseURL}"$( curl -s "${jsonURL}" | jq -r '.images[0].urlbase' )_UHD.jpg
-          curl -sLo homepage/images/today.jpg "${imageURL}"
+          jsonData=$(curl -s "${jsonURL}")
+          imageURL="${baseURL}"$( echo "${jsonData}" | jq -r '.images[0].urlbase' )_UHD.jpg
+          imageDesc=$(echo "${jsonData}" | jq -r '.images[0].copyright')
+          curl -sLo homepage/images/today_clean.jpg "${imageURL}"
+          convert -pointsize 65 -background '#00000080' -fill white label:'An indigo bunting on a sunflower (© William Krumpelman/Getty Images)' miff:- | \
+            composite -gravity southeast -geometry +0+3 - homepage/images/today_clean.jpg homepage/images/today.jpg
 
       - name: update readme
         run: |
-          sed -i "s|\(update: \).*$|\1$(date -u)|" homepage/README.md
+          sed -i "s|\(image: \).*$|\1$(date -u)|" homepage/README.md
 
       - name: commit and push
         run: |
