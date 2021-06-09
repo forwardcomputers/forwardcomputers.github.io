@@ -6,18 +6,18 @@
  <month name="June">06</month>
  <day name="Wednesday">09</day>
  <hour>04</hour>
- <minute>50</minute>
- <timeStamp>20210609045000</timeStamp>
- <textSummary>Wednesday June 09, 2021 at 04:50 UTC</textSummary>
+ <minute>53</minute>
+ <timeStamp>20210609045300</timeStamp>
+ <textSummary>Wednesday June 09, 2021 at 04:53 UTC</textSummary>
  </dateTime>
  <dateTime name="xmlCreation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Wednesday">09</day>
  <hour>00</hour>
- <minute>50</minute>
- <timeStamp>20210609005000</timeStamp>
- <textSummary>Wednesday June 09, 2021 at 00:50 EDT</textSummary>
+ <minute>53</minute>
+ <timeStamp>20210609005300</timeStamp>
+ <textSummary>Wednesday June 09, 2021 at 00:53 EDT</textSummary>
  </dateTime>
  <location>
  <continent>North America</continent>
@@ -389,19 +389,6 @@
  <timeStamp>20210608153000</timeStamp>
  <textSummary>Tuesday June 08, 2021 at 15:30 EDT</textSummary>
  </dateTime>
- <hourlyForecast dateTimeUTC="202106090500">
- <condition>Partly cloudy</condition>
- <iconCode format="png">32</iconCode>
- <temperature unitType="metric" units="C">22</temperature>
- <lop category="Low" units="%">20</lop>
- <windChill unitType="metric"/>
- <humidex unitType="metric">28</humidex>
- <wind>
- <speed unitType="metric" units="km/h">5</speed>
- <direction windDirFull="Variable direction">VR</direction>
- <gust unitType="metric" units="km/h"/>
- </wind>
- </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106090600">
  <condition>Partly cloudy</condition>
  <iconCode format="png">32</iconCode>
@@ -698,6 +685,19 @@
  <wind>
  <speed unitType="metric" units="km/h">10</speed>
  <direction windDirFull="Northeast">NE</direction>
+ <gust unitType="metric" units="km/h"/>
+ </wind>
+ </hourlyForecast>
+ <hourlyForecast dateTimeUTC="202106100500">
+ <condition>Partly cloudy</condition>
+ <iconCode format="png">32</iconCode>
+ <temperature unitType="metric" units="C">23</temperature>
+ <lop category="Low" units="%">10</lop>
+ <windChill unitType="metric"/>
+ <humidex unitType="metric">29</humidex>
+ <wind>
+ <speed unitType="metric" units="km/h">5</speed>
+ <direction windDirFull="Variable direction">VR</direction>
  <gust unitType="metric" units="km/h"/>
  </wind>
  </hourlyForecast>
