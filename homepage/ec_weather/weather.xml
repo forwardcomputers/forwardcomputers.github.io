@@ -5,19 +5,19 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Wednesday">09</day>
- <hour>10</hour>
- <minute>50</minute>
- <timeStamp>20210609105000</timeStamp>
- <textSummary>Wednesday June 09, 2021 at 10:50 UTC</textSummary>
+ <hour>11</hour>
+ <minute>00</minute>
+ <timeStamp>20210609110000</timeStamp>
+ <textSummary>Wednesday June 09, 2021 at 11:00 UTC</textSummary>
  </dateTime>
  <dateTime name="xmlCreation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Wednesday">09</day>
- <hour>06</hour>
- <minute>50</minute>
- <timeStamp>20210609065000</timeStamp>
- <textSummary>Wednesday June 09, 2021 at 06:50 EDT</textSummary>
+ <hour>07</hour>
+ <minute>00</minute>
+ <timeStamp>20210609070000</timeStamp>
+ <textSummary>Wednesday June 09, 2021 at 07:00 EDT</textSummary>
  </dateTime>
  <location>
  <continent>North America</continent>
@@ -430,19 +430,6 @@
  <timeStamp>20210609050000</timeStamp>
  <textSummary>Wednesday June 09, 2021 at 05:00 EDT</textSummary>
  </dateTime>
- <hourlyForecast dateTimeUTC="202106091100">
- <condition>A mix of sun and cloud</condition>
- <iconCode format="png">02</iconCode>
- <temperature unitType="metric" units="C">25</temperature>
- <lop category="Low" units="%">20</lop>
- <windChill unitType="metric"/>
- <humidex unitType="metric">33</humidex>
- <wind>
- <speed unitType="metric" units="km/h">15</speed>
- <direction windDirFull="Northeast">NE</direction>
- <gust unitType="metric" units="km/h"/>
- </wind>
- </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106091200">
  <condition>A mix of sun and cloud</condition>
  <iconCode format="png">02</iconCode>
@@ -730,6 +717,19 @@
  </wind>
  </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106101000">
+ <condition>A mix of sun and cloud</condition>
+ <iconCode format="png">02</iconCode>
+ <temperature unitType="metric" units="C">18</temperature>
+ <lop category="Nil" units="%">0</lop>
+ <windChill unitType="metric"/>
+ <humidex/>
+ <wind>
+ <speed unitType="metric" units="km/h">15</speed>
+ <direction windDirFull="Northeast">NE</direction>
+ <gust unitType="metric" units="km/h"/>
+ </wind>
+ </hourlyForecast>
+ <hourlyForecast dateTimeUTC="202106101100">
  <condition>A mix of sun and cloud</condition>
  <iconCode format="png">02</iconCode>
  <temperature unitType="metric" units="C">18</temperature>
