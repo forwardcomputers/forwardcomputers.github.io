@@ -5,19 +5,19 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Wednesday">09</day>
- <hour>05</hour>
- <minute>50</minute>
- <timeStamp>20210609055000</timeStamp>
- <textSummary>Wednesday June 09, 2021 at 05:50 UTC</textSummary>
+ <hour>06</hour>
+ <minute>00</minute>
+ <timeStamp>20210609060000</timeStamp>
+ <textSummary>Wednesday June 09, 2021 at 06:00 UTC</textSummary>
  </dateTime>
  <dateTime name="xmlCreation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Wednesday">09</day>
- <hour>01</hour>
- <minute>50</minute>
- <timeStamp>20210609015000</timeStamp>
- <textSummary>Wednesday June 09, 2021 at 01:50 EDT</textSummary>
+ <hour>02</hour>
+ <minute>00</minute>
+ <timeStamp>20210609020000</timeStamp>
+ <textSummary>Wednesday June 09, 2021 at 02:00 EDT</textSummary>
  </dateTime>
  <location>
  <continent>North America</continent>
@@ -389,19 +389,6 @@
  <timeStamp>20210609014500</timeStamp>
  <textSummary>Wednesday June 09, 2021 at 01:45 EDT</textSummary>
  </dateTime>
- <hourlyForecast dateTimeUTC="202106090600">
- <condition>Partly cloudy</condition>
- <iconCode format="png">32</iconCode>
- <temperature unitType="metric" units="C">21</temperature>
- <lop category="Low" units="%">20</lop>
- <windChill unitType="metric"/>
- <humidex unitType="metric">26</humidex>
- <wind>
- <speed unitType="metric" units="km/h">5</speed>
- <direction windDirFull="Variable direction">VR</direction>
- <gust unitType="metric" units="km/h"/>
- </wind>
- </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106090700">
  <condition>Partly cloudy</condition>
  <iconCode format="png">32</iconCode>
@@ -701,6 +688,19 @@
  <gust unitType="metric" units="km/h"/>
  </wind>
  </hourlyForecast>
+ <hourlyForecast dateTimeUTC="202106100600">
+ <condition>Partly cloudy</condition>
+ <iconCode format="png">32</iconCode>
+ <temperature unitType="metric" units="C">22</temperature>
+ <lop category="Low" units="%">10</lop>
+ <windChill unitType="metric"/>
+ <humidex unitType="metric">27</humidex>
+ <wind>
+ <speed unitType="metric" units="km/h">10</speed>
+ <direction windDirFull="East">E</direction>
+ <gust unitType="metric" units="km/h"/>
+ </wind>
+ </hourlyForecast>
  </hourlyForecastGroup>
  <yesterdayConditions>
  <temperature unitType="metric" units="C" class="high">31.8</temperature>
@@ -747,14 +747,14 @@
  </dateTime>
  </riseSet>
  <almanac>
- <temperature class="extremeMax" period="1938-2013" unitType="metric" units="C" year="2011">33.4</temperature>
- <temperature class="extremeMin" period="1938-2013" unitType="metric" units="C" year="1949">0.6</temperature>
- <temperature class="normalMax" unitType="metric" units="C">22.7</temperature>
- <temperature class="normalMin" unitType="metric" units="C">10.8</temperature>
- <temperature class="normalMean" unitType="metric" units="C">16.8</temperature>
- <precipitation class="extremeRainfall" period="1938-2013" unitType="metric" units="mm" year="2003">17.6</precipitation>
+ <temperature class="extremeMax" period="1938-2013" unitType="metric" units="C" year="2008">34.1</temperature>
+ <temperature class="extremeMin" period="1938-2013" unitType="metric" units="C" year="1980">2.0</temperature>
+ <temperature class="normalMax" unitType="metric" units="C">22.9</temperature>
+ <temperature class="normalMin" unitType="metric" units="C">11.0</temperature>
+ <temperature class="normalMean" unitType="metric" units="C">17.0</temperature>
+ <precipitation class="extremeRainfall" period="1938-2013" unitType="metric" units="mm" year="1966">31.5</precipitation>
  <precipitation class="extremeSnowfall" period="1938-2013" unitType="metric" units="cm" year="1938">0.0</precipitation>
- <precipitation class="extremePrecipitation" period="1938-2013" unitType="metric" units="mm" year="2003">17.6</precipitation>
+ <precipitation class="extremePrecipitation" period="1938-2013" unitType="metric" units="mm" year="1966">31.5</precipitation>
  <precipitation class="extremeSnowOnGround" period="1955-2013" unitType="metric" units="cm" year="1955">0.0</precipitation>
  <pop units="%">36.0</pop>
  </almanac>
