@@ -5,19 +5,19 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Wednesday">09</day>
- <hour>03</hour>
- <minute>50</minute>
- <timeStamp>20210609035000</timeStamp>
- <textSummary>Wednesday June 09, 2021 at 03:50 UTC</textSummary>
+ <hour>04</hour>
+ <minute>20</minute>
+ <timeStamp>20210609042000</timeStamp>
+ <textSummary>Wednesday June 09, 2021 at 04:20 UTC</textSummary>
  </dateTime>
  <dateTime name="xmlCreation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
- <day name="Tuesday">08</day>
- <hour>23</hour>
- <minute>50</minute>
- <timeStamp>20210608235000</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 23:50 EDT</textSummary>
+ <day name="Wednesday">09</day>
+ <hour>00</hour>
+ <minute>20</minute>
+ <timeStamp>20210609002000</timeStamp>
+ <textSummary>Wednesday June 09, 2021 at 00:20 EDT</textSummary>
  </dateTime>
  <location>
  <continent>North America</continent>
@@ -33,33 +33,33 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Wednesday">09</day>
- <hour>03</hour>
+ <hour>04</hour>
  <minute>00</minute>
- <timeStamp>20210609030000</timeStamp>
- <textSummary>Wednesday June 09, 2021 at 03:00 UTC</textSummary>
+ <timeStamp>20210609040000</timeStamp>
+ <textSummary>Wednesday June 09, 2021 at 04:00 UTC</textSummary>
  </dateTime>
  <dateTime name="observation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
- <day name="Tuesday">08</day>
- <hour>23</hour>
+ <day name="Wednesday">09</day>
+ <hour>00</hour>
  <minute>00</minute>
- <timeStamp>20210608230000</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 23:00 EDT</textSummary>
+ <timeStamp>20210609000000</timeStamp>
+ <textSummary>Wednesday June 09, 2021 at 00:00 EDT</textSummary>
  </dateTime>
  <condition>Mostly Cloudy</condition>
  <iconCode format="gif">33</iconCode>
- <temperature unitType="metric" units="C">23.5</temperature>
- <dewpoint unitType="metric" units="C">22.4</dewpoint>
- <humidex unitType="metric">33</humidex>
+ <temperature unitType="metric" units="C">22.6</temperature>
+ <dewpoint unitType="metric" units="C">21.9</dewpoint>
+ <humidex unitType="metric">32</humidex>
  <pressure unitType="metric" units="kPa" change="0.10" tendency="rising">101.7</pressure>
  <visibility unitType="metric" units="km">24.1</visibility>
- <relativeHumidity units="%">94</relativeHumidity>
+ <relativeHumidity units="%">96</relativeHumidity>
  <wind>
- <speed unitType="metric" units="km/h">9</speed>
+ <speed unitType="metric" units="km/h">8</speed>
  <gust unitType="metric" units="km/h"/>
- <direction>WNW</direction>
- <bearing units="degrees">301.0</bearing>
+ <direction>W</direction>
+ <bearing units="degrees">271.0</bearing>
  </wind>
  </currentConditions>
  <forecastGroup>
@@ -732,18 +732,18 @@
  <month name="June">06</month>
  <day name="Thursday">10</day>
  <hour>00</hour>
- <minute>57</minute>
- <timeStamp>20210610005700</timeStamp>
- <textSummary>Thursday June 10, 2021 at 00:57 UTC</textSummary>
+ <minute>58</minute>
+ <timeStamp>20210610005800</timeStamp>
+ <textSummary>Thursday June 10, 2021 at 00:58 UTC</textSummary>
  </dateTime>
  <dateTime name="sunset" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Wednesday">09</day>
  <hour>20</hour>
- <minute>57</minute>
- <timeStamp>20210609205700</timeStamp>
- <textSummary>Wednesday June 09, 2021 at 20:57 EDT</textSummary>
+ <minute>58</minute>
+ <timeStamp>20210609205800</timeStamp>
+ <textSummary>Wednesday June 09, 2021 at 20:58 EDT</textSummary>
  </dateTime>
  </riseSet>
  <almanac>
