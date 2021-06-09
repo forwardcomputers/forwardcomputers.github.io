@@ -5,19 +5,19 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Wednesday">09</day>
- <hour>00</hour>
- <minute>50</minute>
- <timeStamp>20210609005000</timeStamp>
- <textSummary>Wednesday June 09, 2021 at 00:50 UTC</textSummary>
+ <hour>01</hour>
+ <minute>20</minute>
+ <timeStamp>20210609012000</timeStamp>
+ <textSummary>Wednesday June 09, 2021 at 01:20 UTC</textSummary>
  </dateTime>
  <dateTime name="xmlCreation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Tuesday">08</day>
- <hour>20</hour>
- <minute>50</minute>
- <timeStamp>20210608205000</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 20:50 EDT</textSummary>
+ <hour>21</hour>
+ <minute>20</minute>
+ <timeStamp>20210608212000</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 21:20 EDT</textSummary>
  </dateTime>
  <location>
  <continent>North America</continent>
@@ -27,24 +27,24 @@
  <region>City of Toronto</region>
  </location>
  <warnings url="http://weather.gc.ca/warnings/report_e.html?on61">
- <event type="statement" priority="low" description="SPECIAL WEATHER STATEMENT ">
+ <event type="ended" priority="low" description="SPECIAL WEATHER STATEMENT ENDED">
  <dateTime name="eventIssue" zone="UTC" UTCOffset="0">
  <year>2021</year>
  <month name="June">06</month>
- <day name="Tuesday">08</day>
- <hour>23</hour>
- <minute>00</minute>
- <timeStamp>20210608230000</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 23:00 UTC</textSummary>
+ <day name="Wednesday">09</day>
+ <hour>01</hour>
+ <minute>05</minute>
+ <timeStamp>20210609010500</timeStamp>
+ <textSummary>Wednesday June 09, 2021 at 01:05 UTC</textSummary>
  </dateTime>
  <dateTime name="eventIssue" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Tuesday">08</day>
- <hour>19</hour>
- <minute>00</minute>
- <timeStamp>20210608190000</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 19:00 EDT</textSummary>
+ <hour>21</hour>
+ <minute>05</minute>
+ <timeStamp>20210608210500</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 21:05 EDT</textSummary>
  </dateTime>
  </event>
  </warnings>
@@ -54,33 +54,33 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Wednesday">09</day>
- <hour>00</hour>
+ <hour>01</hour>
  <minute>00</minute>
- <timeStamp>20210609000000</timeStamp>
- <textSummary>Wednesday June 09, 2021 at 00:00 UTC</textSummary>
+ <timeStamp>20210609010000</timeStamp>
+ <textSummary>Wednesday June 09, 2021 at 01:00 UTC</textSummary>
  </dateTime>
  <dateTime name="observation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Tuesday">08</day>
- <hour>20</hour>
+ <hour>21</hour>
  <minute>00</minute>
- <timeStamp>20210608200000</timeStamp>
- <textSummary>Tuesday June 08, 2021 at 20:00 EDT</textSummary>
+ <timeStamp>20210608210000</timeStamp>
+ <textSummary>Tuesday June 08, 2021 at 21:00 EDT</textSummary>
  </dateTime>
  <condition>Mostly Cloudy</condition>
- <iconCode format="gif">03</iconCode>
- <temperature unitType="metric" units="C">24.6</temperature>
+ <iconCode format="gif">33</iconCode>
+ <temperature unitType="metric" units="C">23.7</temperature>
  <dewpoint unitType="metric" units="C">21.9</dewpoint>
- <humidex unitType="metric">34</humidex>
+ <humidex unitType="metric">33</humidex>
  <pressure unitType="metric" units="kPa" change="0.01" tendency="rising">101.6</pressure>
  <visibility unitType="metric" units="km">24.1</visibility>
- <relativeHumidity units="%">85</relativeHumidity>
+ <relativeHumidity units="%">89</relativeHumidity>
  <wind>
- <speed unitType="metric" units="km/h">4</speed>
+ <speed unitType="metric" units="km/h">5</speed>
  <gust unitType="metric" units="km/h"/>
- <direction>WSW</direction>
- <bearing units="degrees">257.0</bearing>
+ <direction>SSE</direction>
+ <bearing units="degrees">156.0</bearing>
  </wind>
  </currentConditions>
  <forecastGroup>
