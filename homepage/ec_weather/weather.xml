@@ -6,18 +6,18 @@
  <month name="June">06</month>
  <day name="Wednesday">09</day>
  <hour>22</hour>
- <minute>30</minute>
- <timeStamp>20210609223000</timeStamp>
- <textSummary>Wednesday June 09, 2021 at 22:30 UTC</textSummary>
+ <minute>50</minute>
+ <timeStamp>20210609225000</timeStamp>
+ <textSummary>Wednesday June 09, 2021 at 22:50 UTC</textSummary>
  </dateTime>
  <dateTime name="xmlCreation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Wednesday">09</day>
  <hour>18</hour>
- <minute>30</minute>
- <timeStamp>20210609183000</timeStamp>
- <textSummary>Wednesday June 09, 2021 at 18:30 EDT</textSummary>
+ <minute>50</minute>
+ <timeStamp>20210609185000</timeStamp>
+ <textSummary>Wednesday June 09, 2021 at 18:50 EDT</textSummary>
  </dateTime>
  <location>
  <continent>North America</continent>
@@ -67,19 +67,19 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Wednesday">09</day>
- <hour>19</hour>
- <minute>30</minute>
- <timeStamp>20210609193000</timeStamp>
- <textSummary>Wednesday June 09, 2021 at 19:30 UTC</textSummary>
+ <hour>22</hour>
+ <minute>41</minute>
+ <timeStamp>20210609224100</timeStamp>
+ <textSummary>Wednesday June 09, 2021 at 22:41 UTC</textSummary>
  </dateTime>
  <dateTime name="forecastIssue" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Wednesday">09</day>
- <hour>15</hour>
- <minute>30</minute>
- <timeStamp>20210609153000</timeStamp>
- <textSummary>Wednesday June 09, 2021 at 15:30 EDT</textSummary>
+ <hour>18</hour>
+ <minute>41</minute>
+ <timeStamp>20210609184100</timeStamp>
+ <textSummary>Wednesday June 09, 2021 at 18:41 EDT</textSummary>
  </dateTime>
  <regionalNormals>
  <textSummary>Low 13. High 23.</textSummary>
@@ -88,14 +88,14 @@
  </regionalNormals>
  <forecast>
  <period textForecastName="Tonight">Wednesday night</period>
- <textSummary>Partly cloudy. 40 percent chance of showers early this evening with risk of a thunderstorm. Low 19.</textSummary>
+ <textSummary>A few clouds. Low 19.</textSummary>
  <cloudPrecip>
- <textSummary>Partly cloudy. 40 percent chance of showers early this evening with risk of a thunderstorm.</textSummary>
+ <textSummary>A few clouds.</textSummary>
  </cloudPrecip>
  <abbreviatedForecast>
- <iconCode format="gif">39</iconCode>
- <pop units="%">40</pop>
- <textSummary>Chance of showers</textSummary>
+ <iconCode format="gif">31</iconCode>
+ <pop units="%"/>
+ <textSummary>A few clouds</textSummary>
  </abbreviatedForecast>
  <temperatures>
  <textSummary>Low 19.</textSummary>
@@ -105,7 +105,7 @@
  <humidex/>
  <precipitation>
  <textSummary/>
- <precipType start="19" end="25">rain</precipType>
+ <precipType start="" end=""/>
  </precipitation>
  <relativeHumidity units="%">50</relativeHumidity>
  </forecast>
@@ -410,25 +410,25 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Wednesday">09</day>
- <hour>19</hour>
- <minute>30</minute>
- <timeStamp>20210609193000</timeStamp>
- <textSummary>Wednesday June 09, 2021 at 19:30 UTC</textSummary>
+ <hour>22</hour>
+ <minute>41</minute>
+ <timeStamp>20210609224100</timeStamp>
+ <textSummary>Wednesday June 09, 2021 at 22:41 UTC</textSummary>
  </dateTime>
  <dateTime name="forecastIssue" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Wednesday">09</day>
- <hour>15</hour>
- <minute>30</minute>
- <timeStamp>20210609153000</timeStamp>
- <textSummary>Wednesday June 09, 2021 at 15:30 EDT</textSummary>
+ <hour>18</hour>
+ <minute>41</minute>
+ <timeStamp>20210609184100</timeStamp>
+ <textSummary>Wednesday June 09, 2021 at 18:41 EDT</textSummary>
  </dateTime>
  <hourlyForecast dateTimeUTC="202106092300">
- <condition>Chance of showers. Risk of thunderstorms</condition>
- <iconCode format="png">09</iconCode>
+ <condition>Mainly sunny</condition>
+ <iconCode format="png">01</iconCode>
  <temperature unitType="metric" units="C">27</temperature>
- <lop category="Low" units="%">30</lop>
+ <lop category="Low" units="%">20</lop>
  <windChill unitType="metric"/>
  <humidex unitType="metric">33</humidex>
  <wind>
@@ -438,10 +438,10 @@
  </wind>
  </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106100000">
- <condition>Chance of showers. Risk of thunderstorms</condition>
- <iconCode format="png">09</iconCode>
+ <condition>Mainly sunny</condition>
+ <iconCode format="png">01</iconCode>
  <temperature unitType="metric" units="C">26</temperature>
- <lop category="Low" units="%">30</lop>
+ <lop category="Low" units="%">20</lop>
  <windChill unitType="metric"/>
  <humidex unitType="metric">31</humidex>
  <wind>
@@ -454,7 +454,7 @@
  <condition>A few clouds</condition>
  <iconCode format="png">31</iconCode>
  <temperature unitType="metric" units="C">25</temperature>
- <lop category="Low" units="%">10</lop>
+ <lop category="Nil" units="%">0</lop>
  <windChill unitType="metric"/>
  <humidex unitType="metric">30</humidex>
  <wind>
@@ -467,7 +467,7 @@
  <condition>Partly cloudy</condition>
  <iconCode format="png">32</iconCode>
  <temperature unitType="metric" units="C">25</temperature>
- <lop category="Low" units="%">10</lop>
+ <lop category="Nil" units="%">0</lop>
  <windChill unitType="metric"/>
  <humidex unitType="metric">28</humidex>
  <wind>
@@ -480,7 +480,7 @@
  <condition>Partly cloudy</condition>
  <iconCode format="png">32</iconCode>
  <temperature unitType="metric" units="C">24</temperature>
- <lop category="Low" units="%">10</lop>
+ <lop category="Nil" units="%">0</lop>
  <windChill unitType="metric"/>
  <humidex unitType="metric">27</humidex>
  <wind>
