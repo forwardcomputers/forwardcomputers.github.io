@@ -29,7 +29,7 @@ jobs:
           imageDesc=$(echo "${jsonData}" | jq -r '.images[0].copyright')
           curl -sLo homepage/images/today_clean.jpg "${imageURL}"
           convert -font DejaVu-Sans -pointsize 36 -background '#00000080' -fill white label:"${imageDesc}" miff:- | \
-            composite -gravity south -geometry +0+64 - homepage/images/today_clean.jpg homepage/images/today.jpg
+            composite -gravity south -geometry +0+80 - homepage/images/today_clean.jpg homepage/images/today.jpg
 
       - name: update readme
         run: |
