@@ -6,18 +6,18 @@
  <month name="June">06</month>
  <day name="Wednesday">09</day>
  <hour>15</hour>
- <minute>50</minute>
- <timeStamp>20210609155000</timeStamp>
- <textSummary>Wednesday June 09, 2021 at 15:50 UTC</textSummary>
+ <minute>58</minute>
+ <timeStamp>20210609155800</timeStamp>
+ <textSummary>Wednesday June 09, 2021 at 15:58 UTC</textSummary>
  </dateTime>
  <dateTime name="xmlCreation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Wednesday">09</day>
  <hour>11</hour>
- <minute>50</minute>
- <timeStamp>20210609115000</timeStamp>
- <textSummary>Wednesday June 09, 2021 at 11:50 EDT</textSummary>
+ <minute>58</minute>
+ <timeStamp>20210609115800</timeStamp>
+ <textSummary>Wednesday June 09, 2021 at 11:58 EDT</textSummary>
  </dateTime>
  <location>
  <continent>North America</continent>
@@ -26,7 +26,28 @@
  <name code="s0000458" lat="43.74N" lon="79.37W">Toronto</name>
  <region>City of Toronto</region>
  </location>
- <warnings/>
+ <warnings url="http://weather.gc.ca/warnings/report_e.html?on61">
+ <event type="statement" priority="low" description="SPECIAL WEATHER STATEMENT ">
+ <dateTime name="eventIssue" zone="UTC" UTCOffset="0">
+ <year>2021</year>
+ <month name="June">06</month>
+ <day name="Wednesday">09</day>
+ <hour>15</hour>
+ <minute>51</minute>
+ <timeStamp>20210609155100</timeStamp>
+ <textSummary>Wednesday June 09, 2021 at 15:51 UTC</textSummary>
+ </dateTime>
+ <dateTime name="eventIssue" zone="EDT" UTCOffset="-4">
+ <year>2021</year>
+ <month name="June">06</month>
+ <day name="Wednesday">09</day>
+ <hour>11</hour>
+ <minute>51</minute>
+ <timeStamp>20210609115100</timeStamp>
+ <textSummary>Wednesday June 09, 2021 at 11:51 EDT</textSummary>
+ </dateTime>
+ </event>
+ </warnings>
  <currentConditions>
  <station code="yyz" lat="43.68N" lon="79.63W">Toronto Pearson Int'l Airport</station>
  <dateTime name="observation" zone="UTC" UTCOffset="0">
@@ -430,19 +451,6 @@
  <timeStamp>20210609110000</timeStamp>
  <textSummary>Wednesday June 09, 2021 at 11:00 EDT</textSummary>
  </dateTime>
- <hourlyForecast dateTimeUTC="202106091600">
- <condition>Chance of showers. Risk of thunderstorms</condition>
- <iconCode format="png">09</iconCode>
- <temperature unitType="metric" units="C">29</temperature>
- <lop category="Low" units="%">40</lop>
- <windChill unitType="metric"/>
- <humidex unitType="metric">38</humidex>
- <wind>
- <speed unitType="metric" units="km/h">15</speed>
- <direction windDirFull="North">N</direction>
- <gust unitType="metric" units="km/h"/>
- </wind>
- </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106091700">
  <condition>Chance of showers. Risk of thunderstorms</condition>
  <iconCode format="png">09</iconCode>
@@ -730,6 +738,19 @@
  </wind>
  </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106101500">
+ <condition>Sunny</condition>
+ <iconCode format="png">00</iconCode>
+ <temperature unitType="metric" units="C">21</temperature>
+ <lop category="Nil" units="%">0</lop>
+ <windChill unitType="metric"/>
+ <humidex/>
+ <wind>
+ <speed unitType="metric" units="km/h">20</speed>
+ <direction windDirFull="East">E</direction>
+ <gust unitType="metric" units="km/h"/>
+ </wind>
+ </hourlyForecast>
+ <hourlyForecast dateTimeUTC="202106101600">
  <condition>Sunny</condition>
  <iconCode format="png">00</iconCode>
  <temperature unitType="metric" units="C">21</temperature>
