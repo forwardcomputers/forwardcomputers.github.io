@@ -28,7 +28,7 @@ jobs:
           imageURL="${baseURL}"$( echo "${jsonData}" | jq -r '.images[0].urlbase' )_UHD.jpg
           imageDesc="© "$(echo "${jsonData}" | jq -r '.images[0].copyright')
           curl -sLo homepage/images/today_clean.jpg "${imageURL}"
-          convert -font DejaVu-Sans -pointsize 24 -background '#00000080' -fill white label:"${imageDesc}" miff:- | \
+          convert -font DejaVu-Sans -pointsize 36 -background '#00000080' -fill white label:"${imageDesc}" miff:- | \
             composite -gravity southeast -geometry +0+3 - homepage/images/today_clean.jpg homepage/images/today.jpg
 
       - name: update readme
