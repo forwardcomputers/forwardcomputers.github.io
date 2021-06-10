@@ -6,18 +6,18 @@
  <month name="June">06</month>
  <day name="Thursday">10</day>
  <hour>14</hour>
- <minute>20</minute>
- <timeStamp>20210610142000</timeStamp>
- <textSummary>Thursday June 10, 2021 at 14:20 UTC</textSummary>
+ <minute>30</minute>
+ <timeStamp>20210610143000</timeStamp>
+ <textSummary>Thursday June 10, 2021 at 14:30 UTC</textSummary>
  </dateTime>
  <dateTime name="xmlCreation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Thursday">10</day>
  <hour>10</hour>
- <minute>20</minute>
- <timeStamp>20210610102000</timeStamp>
- <textSummary>Thursday June 10, 2021 at 10:20 EDT</textSummary>
+ <minute>30</minute>
+ <timeStamp>20210610103000</timeStamp>
+ <textSummary>Thursday June 10, 2021 at 10:30 EDT</textSummary>
  </dateTime>
  <location>
  <continent>North America</continent>
@@ -258,18 +258,18 @@
  <textSummary/>
  <precipType start="" end=""/>
  </precipitation>
- <relativeHumidity units="%">55</relativeHumidity>
+ <relativeHumidity units="%">60</relativeHumidity>
  </forecast>
  <forecast>
  <period textForecastName="Saturday night">Saturday night</period>
- <textSummary>Cloudy. Low 16.</textSummary>
+ <textSummary>Cloudy with 60 percent chance of showers. Low 16.</textSummary>
  <cloudPrecip>
- <textSummary>Cloudy.</textSummary>
+ <textSummary>Cloudy with 60 percent chance of showers.</textSummary>
  </cloudPrecip>
  <abbreviatedForecast>
- <iconCode format="gif">10</iconCode>
- <pop units="%"/>
- <textSummary>Cloudy</textSummary>
+ <iconCode format="gif">12</iconCode>
+ <pop units="%">60</pop>
+ <textSummary>Chance of showers</textSummary>
  </abbreviatedForecast>
  <temperatures>
  <textSummary>Low 16.</textSummary>
@@ -279,43 +279,43 @@
  <humidex/>
  <precipitation>
  <textSummary/>
- <precipType start="" end=""/>
+ <precipType start="70" end="75">rain</precipType>
  </precipitation>
  <relativeHumidity units="%">80</relativeHumidity>
  </forecast>
  <forecast>
  <period textForecastName="Sunday">Sunday</period>
- <textSummary>A mix of sun and cloud. High 27.</textSummary>
+ <textSummary>A mix of sun and cloud with 30 percent chance of showers. High 24.</textSummary>
  <cloudPrecip>
- <textSummary>A mix of sun and cloud.</textSummary>
+ <textSummary>A mix of sun and cloud with 30 percent chance of showers.</textSummary>
  </cloudPrecip>
  <abbreviatedForecast>
- <iconCode format="gif">02</iconCode>
- <pop units="%"/>
- <textSummary>A mix of sun and cloud</textSummary>
+ <iconCode format="gif">06</iconCode>
+ <pop units="%">30</pop>
+ <textSummary>Chance of showers</textSummary>
  </abbreviatedForecast>
  <temperatures>
- <textSummary>High 27.</textSummary>
- <temperature unitType="metric" units="C" class="high">27</temperature>
+ <textSummary>High 24.</textSummary>
+ <temperature unitType="metric" units="C" class="high">24</temperature>
  </temperatures>
  <winds/>
  <humidex/>
  <precipitation>
  <textSummary/>
- <precipType start="82" end="94">rain</precipType>
+ <precipType start="84" end="87">rain</precipType>
  </precipitation>
- <relativeHumidity units="%">50</relativeHumidity>
+ <relativeHumidity units="%">55</relativeHumidity>
  </forecast>
  <forecast>
  <period textForecastName="Sunday night">Sunday night</period>
- <textSummary>Cloudy periods. Low 15.</textSummary>
+ <textSummary>Clear. Low 15.</textSummary>
  <cloudPrecip>
- <textSummary>Cloudy periods.</textSummary>
+ <textSummary>Clear.</textSummary>
  </cloudPrecip>
  <abbreviatedForecast>
- <iconCode format="gif">32</iconCode>
+ <iconCode format="gif">30</iconCode>
  <pop units="%"/>
- <textSummary>Cloudy periods</textSummary>
+ <textSummary>Clear</textSummary>
  </abbreviatedForecast>
  <temperatures>
  <textSummary>Low 15.</textSummary>
@@ -331,29 +331,75 @@
  </forecast>
  <forecast>
  <period textForecastName="Monday">Monday</period>
- <textSummary>A mix of sun and cloud with 30 percent chance of showers. High 25.</textSummary>
+ <textSummary>Sunny. High 23.</textSummary>
  <cloudPrecip>
- <textSummary>A mix of sun and cloud with 30 percent chance of showers.</textSummary>
+ <textSummary>Sunny.</textSummary>
  </cloudPrecip>
  <abbreviatedForecast>
- <iconCode format="gif">06</iconCode>
- <pop units="%">30</pop>
- <textSummary>Chance of showers</textSummary>
+ <iconCode format="gif">00</iconCode>
+ <pop units="%"/>
+ <textSummary>Sunny</textSummary>
  </abbreviatedForecast>
  <temperatures>
- <textSummary>High 25.</textSummary>
- <temperature unitType="metric" units="C" class="high">25</temperature>
+ <textSummary>High 23.</textSummary>
+ <temperature unitType="metric" units="C" class="high">23</temperature>
  </temperatures>
  <winds/>
  <humidex/>
  <precipitation>
  <textSummary/>
- <precipType start="106" end="118">rain</precipType>
+ <precipType start="" end=""/>
  </precipitation>
- <relativeHumidity units="%">45</relativeHumidity>
+ <relativeHumidity units="%">50</relativeHumidity>
  </forecast>
  <forecast>
  <period textForecastName="Monday night">Monday night</period>
+ <textSummary>Clear. Low 14.</textSummary>
+ <cloudPrecip>
+ <textSummary>Clear.</textSummary>
+ </cloudPrecip>
+ <abbreviatedForecast>
+ <iconCode format="gif">30</iconCode>
+ <pop units="%"/>
+ <textSummary>Clear</textSummary>
+ </abbreviatedForecast>
+ <temperatures>
+ <textSummary>Low 14.</textSummary>
+ <temperature unitType="metric" units="C" class="low">14</temperature>
+ </temperatures>
+ <winds/>
+ <humidex/>
+ <precipitation>
+ <textSummary/>
+ <precipType start="" end=""/>
+ </precipitation>
+ <relativeHumidity units="%">70</relativeHumidity>
+ </forecast>
+ <forecast>
+ <period textForecastName="Tuesday">Tuesday</period>
+ <textSummary>Sunny. High 21.</textSummary>
+ <cloudPrecip>
+ <textSummary>Sunny.</textSummary>
+ </cloudPrecip>
+ <abbreviatedForecast>
+ <iconCode format="gif">00</iconCode>
+ <pop units="%"/>
+ <textSummary>Sunny</textSummary>
+ </abbreviatedForecast>
+ <temperatures>
+ <textSummary>High 21.</textSummary>
+ <temperature unitType="metric" units="C" class="high">21</temperature>
+ </temperatures>
+ <winds/>
+ <humidex/>
+ <precipitation>
+ <textSummary/>
+ <precipType start="" end=""/>
+ </precipitation>
+ <relativeHumidity units="%">50</relativeHumidity>
+ </forecast>
+ <forecast>
+ <period textForecastName="Tuesday night">Tuesday night</period>
  <textSummary>Clear. Low 13.</textSummary>
  <cloudPrecip>
  <textSummary>Clear.</textSummary>
@@ -376,54 +422,8 @@
  <relativeHumidity units="%">70</relativeHumidity>
  </forecast>
  <forecast>
- <period textForecastName="Tuesday">Tuesday</period>
- <textSummary>Sunny. High 23.</textSummary>
- <cloudPrecip>
- <textSummary>Sunny.</textSummary>
- </cloudPrecip>
- <abbreviatedForecast>
- <iconCode format="gif">00</iconCode>
- <pop units="%"/>
- <textSummary>Sunny</textSummary>
- </abbreviatedForecast>
- <temperatures>
- <textSummary>High 23.</textSummary>
- <temperature unitType="metric" units="C" class="high">23</temperature>
- </temperatures>
- <winds/>
- <humidex/>
- <precipitation>
- <textSummary/>
- <precipType start="" end=""/>
- </precipitation>
- <relativeHumidity units="%">45</relativeHumidity>
- </forecast>
- <forecast>
- <period textForecastName="Tuesday night">Tuesday night</period>
- <textSummary>Clear. Low 11.</textSummary>
- <cloudPrecip>
- <textSummary>Clear.</textSummary>
- </cloudPrecip>
- <abbreviatedForecast>
- <iconCode format="gif">30</iconCode>
- <pop units="%"/>
- <textSummary>Clear</textSummary>
- </abbreviatedForecast>
- <temperatures>
- <textSummary>Low 11.</textSummary>
- <temperature unitType="metric" units="C" class="low">11</temperature>
- </temperatures>
- <winds/>
- <humidex/>
- <precipitation>
- <textSummary/>
- <precipType start="" end=""/>
- </precipitation>
- <relativeHumidity units="%">70</relativeHumidity>
- </forecast>
- <forecast>
  <period textForecastName="Wednesday">Wednesday</period>
- <textSummary>Sunny. High 23.</textSummary>
+ <textSummary>Sunny. High 22.</textSummary>
  <cloudPrecip>
  <textSummary>Sunny.</textSummary>
  </cloudPrecip>
@@ -433,8 +433,8 @@
  <textSummary>Sunny</textSummary>
  </abbreviatedForecast>
  <temperatures>
- <textSummary>High 23.</textSummary>
- <temperature unitType="metric" units="C" class="high">23</temperature>
+ <textSummary>High 22.</textSummary>
+ <temperature unitType="metric" units="C" class="high">22</temperature>
  </temperatures>
  <winds/>
  <humidex/>
@@ -442,7 +442,7 @@
  <textSummary/>
  <precipType start="" end=""/>
  </precipitation>
- <relativeHumidity units="%">40</relativeHumidity>
+ <relativeHumidity units="%">50</relativeHumidity>
  </forecast>
  </forecastGroup>
  <hourlyForecastGroup>
