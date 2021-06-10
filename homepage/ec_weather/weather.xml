@@ -424,19 +424,6 @@
  <timeStamp>20210609184100</timeStamp>
  <textSummary>Wednesday June 09, 2021 at 18:41 EDT</textSummary>
  </dateTime>
- <hourlyForecast dateTimeUTC="202106100700">
- <condition>A few clouds</condition>
- <iconCode format="png">31</iconCode>
- <temperature unitType="metric" units="C">20</temperature>
- <lop category="Nil" units="%">0</lop>
- <windChill unitType="metric"/>
- <humidex/>
- <wind>
- <speed unitType="metric" units="km/h">10</speed>
- <direction windDirFull="Northeast">NE</direction>
- <gust unitType="metric" units="km/h"/>
- </wind>
- </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106100800">
  <condition>A few clouds</condition>
  <iconCode format="png">31</iconCode>
@@ -724,6 +711,19 @@
  </wind>
  </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106110600">
+ <condition>Clear</condition>
+ <iconCode format="png">30</iconCode>
+ <temperature unitType="metric" units="C">17</temperature>
+ <lop category="Nil" units="%">0</lop>
+ <windChill unitType="metric"/>
+ <humidex/>
+ <wind>
+ <speed unitType="metric" units="km/h">10</speed>
+ <direction windDirFull="Northeast">NE</direction>
+ <gust unitType="metric" units="km/h"/>
+ </wind>
+ </hourlyForecast>
+ <hourlyForecast dateTimeUTC="202106110700">
  <condition>Clear</condition>
  <iconCode format="png">30</iconCode>
  <temperature unitType="metric" units="C">17</temperature>
