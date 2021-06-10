@@ -464,19 +464,6 @@
  <timeStamp>20210610050000</timeStamp>
  <textSummary>Thursday June 10, 2021 at 05:00 EDT</textSummary>
  </dateTime>
- <hourlyForecast dateTimeUTC="202106101300">
- <condition>Sunny</condition>
- <iconCode format="png">00</iconCode>
- <temperature unitType="metric" units="C">20</temperature>
- <lop category="Nil" units="%">0</lop>
- <windChill unitType="metric"/>
- <humidex/>
- <wind>
- <speed unitType="metric" units="km/h">10</speed>
- <direction windDirFull="Northeast">NE</direction>
- <gust unitType="metric" units="km/h"/>
- </wind>
- </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106101400">
  <condition>Sunny</condition>
  <iconCode format="png">00</iconCode>
@@ -767,6 +754,19 @@
  <condition>A mix of sun and cloud</condition>
  <iconCode format="png">02</iconCode>
  <temperature unitType="metric" units="C">19</temperature>
+ <lop category="Low" units="%">10</lop>
+ <windChill unitType="metric"/>
+ <humidex/>
+ <wind>
+ <speed unitType="metric" units="km/h">15</speed>
+ <direction windDirFull="Northeast">NE</direction>
+ <gust unitType="metric" units="km/h"/>
+ </wind>
+ </hourlyForecast>
+ <hourlyForecast dateTimeUTC="202106111300">
+ <condition>A mix of sun and cloud</condition>
+ <iconCode format="png">02</iconCode>
+ <temperature unitType="metric" units="C">20</temperature>
  <lop category="Low" units="%">10</lop>
  <windChill unitType="metric"/>
  <humidex/>
