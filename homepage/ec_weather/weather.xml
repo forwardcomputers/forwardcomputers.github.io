@@ -6,18 +6,18 @@
  <month name="June">06</month>
  <day name="Thursday">10</day>
  <hour>14</hour>
- <minute>30</minute>
- <timeStamp>20210610143000</timeStamp>
- <textSummary>Thursday June 10, 2021 at 14:30 UTC</textSummary>
+ <minute>50</minute>
+ <timeStamp>20210610145000</timeStamp>
+ <textSummary>Thursday June 10, 2021 at 14:50 UTC</textSummary>
  </dateTime>
  <dateTime name="xmlCreation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Thursday">10</day>
  <hour>10</hour>
- <minute>30</minute>
- <timeStamp>20210610103000</timeStamp>
- <textSummary>Thursday June 10, 2021 at 10:30 EDT</textSummary>
+ <minute>50</minute>
+ <timeStamp>20210610105000</timeStamp>
+ <textSummary>Thursday June 10, 2021 at 10:50 EDT</textSummary>
  </dateTime>
  <location>
  <continent>North America</continent>
@@ -66,19 +66,19 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Thursday">10</day>
- <hour>09</hour>
+ <hour>15</hour>
  <minute>00</minute>
- <timeStamp>20210610090000</timeStamp>
- <textSummary>Thursday June 10, 2021 at 09:00 UTC</textSummary>
+ <timeStamp>20210610150000</timeStamp>
+ <textSummary>Thursday June 10, 2021 at 15:00 UTC</textSummary>
  </dateTime>
  <dateTime name="forecastIssue" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Thursday">10</day>
- <hour>05</hour>
+ <hour>11</hour>
  <minute>00</minute>
- <timeStamp>20210610050000</timeStamp>
- <textSummary>Thursday June 10, 2021 at 05:00 EDT</textSummary>
+ <timeStamp>20210610110000</timeStamp>
+ <textSummary>Thursday June 10, 2021 at 11:00 EDT</textSummary>
  </dateTime>
  <regionalNormals>
  <textSummary>Low 13. High 24.</textSummary>
@@ -87,7 +87,7 @@
  </regionalNormals>
  <forecast>
  <period textForecastName="Today">Thursday</period>
- <textSummary>Sunny. Wind east 20 km/h becoming light this morning. High 25. UV index 9 or very high.</textSummary>
+ <textSummary>Sunny. Wind east 20 km/h gusting to 40. High 25. UV index 9 or very high.</textSummary>
  <cloudPrecip>
  <textSummary>Sunny.</textSummary>
  </cloudPrecip>
@@ -101,30 +101,12 @@
  <temperature unitType="metric" units="C" class="high">25</temperature>
  </temperatures>
  <winds>
- <textSummary>Wind east 20 km/h becoming light this morning.</textSummary>
- <wind index="1" rank="minor">
- <speed unitType="metric" units="km/h">10</speed>
- <gust unitType="metric" units="km/h">00</gust>
- <direction>NE</direction>
- <bearing units="degrees">04</bearing>
- </wind>
- <wind index="2" rank="major">
+ <textSummary>Wind east 20 km/h gusting to 40.</textSummary>
+ <wind index="1" rank="major">
  <speed unitType="metric" units="km/h">20</speed>
- <gust unitType="metric" units="km/h">00</gust>
+ <gust unitType="metric" units="km/h">40</gust>
  <direction>E</direction>
  <bearing units="degrees">09</bearing>
- </wind>
- <wind index="3" rank="major">
- <speed unitType="metric" units="km/h">15</speed>
- <gust unitType="metric" units="km/h">00</gust>
- <direction>E</direction>
- <bearing units="degrees">09</bearing>
- </wind>
- <wind index="4" rank="minor">
- <speed unitType="metric" units="km/h">05</speed>
- <gust unitType="metric" units="km/h">00</gust>
- <direction>VR</direction>
- <bearing units="degrees">99</bearing>
  </wind>
  </winds>
  <humidex/>
@@ -140,7 +122,7 @@
  </forecast>
  <forecast>
  <period textForecastName="Tonight">Thursday night</period>
- <textSummary>Clear. Low 16.</textSummary>
+ <textSummary>Clear. Wind east 20 km/h gusting to 40 becoming light early this evening. Low 16.</textSummary>
  <cloudPrecip>
  <textSummary>Clear.</textSummary>
  </cloudPrecip>
@@ -153,7 +135,27 @@
  <textSummary>Low 16.</textSummary>
  <temperature unitType="metric" units="C" class="low">16</temperature>
  </temperatures>
- <winds/>
+ <winds>
+ <textSummary>Wind east 20 km/h gusting to 40 becoming light early this evening.</textSummary>
+ <wind index="1" rank="major">
+ <speed unitType="metric" units="km/h">20</speed>
+ <gust unitType="metric" units="km/h">40</gust>
+ <direction>E</direction>
+ <bearing units="degrees">09</bearing>
+ </wind>
+ <wind index="2" rank="minor">
+ <speed unitType="metric" units="km/h">05</speed>
+ <gust unitType="metric" units="km/h">00</gust>
+ <direction>VR</direction>
+ <bearing units="degrees">99</bearing>
+ </wind>
+ <wind index="3" rank="major">
+ <speed unitType="metric" units="km/h">10</speed>
+ <gust unitType="metric" units="km/h">00</gust>
+ <direction>E</direction>
+ <bearing units="degrees">09</bearing>
+ </wind>
+ </winds>
  <humidex/>
  <precipitation>
  <textSummary/>
@@ -163,7 +165,7 @@
  </forecast>
  <forecast>
  <period textForecastName="Friday">Friday</period>
- <textSummary>A mix of sun and cloud. Wind becoming east 20 km/h late in the morning. High 24. UV index 9 or very high.</textSummary>
+ <textSummary>A mix of sun and cloud. Wind becoming east 20 km/h late in the morning. High 25. UV index 9 or very high.</textSummary>
  <cloudPrecip>
  <textSummary>A mix of sun and cloud.</textSummary>
  </cloudPrecip>
@@ -173,8 +175,8 @@
  <textSummary>A mix of sun and cloud</textSummary>
  </abbreviatedForecast>
  <temperatures>
- <textSummary>High 24.</textSummary>
- <temperature unitType="metric" units="C" class="high">24</temperature>
+ <textSummary>High 25.</textSummary>
+ <temperature unitType="metric" units="C" class="high">25</temperature>
  </temperatures>
  <winds>
  <textSummary>Wind becoming east 20 km/h late in the morning.</textSummary>
@@ -450,19 +452,19 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Thursday">10</day>
- <hour>09</hour>
+ <hour>15</hour>
  <minute>00</minute>
- <timeStamp>20210610090000</timeStamp>
- <textSummary>Thursday June 10, 2021 at 09:00 UTC</textSummary>
+ <timeStamp>20210610150000</timeStamp>
+ <textSummary>Thursday June 10, 2021 at 15:00 UTC</textSummary>
  </dateTime>
  <dateTime name="forecastIssue" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Thursday">10</day>
- <hour>05</hour>
+ <hour>11</hour>
  <minute>00</minute>
- <timeStamp>20210610050000</timeStamp>
- <textSummary>Thursday June 10, 2021 at 05:00 EDT</textSummary>
+ <timeStamp>20210610110000</timeStamp>
+ <textSummary>Thursday June 10, 2021 at 11:00 EDT</textSummary>
  </dateTime>
  <hourlyForecast dateTimeUTC="202106101500">
  <condition>Sunny</condition>
@@ -472,9 +474,9 @@
  <windChill unitType="metric"/>
  <humidex/>
  <wind>
- <speed unitType="metric" units="km/h">15</speed>
+ <speed unitType="metric" units="km/h">20</speed>
  <direction windDirFull="East">E</direction>
- <gust unitType="metric" units="km/h"/>
+ <gust unitType="metric" units="km/h">40</gust>
  </wind>
  </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106101600">
@@ -485,9 +487,9 @@
  <windChill unitType="metric"/>
  <humidex/>
  <wind>
- <speed unitType="metric" units="km/h">15</speed>
+ <speed unitType="metric" units="km/h">20</speed>
  <direction windDirFull="East">E</direction>
- <gust unitType="metric" units="km/h"/>
+ <gust unitType="metric" units="km/h">40</gust>
  </wind>
  </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106101700">
@@ -498,9 +500,9 @@
  <windChill unitType="metric"/>
  <humidex/>
  <wind>
- <speed unitType="metric" units="km/h">15</speed>
+ <speed unitType="metric" units="km/h">20</speed>
  <direction windDirFull="East">E</direction>
- <gust unitType="metric" units="km/h"/>
+ <gust unitType="metric" units="km/h">40</gust>
  </wind>
  </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106101800">
@@ -511,9 +513,9 @@
  <windChill unitType="metric"/>
  <humidex/>
  <wind>
- <speed unitType="metric" units="km/h">5</speed>
- <direction windDirFull="Variable direction">VR</direction>
- <gust unitType="metric" units="km/h"/>
+ <speed unitType="metric" units="km/h">20</speed>
+ <direction windDirFull="East">E</direction>
+ <gust unitType="metric" units="km/h">40</gust>
  </wind>
  </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106101900">
@@ -524,9 +526,9 @@
  <windChill unitType="metric"/>
  <humidex/>
  <wind>
- <speed unitType="metric" units="km/h">5</speed>
- <direction windDirFull="Variable direction">VR</direction>
- <gust unitType="metric" units="km/h"/>
+ <speed unitType="metric" units="km/h">20</speed>
+ <direction windDirFull="East">E</direction>
+ <gust unitType="metric" units="km/h">40</gust>
  </wind>
  </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106102000">
@@ -537,9 +539,9 @@
  <windChill unitType="metric"/>
  <humidex/>
  <wind>
- <speed unitType="metric" units="km/h">5</speed>
- <direction windDirFull="Variable direction">VR</direction>
- <gust unitType="metric" units="km/h"/>
+ <speed unitType="metric" units="km/h">20</speed>
+ <direction windDirFull="East">E</direction>
+ <gust unitType="metric" units="km/h">40</gust>
  </wind>
  </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106102100">
@@ -550,9 +552,9 @@
  <windChill unitType="metric"/>
  <humidex/>
  <wind>
- <speed unitType="metric" units="km/h">5</speed>
- <direction windDirFull="Variable direction">VR</direction>
- <gust unitType="metric" units="km/h"/>
+ <speed unitType="metric" units="km/h">20</speed>
+ <direction windDirFull="East">E</direction>
+ <gust unitType="metric" units="km/h">40</gust>
  </wind>
  </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106102200">
@@ -563,9 +565,9 @@
  <windChill unitType="metric"/>
  <humidex/>
  <wind>
- <speed unitType="metric" units="km/h">5</speed>
- <direction windDirFull="Variable direction">VR</direction>
- <gust unitType="metric" units="km/h"/>
+ <speed unitType="metric" units="km/h">20</speed>
+ <direction windDirFull="East">E</direction>
+ <gust unitType="metric" units="km/h">40</gust>
  </wind>
  </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106102300">
