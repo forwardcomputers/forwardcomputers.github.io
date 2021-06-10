@@ -5,19 +5,19 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Thursday">10</day>
- <hour>13</hour>
- <minute>50</minute>
- <timeStamp>20210610135000</timeStamp>
- <textSummary>Thursday June 10, 2021 at 13:50 UTC</textSummary>
+ <hour>14</hour>
+ <minute>00</minute>
+ <timeStamp>20210610140000</timeStamp>
+ <textSummary>Thursday June 10, 2021 at 14:00 UTC</textSummary>
  </dateTime>
  <dateTime name="xmlCreation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Thursday">10</day>
- <hour>09</hour>
- <minute>50</minute>
- <timeStamp>20210610095000</timeStamp>
- <textSummary>Thursday June 10, 2021 at 09:50 EDT</textSummary>
+ <hour>10</hour>
+ <minute>00</minute>
+ <timeStamp>20210610100000</timeStamp>
+ <textSummary>Thursday June 10, 2021 at 10:00 EDT</textSummary>
  </dateTime>
  <location>
  <continent>North America</continent>
@@ -464,19 +464,6 @@
  <timeStamp>20210610050000</timeStamp>
  <textSummary>Thursday June 10, 2021 at 05:00 EDT</textSummary>
  </dateTime>
- <hourlyForecast dateTimeUTC="202106101400">
- <condition>Sunny</condition>
- <iconCode format="png">00</iconCode>
- <temperature unitType="metric" units="C">21</temperature>
- <lop category="Nil" units="%">0</lop>
- <windChill unitType="metric"/>
- <humidex/>
- <wind>
- <speed unitType="metric" units="km/h">10</speed>
- <direction windDirFull="Northeast">NE</direction>
- <gust unitType="metric" units="km/h"/>
- </wind>
- </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106101500">
  <condition>Sunny</condition>
  <iconCode format="png">00</iconCode>
@@ -773,6 +760,19 @@
  <wind>
  <speed unitType="metric" units="km/h">15</speed>
  <direction windDirFull="Northeast">NE</direction>
+ <gust unitType="metric" units="km/h"/>
+ </wind>
+ </hourlyForecast>
+ <hourlyForecast dateTimeUTC="202106111400">
+ <condition>A mix of sun and cloud</condition>
+ <iconCode format="png">02</iconCode>
+ <temperature unitType="metric" units="C">21</temperature>
+ <lop category="Low" units="%">10</lop>
+ <windChill unitType="metric"/>
+ <humidex/>
+ <wind>
+ <speed unitType="metric" units="km/h">15</speed>
+ <direction windDirFull="East">E</direction>
  <gust unitType="metric" units="km/h"/>
  </wind>
  </hourlyForecast>
