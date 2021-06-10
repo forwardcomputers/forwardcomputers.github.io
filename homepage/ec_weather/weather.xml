@@ -5,19 +5,19 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Thursday">10</day>
- <hour>10</hour>
- <minute>50</minute>
- <timeStamp>20210610105000</timeStamp>
- <textSummary>Thursday June 10, 2021 at 10:50 UTC</textSummary>
+ <hour>11</hour>
+ <minute>00</minute>
+ <timeStamp>20210610110000</timeStamp>
+ <textSummary>Thursday June 10, 2021 at 11:00 UTC</textSummary>
  </dateTime>
  <dateTime name="xmlCreation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Thursday">10</day>
- <hour>06</hour>
- <minute>50</minute>
- <timeStamp>20210610065000</timeStamp>
- <textSummary>Thursday June 10, 2021 at 06:50 EDT</textSummary>
+ <hour>07</hour>
+ <minute>00</minute>
+ <timeStamp>20210610070000</timeStamp>
+ <textSummary>Thursday June 10, 2021 at 07:00 EDT</textSummary>
  </dateTime>
  <location>
  <continent>North America</continent>
@@ -464,19 +464,6 @@
  <timeStamp>20210610050000</timeStamp>
  <textSummary>Thursday June 10, 2021 at 05:00 EDT</textSummary>
  </dateTime>
- <hourlyForecast dateTimeUTC="202106101100">
- <condition>Sunny</condition>
- <iconCode format="png">00</iconCode>
- <temperature unitType="metric" units="C">19</temperature>
- <lop category="Nil" units="%">0</lop>
- <windChill unitType="metric"/>
- <humidex/>
- <wind>
- <speed unitType="metric" units="km/h">20</speed>
- <direction windDirFull="East">E</direction>
- <gust unitType="metric" units="km/h"/>
- </wind>
- </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106101200">
  <condition>Sunny</condition>
  <iconCode format="png">00</iconCode>
@@ -767,6 +754,19 @@
  <condition>Mainly sunny</condition>
  <iconCode format="png">01</iconCode>
  <temperature unitType="metric" units="C">17</temperature>
+ <lop category="Nil" units="%">0</lop>
+ <windChill unitType="metric"/>
+ <humidex/>
+ <wind>
+ <speed unitType="metric" units="km/h">10</speed>
+ <direction windDirFull="East">E</direction>
+ <gust unitType="metric" units="km/h"/>
+ </wind>
+ </hourlyForecast>
+ <hourlyForecast dateTimeUTC="202106111100">
+ <condition>Mainly sunny</condition>
+ <iconCode format="png">01</iconCode>
+ <temperature unitType="metric" units="C">18</temperature>
  <lop category="Nil" units="%">0</lop>
  <windChill unitType="metric"/>
  <humidex/>
