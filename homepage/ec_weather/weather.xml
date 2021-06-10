@@ -6,18 +6,18 @@
  <month name="June">06</month>
  <day name="Thursday">10</day>
  <hour>06</hour>
- <minute>00</minute>
- <timeStamp>20210610060000</timeStamp>
- <textSummary>Thursday June 10, 2021 at 06:00 UTC</textSummary>
+ <minute>20</minute>
+ <timeStamp>20210610062000</timeStamp>
+ <textSummary>Thursday June 10, 2021 at 06:20 UTC</textSummary>
  </dateTime>
  <dateTime name="xmlCreation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Thursday">10</day>
  <hour>02</hour>
- <minute>00</minute>
- <timeStamp>20210610020000</timeStamp>
- <textSummary>Thursday June 10, 2021 at 02:00 EDT</textSummary>
+ <minute>20</minute>
+ <timeStamp>20210610022000</timeStamp>
+ <textSummary>Thursday June 10, 2021 at 02:20 EDT</textSummary>
  </dateTime>
  <location>
  <continent>North America</continent>
@@ -33,33 +33,33 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Thursday">10</day>
- <hour>05</hour>
+ <hour>06</hour>
  <minute>00</minute>
- <timeStamp>20210610050000</timeStamp>
- <textSummary>Thursday June 10, 2021 at 05:00 UTC</textSummary>
+ <timeStamp>20210610060000</timeStamp>
+ <textSummary>Thursday June 10, 2021 at 06:00 UTC</textSummary>
  </dateTime>
  <dateTime name="observation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
  <day name="Thursday">10</day>
- <hour>01</hour>
+ <hour>02</hour>
  <minute>00</minute>
- <timeStamp>20210610010000</timeStamp>
- <textSummary>Thursday June 10, 2021 at 01:00 EDT</textSummary>
+ <timeStamp>20210610020000</timeStamp>
+ <textSummary>Thursday June 10, 2021 at 02:00 EDT</textSummary>
  </dateTime>
- <condition>Partly Cloudy</condition>
- <iconCode format="gif">32</iconCode>
- <temperature unitType="metric" units="C">22.4</temperature>
+ <condition>Clear</condition>
+ <iconCode format="gif">30</iconCode>
+ <temperature unitType="metric" units="C">22.0</temperature>
  <dewpoint unitType="metric" units="C">15.7</dewpoint>
- <humidex unitType="metric">27</humidex>
- <pressure unitType="metric" units="kPa" change="0.04" tendency="rising">101.8</pressure>
+ <humidex unitType="metric">26</humidex>
+ <pressure unitType="metric" units="kPa" change="" tendency="steady">101.8</pressure>
  <visibility unitType="metric" units="km">24.1</visibility>
- <relativeHumidity units="%">65</relativeHumidity>
+ <relativeHumidity units="%">67</relativeHumidity>
  <wind>
  <speed unitType="metric" units="km/h">7</speed>
  <gust unitType="metric" units="km/h"/>
  <direction>ENE</direction>
- <bearing units="degrees">72.0</bearing>
+ <bearing units="degrees">66.0</bearing>
  </wind>
  </currentConditions>
  <forecastGroup>
@@ -738,9 +738,9 @@
  </hourlyForecast>
  </hourlyForecastGroup>
  <yesterdayConditions>
- <temperature unitType="metric" units="C" class="high">26.5</temperature>
- <temperature unitType="metric" units="C" class="low">20.9</temperature>
- <precip unitType="metric" units="mm">10.2</precip>
+ <temperature unitType="metric" units="C" class="high">29.4</temperature>
+ <temperature unitType="metric" units="C" class="low">19.5</temperature>
+ <precip unitType="metric" units="mm">0.0</precip>
  </yesterdayConditions>
  <riseSet>
  <disclaimer>The information provided here, for the times of the rise and set of the sun, is an estimate included as a convenience to our clients. Values shown here may differ from the official sunrise/sunset data available from (http://hia-iha.nrc-cnrc.gc.ca/sunrise_e.html)</disclaimer>
