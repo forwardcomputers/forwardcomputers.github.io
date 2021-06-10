@@ -5,19 +5,19 @@
  <year>2021</year>
  <month name="June">06</month>
  <day name="Thursday">10</day>
- <hour>03</hour>
- <minute>50</minute>
- <timeStamp>20210610035000</timeStamp>
- <textSummary>Thursday June 10, 2021 at 03:50 UTC</textSummary>
+ <hour>04</hour>
+ <minute>00</minute>
+ <timeStamp>20210610040000</timeStamp>
+ <textSummary>Thursday June 10, 2021 at 04:00 UTC</textSummary>
  </dateTime>
  <dateTime name="xmlCreation" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
- <day name="Wednesday">09</day>
- <hour>23</hour>
- <minute>50</minute>
- <timeStamp>20210609235000</timeStamp>
- <textSummary>Wednesday June 09, 2021 at 23:50 EDT</textSummary>
+ <day name="Thursday">10</day>
+ <hour>00</hour>
+ <minute>00</minute>
+ <timeStamp>20210610000000</timeStamp>
+ <textSummary>Thursday June 10, 2021 at 00:00 EDT</textSummary>
  </dateTime>
  <location>
  <continent>North America</continent>
@@ -424,19 +424,6 @@
  <timeStamp>20210609184100</timeStamp>
  <textSummary>Wednesday June 09, 2021 at 18:41 EDT</textSummary>
  </dateTime>
- <hourlyForecast dateTimeUTC="202106100400">
- <condition>Partly cloudy</condition>
- <iconCode format="png">32</iconCode>
- <temperature unitType="metric" units="C">23</temperature>
- <lop category="Nil" units="%">0</lop>
- <windChill unitType="metric"/>
- <humidex unitType="metric">26</humidex>
- <wind>
- <speed unitType="metric" units="km/h">10</speed>
- <direction windDirFull="Northeast">NE</direction>
- <gust unitType="metric" units="km/h"/>
- </wind>
- </hourlyForecast>
  <hourlyForecast dateTimeUTC="202106100500">
  <condition>A few clouds</condition>
  <iconCode format="png">31</iconCode>
@@ -736,6 +723,19 @@
  <gust unitType="metric" units="km/h"/>
  </wind>
  </hourlyForecast>
+ <hourlyForecast dateTimeUTC="202106110400">
+ <condition>Clear</condition>
+ <iconCode format="png">30</iconCode>
+ <temperature unitType="metric" units="C">18</temperature>
+ <lop category="Nil" units="%">0</lop>
+ <windChill unitType="metric"/>
+ <humidex/>
+ <wind>
+ <speed unitType="metric" units="km/h">10</speed>
+ <direction windDirFull="Northeast">NE</direction>
+ <gust unitType="metric" units="km/h"/>
+ </wind>
+ </hourlyForecast>
  </hourlyForecastGroup>
  <yesterdayConditions>
  <temperature unitType="metric" units="C" class="high">26.5</temperature>
@@ -747,38 +747,38 @@
  <dateTime name="sunrise" zone="UTC" UTCOffset="0">
  <year>2021</year>
  <month name="June">06</month>
- <day name="Wednesday">09</day>
+ <day name="Thursday">10</day>
  <hour>09</hour>
  <minute>36</minute>
- <timeStamp>20210609093600</timeStamp>
- <textSummary>Wednesday June 09, 2021 at 09:36 UTC</textSummary>
+ <timeStamp>20210610093600</timeStamp>
+ <textSummary>Thursday June 10, 2021 at 09:36 UTC</textSummary>
  </dateTime>
  <dateTime name="sunrise" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
- <day name="Wednesday">09</day>
+ <day name="Thursday">10</day>
  <hour>05</hour>
  <minute>36</minute>
- <timeStamp>20210609053600</timeStamp>
- <textSummary>Wednesday June 09, 2021 at 05:36 EDT</textSummary>
+ <timeStamp>20210610053600</timeStamp>
+ <textSummary>Thursday June 10, 2021 at 05:36 EDT</textSummary>
  </dateTime>
  <dateTime name="sunset" zone="UTC" UTCOffset="0">
  <year>2021</year>
  <month name="June">06</month>
- <day name="Thursday">10</day>
+ <day name="Friday">11</day>
  <hour>00</hour>
  <minute>58</minute>
- <timeStamp>20210610005800</timeStamp>
- <textSummary>Thursday June 10, 2021 at 00:58 UTC</textSummary>
+ <timeStamp>20210611005800</timeStamp>
+ <textSummary>Friday June 11, 2021 at 00:58 UTC</textSummary>
  </dateTime>
  <dateTime name="sunset" zone="EDT" UTCOffset="-4">
  <year>2021</year>
  <month name="June">06</month>
- <day name="Wednesday">09</day>
+ <day name="Thursday">10</day>
  <hour>20</hour>
  <minute>58</minute>
- <timeStamp>20210609205800</timeStamp>
- <textSummary>Wednesday June 09, 2021 at 20:58 EDT</textSummary>
+ <timeStamp>20210610205800</timeStamp>
+ <textSummary>Thursday June 10, 2021 at 20:58 EDT</textSummary>
  </dateTime>
  </riseSet>
  <almanac>
