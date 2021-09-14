@@ -27,7 +27,8 @@ jobs:
           baseURL='https://www.bing.com'
           jsonURL="${baseURL}/HPImageArchive.aspx?format=js&idx=0&n=1"
           jsonData=$(curl -s "${jsonURL}")
-          imageURL="${baseURL}"$( echo "${jsonData}" | jq -r '.images[0].url' )?$(date +%s)
+          imageURL="${baseURL}"$( echo "${jsonData}" | jq -r '.images[0].url' )?ts=$( date +%s )
+          echo "${imageURL}"
           imageDesc=$(echo "${jsonData}" | jq -r '.images[0].copyright')
           curl -sLo homepage/images/today_clean.jpg "${imageURL}"
           convert -font DejaVu-Sans -pointsize 18 -background '#00000080' -fill white label:"${imageDesc}" miff:- | \
