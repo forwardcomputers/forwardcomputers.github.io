@@ -25,7 +25,7 @@ jobs:
       - name: download image
         run: |
           baseURL='https://www.bing.com'
-          jsonURL="${baseURL}/HPImageArchive.aspx?format=js&idx=0&n=1"
+          jsonURL="${baseURL}/HPImageArchive.aspx?format=js&idx=0&n=1"?ts=$( date +%s )
           jsonData=$(curl -s "${jsonURL}")
           imageURL="${baseURL}"$( echo "${jsonData}" | jq -r '.images[0].url' )?ts=$( date +%s )
           echo "${imageURL}"
