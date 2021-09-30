@@ -32,8 +32,7 @@ jobs:
           imageDesc=$(echo "${jsonData}" | jq -r '.images[0].copyright')
           curl -Lo homepage/images/today_clean.jpg "${imageURL}"
           convert -font DejaVu-Sans -pointsize 18 -background '#00000080' -fill white label:"${imageDesc}" miff:- | \
-            composite -gravity south -geometry +0+60 - homepage/images/today_clean.jpg /tmp/today.jpg
-          convert -strip -interlace Plane -sampling-factor 4:2:0 -quality 85% /tmp/today.jpg homepage/images/today.jpg
+            composite -gravity south -geometry +0+60 - homepage/images/today_clean.jpg homepage/images/today.jpg
 
       - name: update readme
         run: |
