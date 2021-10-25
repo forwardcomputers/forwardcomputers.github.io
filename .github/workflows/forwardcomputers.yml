@@ -21,5 +21,4 @@ jobs:
           git config --local user.name "Ali Mustakim"
           git add .
           git diff-index --quiet HEAD || git commit -a -m "github actions update [skip ci]"
-          git pull
           git push origin
