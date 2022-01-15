@@ -33,7 +33,8 @@ jobs:
           curl -Lo homepage/images/today_clean.jpg "${imageURL}"
           convert -font DejaVu-Sans -pointsize 18 -background '#00000080' -fill white label:"${imageDesc}" miff:- | \
             composite -gravity south -geometry +0+60 - homepage/images/today_clean.jpg homepage/images/today.jpg
-          convert -define heic:speed=2 homepage/images/today.jpg homepage/images/today.avif
+          convert -quality 50 homepage/images/today.jpg homepage/images/today.avif
+          convert -quality 50 homepage/images/today.jpg homepage/images/today.webp
 
       - name: update readme
         run: |
