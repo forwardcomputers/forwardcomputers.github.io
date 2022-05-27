@@ -1,4 +1,4 @@
 ![Bing.com todays image](https://github.com/forwardcomputers/forwardcomputers.github.io/workflows/Bing%20Image/badge.svg)
 ![Environment Canada latest weather](https://github.com/forwardcomputers/forwardcomputers.github.io/workflows/EC%20Weather/badge.svg)
-## lastest image: Thu May 26 04:15:35 UTC 2022
+## lastest image: Fri May 27 04:20:44 UTC 2022
 ![](images/today.jpg)
