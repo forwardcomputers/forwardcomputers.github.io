@@ -34,15 +34,14 @@ jobs:
       - name: get versions
         run: |
           set -x
-          env
-          ls -la script
           ## obico-server
-          _local=$( cat script/obico-server.sha )
-          _remote=$( git ls-remote https://github.com/TheSpaghettiDetective/obico-server.git HEAD | cut -f1 )
+          _app="obico-server"
+          _local=$( cat "script/${_app}.sha" | true )
+          _remote=$( git ls-remote "https://github.com/TheSpaghettiDetective/${_app}.git" HEAD | cut -f1 )
           if [ "${_local}" = "${_remote}" ]; then
             echo "_build=false" >> $GITHUB_ENV
           else
-            echo $_remote > script/obico-server.sha
+            echo $_remote > "script/${_app}.sha"
             echo "_build=true" >> $GITHUB_ENV
           fi
 
