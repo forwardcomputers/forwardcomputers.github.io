@@ -35,15 +35,15 @@ jobs:
         run: |
           set -x
           ## obico-server
-          _app="obico-server"
+          echo "_app=obico-server" >> $GITHUB_ENV
           set +e
-          _local=$( cat "script/${_app}.sha" )
+          _local=$( cat "script/${env._app}.sha" )
           set -e
-          _remote=$( git ls-remote "https://github.com/TheSpaghettiDetective/${_app}.git" HEAD | cut -f1 )
+          _remote=$( git ls-remote "https://github.com/TheSpaghettiDetective/${env._app}.git" HEAD | cut -f1 )
           if [ "${_local}" = "${_remote}" ]; then
             echo "_build=false" >> $GITHUB_ENV
           else
-            echo $_remote > "script/${_app}.sha"
+            echo $_remote > "script/${env._app}.sha"
             git config --local user.email "alim@forwardcomputers.com"
             git config --local user.name "Ali Mustakim"
             git add .
@@ -65,4 +65,4 @@ jobs:
           context: backend
           platforms: linux/amd64
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:latest
+          tags: ${{ secrets.LP_DOCKER_USERNAME }}/${{ env._app }}:latest
