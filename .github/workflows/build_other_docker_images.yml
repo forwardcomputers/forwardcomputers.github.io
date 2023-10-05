@@ -36,7 +36,7 @@ jobs:
           set -x
           ## obico-server
           _app=obico-server
-          echo "_repo=${{ secrets.LP_DOCKER_USERNAME }}/${ app }" >> $GITHUB_ENV
+          echo "_repo=${{ secrets.LP_DOCKER_USERNAME }}/${ _app }" >> $GITHUB_ENV
           set +e
           _local=$( cat "script/${ _app }.sha" )
           set -e
@@ -44,7 +44,7 @@ jobs:
           if [ "${ _local }" = "${ _remote }" ]; then
             echo "_build=false" >> $GITHUB_ENV
           else
-            echo "${ _remote }" > "script/${env._app}.sha"
+            echo "${ _remote }" > "script/${ _app }.sha"
             git config --local user.email "alim@forwardcomputers.com"
             git config --local user.name "Ali Mustakim"
             git add .
