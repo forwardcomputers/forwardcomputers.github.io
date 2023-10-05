@@ -34,6 +34,7 @@ jobs:
       - name: get versions
         run: |
           set -x
+          ls -la
           ## obico-server
           _local=$( cat script/obico-server.sha )
           _remote=$( git ls-remote https://github.com/TheSpaghettiDetective/obico-server.git HEAD | cut -f1 )
