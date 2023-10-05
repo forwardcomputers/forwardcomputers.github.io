@@ -33,42 +33,36 @@ jobs:
 
       - name: get versions
         run: |
-          set +e -x
+          set -x
           ## obico-server
           _app="obico-server"
+          set +e
           _local=$( cat "script/${_app}.sha" )
+          set -e
           _remote=$( git ls-remote "https://github.com/TheSpaghettiDetective/${_app}.git" HEAD | cut -f1 )
           if [ "${_local}" = "${_remote}" ]; then
             echo "_build=false" >> $GITHUB_ENV
           else
             echo $_remote > "script/${_app}.sha"
+            git config --local user.email "alim@forwardcomputers.com"
+            git config --local user.name "Ali Mustakim"
+            git add .
+            git commit -a -m "github actions update"
+            git push
             echo "_build=true" >> $GITHUB_ENV
           fi
 
       - name: checkout
         if: env._build
-        run: |
-          env
+        uses: actions/checkout@v4
+        with:
+          repository: TheSpaghettiDetective/obico-server
 
-      # - name: checkout
-      #   if: env._build
-      #   uses: actions/checkout@v4
-      #   with:
-      #     repository: TheSpaghettiDetective/obico-server
-
-      # - name: Build and push
-      #   if: env._build
-      #   uses: docker/build-push-action@v5
-      #   with:
-      #     push: true
-      #     tags: ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:latest
-
-      # - name: commit and push
-      #   if: $env._build
-      #   run: |
-      #     git config --local user.email "alim@forwardcomputers.com"
-      #     git config --local user.name "Ali Mustakim"
-      #     git add .
-      #     git commit -a -m "github actions update"
-      #     git push
-
+      - name: Build and push
+        if: env._build
+        uses: docker/build-push-action@v5
+        with:
+          context: backend
+          platforms: linux/amd64
+          push: true
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:latest
