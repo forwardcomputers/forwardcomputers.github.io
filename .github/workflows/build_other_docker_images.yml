@@ -22,8 +22,8 @@ jobs:
       - name: login to Docker Hub
         uses: docker/login-action@v3
         with:
-          username: ${{ secrets.LP_DOCKER_USERNAME }}
-          password: ${{ secrets.LP_DOCKER_TOKEN }}
+          username: ${{secrets.LP_DOCKER_USERNAME}}
+          password: ${{secrets.LP_DOCKER_TOKEN}}
 
       - name: set up qemu
         uses: docker/setup-qemu-action@v3
@@ -36,15 +36,15 @@ jobs:
           set -x
           ## obico-server
           _app=obico-server
-          echo "_repo=${{ secrets.LP_DOCKER_USERNAME }}/${ _app }" >> $GITHUB_ENV
+          echo "_repo=${{secrets.LP_DOCKER_USERNAME}}/${_app}" >> $GITHUB_ENV
           set +e
-          _local=$( cat "script/${ _app }.sha" )
+          _local=$( cat "script/${_app}.sha" )
           set -e
-          _remote=$( git ls-remote "https://github.com/TheSpaghettiDetective/${ _app }.git" HEAD | cut -f1 )
-          if [ "${ _local }" = "${ _remote }" ]; then
+          _remote=$( git ls-remote "https://github.com/TheSpaghettiDetective/${_app}.git" HEAD | cut -f1 )
+          if [ "${_local}" = "${_remote}" ]; then
             echo "_build=false" >> $GITHUB_ENV
           else
-            echo "${ _remote }" > "script/${ _app }.sha"
+            echo "${_remote}" > "script/${_app}.sha"
             git config --local user.email "alim@forwardcomputers.com"
             git config --local user.name "Ali Mustakim"
             git add .
@@ -53,17 +53,17 @@ jobs:
             echo "_build=true" >> $GITHUB_ENV
           fi
 
-      - name: checkout ${{ env._repo }}
+      - name: checkout ${{env._repo}}
         if: env._build
         uses: actions/checkout@v4
         with:
           repository: TheSpaghettiDetective/obico-server
 
-      - name: Build and push ${{ env._repo }}
+      - name: Build and push ${{env._repo}}
         if: env._build
         uses: docker/build-push-action@v5
         with:
           context: backend
           platforms: linux/amd64
           push: true
-          tags: ${{ env._repo }}:latest
+          tags: ${{env._repo}}:latest
