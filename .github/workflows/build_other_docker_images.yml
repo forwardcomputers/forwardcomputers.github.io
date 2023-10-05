@@ -5,7 +5,7 @@ on:
     types:
       - build_other_docker_images
 #  schedule:
-#    # Times are in UTC
+#    # Times are in UTC, this job is run daily @ 9HRS = 4AM EST
 #    - cron:  '0 9 * * *'
   workflow_dispatch:
 
@@ -64,6 +64,8 @@ jobs:
         if: env._build
         uses: docker/build-push-action@v5
         with:
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
           context: backend
           platforms: linux/amd64
           push: true
