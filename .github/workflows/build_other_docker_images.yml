@@ -1,9 +1,9 @@
-name: Bing Image
+name: Build other docker images
 
 on:
   repository_dispatch:
     types:
-      - bing_image
+      - build_other_docker_images
 #  schedule:
 #    # Times are in UTC
 #    - cron:  '0 9 * * *'
