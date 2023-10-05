@@ -35,15 +35,16 @@ jobs:
         run: |
           set -x
           ## obico-server
-          echo "_app=obico-server" >> $GITHUB_ENV
+          _app=obico-server
+          echo "_repo={{ secrets.LP_DOCKER_USERNAME }}/${ app }" >> $GITHUB_ENV
           set +e
-          _local=$( cat "script/${env._app}.sha" )
+          _local=$( cat "script/${ _app }.sha" )
           set -e
-          _remote=$( git ls-remote "https://github.com/TheSpaghettiDetective/${env._app}.git" HEAD | cut -f1 )
-          if [ "${_local}" = "${_remote}" ]; then
+          _remote=$( git ls-remote "https://github.com/TheSpaghettiDetective/${ _app }.git" HEAD | cut -f1 )
+          if [ "${ _local }" = "${ _remote }" ]; then
             echo "_build=false" >> $GITHUB_ENV
           else
-            echo $_remote > "script/${env._app}.sha"
+            echo "${ _remote }" > "script/${env._app}.sha"
             git config --local user.email "alim@forwardcomputers.com"
             git config --local user.name "Ali Mustakim"
             git add .
@@ -52,17 +53,17 @@ jobs:
             echo "_build=true" >> $GITHUB_ENV
           fi
 
-      - name: checkout
+      - name: checkout ${{ env._repo }}
         if: env._build
         uses: actions/checkout@v4
         with:
           repository: TheSpaghettiDetective/obico-server
 
-      - name: Build and push
+      - name: Build and push ${{ env._repo }}
         if: env._build
         uses: docker/build-push-action@v5
         with:
           context: backend
           platforms: linux/amd64
           push: true
-          tags: ${{ secrets.LP_DOCKER_USERNAME }}/${{ env._app }}:latest
+          tags: ${{ env._repo }}:latest
