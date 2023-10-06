@@ -4,9 +4,9 @@ on:
   repository_dispatch:
     types:
       - build_other_docker_images
-#  schedule:
-#    # Times are in UTC, this job is run daily @ 9HRS = 4AM EST
-#    - cron:  '0 9 * * *'
+  schedule:
+    # Times are in UTC, this job is run daily @ 9HRS = 4AM EST
+    - cron:  '0 9 * * *'
   workflow_dispatch:
 
 permissions: 
