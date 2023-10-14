@@ -54,14 +54,14 @@ jobs:
           fi
 
       - name: checkout ${{env._repo}}
-        if: env._build
+        if: env._build == 'true'
         uses: actions/checkout@v4
         with:
           repository: TheSpaghettiDetective/obico-server
 
       - name: build and push ${{env._repo}}
         id: docker
-        if: env._build
+        if: env._build == 'true'
         uses: docker/build-push-action@v5
         with:
           cache-from: type=gha
