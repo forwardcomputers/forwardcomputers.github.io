@@ -1,0 +1,32 @@
+name: versions
+
+on:
+  repository_dispatch:
+    types:
+      - versions
+  schedule:
+    # Times are in UTC, this job is run daily @ 10HRS = 5AM EST
+    - cron:  '0 10 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions: 
+      contents: write
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: get versions
+        run: |
+          script/versions.sh
+
+      - name: commit and push
+        run: |
+          git config --local user.email "alim@forwardcomputers.com"
+          git config --local user.name "Ali Mustakim"
+          git add .
+          git diff-index --quiet HEAD || git commit -a -m "github actions update"
+          git push origin
