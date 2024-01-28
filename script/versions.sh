@@ -33,7 +33,7 @@ _sha=$( curl -sL https://api.github.com/repos/ipxe/wimboot/commits/master | jq -
 _url="https://github.com/ipxe/wimboot/raw/master/wimboot"
 printf '{"distro":"ipxe","name":"wimboot","version":"%s","sha":"%s","date":"%s","media":"Executable","url":"%s"}\n' "${_version}" "${_sha}" "${_dateLocal}" "${_url}" >> distro.yml
 
-_version=$( curl -sL https://api.github.com/repos/ipxe/ipxe/tags | jq -r '.[0].name' )
+_version=$( curl -sL https://api.github.com/repos/ipxe/ipxe/tags | jq -r '.[0].name | gsub("v";"")' )
 _sha=$( curl -sL https://api.github.com/repos/ipxe/ipxe/commits/master | jq -r '.sha' )
 _url="https://github.com/ipxe/ipxe.git"
 printf '{"distro":"ipxe","name":"ipxe","version":"%s","sha":"%s","date":"%s","media":"Git","url":"%s"}\n' "${_version}" "${_sha}" "${_dateLocal}" "${_url}" >> distro.yml
@@ -104,7 +104,7 @@ _version=$( awk -F'-' '/bootstrap/ {print $3; exit}' <<< "${_page}" )
 printf '{"distro":"arch","name":"x86_64","version":"%s","sha":"%s","date":"%s","media":"Netboot","url":"%s"}\n' "${_version}" "${_sha}" "${_dateLocal}" "${_url}/arch" >> distro.yml
 printf '{"distro":"arch","name":"x86_64","version":"%s","sha":"%s","date":"%s","media":"WSL","url":"%s"}\n' "${_version}" "${_sha}" "${_dateLocal}" "${_url}/archlinux-x86_64.iso" >> distro.yml
 _url="https://geo.mirror.pkgbuild.com/images/latest"
-_sha=$( curl "${_url}/Arch-Linux-x86_64-cloudimg.qcow2.SHA256" | awk '{print $1; exit}' )
+_sha=$( curl -sL "${_url}/Arch-Linux-x86_64-cloudimg.qcow2.SHA256" | awk '{print $1; exit}' )
 printf '{"distro":"arch","name":"x86_64","version":"%s","sha":"%s","date":"%s","media":"Cloud","url":"%s"}\n' "${_version}" "${_sha}" "${_dateLocal}" "${_url}/Arch-Linux-x86_64-cloudimg.qcow2" >> distro.yml
 
 _page=$( curl -sL "https://github.com/docker-library/official-images/raw/master/library/debian" )
@@ -124,7 +124,7 @@ printf '{"distro":"debian","name":"%s","version":"%s","sha":"%s","date":"%s","me
 
 _version=$( curl -sL https://github.com/docker-library/official-images/raw/master/library/fedora | awk -F": |, " '/latest/ {print $2}' )
 _url="https://dl.fedoraproject.org/pub/fedora"
-_release=$( curl "${_url}/imagelist-fedora" | grep -o -P '(?<=Fedora-Workstation-Live-x86_64-'"${_version}"'-).*?(?=.iso)' | head -1 )
+_release=$( curl -sL "${_url}/imagelist-fedora" | grep -o -P '(?<=Fedora-Workstation-Live-x86_64-'"${_version}"'-).*?(?=.iso)' | head -1 )
 _sha=$( curl -sL "${_url}/linux/releases/${_version}/Everything/x86_64/iso/Fedora-Everything-${_version}-${_release}-x86_64-CHECKSUM" | awk '/^SHA256/ {print $4}' )
 _url="${_url}/linux/releases/${_version}/Everything/x86_64/os/images/pxeboot"
 printf '{"distro":"fedora","name":"fedora","version":"%s","sha":"%s","date":"%s","media":"Netboot","url":"%s"}\n' "${_version}" "${_sha}" "${_dateLocal}" "${_url}" >> distro.yml
@@ -211,7 +211,7 @@ _url="https://uupdump.net/get.php?id=${_id}&pack=en-us&edition=Professional&aria
 printf '{"distro":"windows","name":"10","version":"%s","build":"%s","id":"%s","date":"%s","media":"ISO","url":"%s"}\n' "${_version}" "${_build}" "${_id}" "${_dateLocal}" "${_url}" >> distro.yml
 _kb=$( wget --no-hsts -qO- https://docs.microsoft.com/en-us/windows/release-health/release-information | awk -v FPAT='KB[0-9]+' 'NF{ print $1; exit }' )
 _id=$( curl -sL --http1.1 https://www.catalog.update.microsoft.com/Search.aspx?q=Cumulative%20Windows%2010%20x64%20"${_kb}" | tac | tac | awk -F'id="' '/resultsbottomBorder/ {split($2,a,"_");print a[1]; exit}' )
-_url=$( curl --http1.1 -d 'updateIDs=[{"size":0,"uidInfo":"'${_id}'","updateID":"'${_id}'"}]' -X POST -L https://www.catalog.update.microsoft.com/DownloadDialog.aspx | awk -F"'" '/url =/ {print $2}' )
+_url=$( curl -sL --http1.1 -d 'updateIDs=[{"size":0,"uidInfo":"'${_id}'","updateID":"'${_id}'"}]' -X POST -L https://www.catalog.update.microsoft.com/DownloadDialog.aspx | awk -F"'" '/url =/ {print $2}' )
 printf '{"distro":"windows","name":"10","version":"%s","build":"%s","kb":"%s","id":"%s","date":"%s","media":"Update","url":"%s"}\n' "${_version}" "${_build}" "${_kb}" "${_id}" "${_dateLocal}" "${_url}" >> distro.yml
 
 _page=$( curl -sL --http1.1 https://docs.microsoft.com/en-us/windows/release-health/windows11-release-information )
