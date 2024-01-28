@@ -33,7 +33,7 @@ _sha=$( curl -sL https://api.github.com/repos/ipxe/wimboot/commits/master | jq -
 _url="https://github.com/ipxe/wimboot/raw/master/wimboot"
 printf '{"distro":"ipxe","name":"wimboot","version":"%s","sha":"%s","date":"%s","media":"Executable","url":"%s"}\n' "${_version}" "${_sha}" "${_dateLocal}" "${_url}" >> distro.yml
 
-_version=$( git -C "/ipxe" describe --tags --always --long --abbrev=1 --match "v*" )
+_version=$( curl -sL https://api.github.com/repos/ipxe/ipxe/tags | jq -r '.[0].name' )
 _sha=$( curl -sL https://api.github.com/repos/ipxe/ipxe/commits/master | jq -r '.sha' )
 _url="https://github.com/ipxe/ipxe.git"
 printf '{"distro":"ipxe","name":"ipxe","version":"%s","sha":"%s","date":"%s","media":"Git","url":"%s"}\n' "${_version}" "${_sha}" "${_dateLocal}" "${_url}" >> distro.yml
