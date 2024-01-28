@@ -21,9 +21,7 @@ jobs:
 
       - name: get versions
         run: |
-          pwd
-          ls -la
-          # script/versions.sh
+          script/versions.sh
 
       - name: commit and push
         run: |
