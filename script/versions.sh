@@ -119,7 +119,8 @@ printf '{"distro":"debian","name":"%s","version":"%s","sha":"%s","date":"%s","me
 _url="https://cdimage.debian.org/mirror/cdimage/cloud"
 _version=$( awk -F. '{print $1}' <<< "${_version}" )
 _filename="debian-${_version}-generic-amd64.qcow2"
-_sha=$( wget --no-hsts -qO- "${_url}/${_name}/latest/SHA512SUMS" | awk '/generic-amd64.qcow2/ {print $1; exit}' )
+# _sha=$( wget --no-hsts -qO- "${_url}/${_name}/latest/SHA512SUMS" | awk '/generic-amd64.qcow2/ {print $1; exit}' )
+_sha=$( curl -sL "${_url}/${_name}/latest/SHA512SUMS" | tac| tac | awk '/generic-amd64.qcow2/ {print $1; exit}' )
 printf '{"distro":"debian","name":"%s","version":"%s","sha":"%s","date":"%s","media":"Cloud","url":"%s"}\n' "${_name}" "${_version}" "${_sha}" "${_dateLocal}" ""${_url}/${_name}/latest/${_filename}"" >> distro.yml
 
 _version=$( curl -sL https://github.com/docker-library/official-images/raw/master/library/fedora | awk -F": |, " '/latest/ {print $2}' )
@@ -209,7 +210,7 @@ _version=$( awk '/Servicing channels/{ FS="[><]"; getline; getline; getline; pri
 _id=$( curl -sL --http1.1 "https://api.uupdump.net/listid.php?search=${_build}+amd64" | jq -r '.response.builds[] | select( .title | contains( "Cumulative" ) | not ) | .uuid' )
 _url="https://uupdump.net/get.php?id=${_id}&pack=en-us&edition=Professional&aria2=2"
 printf '{"distro":"windows","name":"10","version":"%s","build":"%s","id":"%s","date":"%s","media":"ISO","url":"%s"}\n' "${_version}" "${_build}" "${_id}" "${_dateLocal}" "${_url}" >> distro.yml
-_kb=$( wget --no-hsts -qO- https://docs.microsoft.com/en-us/windows/release-health/release-information | awk -v FPAT='KB[0-9]+' 'NF{ print $1; exit }' )
+_kb=$( curl -sL --http1.1 https://docs.microsoft.com/en-us/windows/release-health/release-information | tac | tac | awk -v FPAT='KB[0-9]+' 'NF{ print $1; exit }' )
 _id=$( curl -sL --http1.1 https://www.catalog.update.microsoft.com/Search.aspx?q=Cumulative%20Windows%2010%20x64%20"${_kb}" | tac | tac | awk -F'id="' '/resultsbottomBorder/ {split($2,a,"_");print a[1]; exit}' )
 _url=$( curl -sL --http1.1 -d 'updateIDs=[{"size":0,"uidInfo":"'${_id}'","updateID":"'${_id}'"}]' -X POST -L https://www.catalog.update.microsoft.com/DownloadDialog.aspx | awk -F"'" '/url =/ {print $2}' )
 printf '{"distro":"windows","name":"10","version":"%s","build":"%s","kb":"%s","id":"%s","date":"%s","media":"Update","url":"%s"}\n' "${_version}" "${_build}" "${_kb}" "${_id}" "${_dateLocal}" "${_url}" >> distro.yml
