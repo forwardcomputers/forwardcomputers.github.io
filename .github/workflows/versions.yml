@@ -21,7 +21,9 @@ jobs:
 
       - name: get versions
         run: |
-          script/versions.sh
+          curl -sLo ~/am-distro-versions "https://github.com/forwardcomputers/bin/raw/main/am-distro-versions"
+          chmod +x ~/am-distro-versions
+          ~/am-distro-versions
 
       - name: commit and push
         run: |
