@@ -6,7 +6,7 @@ on:
       - versions
   schedule:
     # Times are in UTC, this job is run daily @ 10HRS = 5AM EST
-    - cron:  '0 10 * * *'
+    - cron:  '50 9 * * *'
   workflow_dispatch:
 
 jobs:
