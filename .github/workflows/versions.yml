@@ -22,7 +22,7 @@ jobs:
       - name: install apps
         run:  |
           sudo apt-get update
-          sudo apt-get install xmllint
+          sudo apt-get install libxml2-utils
 
       - name: get versions
         run: |
