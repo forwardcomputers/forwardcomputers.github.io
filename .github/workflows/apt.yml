@@ -1,0 +1,39 @@
+name: versions
+
+on:
+  repository_dispatch:
+    types:
+      - versions
+  schedule:
+    # Times are in UTC, this job is run daily @ 10HRS = 5AM EST
+    - cron:  '55 9 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions: 
+      contents: write
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: install apps
+        run:  |
+          sudo apt-get update
+          sudo apt-get install dpkg-dev
+
+      - name: get versions
+        run: |
+          curl -sLo ~/am-apt-update "https://github.com/forwardcomputers/bin/raw/main/am-apt-update"
+          chmod +x ~/am-apt-update
+          ~/am-apt-update
+
+      - name: commit and push
+        run: |
+          git config --local user.email "alim@forwardcomputers.com"
+          git config --local user.name "Ali Mustakim"
+          git add .
+          git diff-index --quiet HEAD || git commit -a -m "github actions update"
+          git push origin
