@@ -24,7 +24,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install dpkg-dev
 
-      - name: get versions
+      - name: update apt
         run: |
           curl -sLo ~/am-apt-update "https://github.com/forwardcomputers/bin/raw/main/am-apt-update"
           chmod +x ~/am-apt-update
