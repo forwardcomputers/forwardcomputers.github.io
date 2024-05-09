@@ -1,9 +1,9 @@
-name: versions
+name: apt
 
 on:
   repository_dispatch:
     types:
-      - versions
+      - apt
   schedule:
     # Times are in UTC, this job is run daily @ 10HRS = 5AM EST
     - cron:  '55 9 * * *'
