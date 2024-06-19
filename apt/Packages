@@ -1,14 +1,14 @@
 Package: fastfetch
-Version: 2.15.0
+Version: 2.16.0
 Architecture: amd64
 Maintainer: Linus Dierheimer <Linus@Dierheimer.de>
-Installed-Size: 23078
+Installed-Size: 23400
 Depends: libc6 (>= 2.31)
 Filename: ./fastfetch.deb
-Size: 6151582
-MD5sum: fe5d9ac65cd865abc08806448cf916b1
-SHA1: c7f0e60f92b70074767711cdab5e4811207a3a8b
-SHA256: 6e910137dc3c63d2432ac73e5da373e7c27eedd0f6abf40f70ebdc211747509c
+Size: 6232192
+MD5sum: 6acafb34db7f1863513e41496b2d61fc
+SHA1: 7687a87a80f9b695a85d40f1759832366f091142
+SHA256: 4b056c966553a3b230b635e42770205e5a2d0c7a064d631d378aad20dc65afca
 Section: devel
 Priority: optional
 Homepage: https://github.com/fastfetch-cli/fastfetch
