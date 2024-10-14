@@ -17,10 +17,10 @@ jobs:
       - name: check out repository
         uses: actions/checkout@v3
 
-      - name: install ghostscript
+      - name: install apps
         run:  |
           sudo apt-get update
-          sudo apt-get install ghostscript
+          sudo apt-get install -y ghostscript imagemagick
 
       - name: download image
         run: |
