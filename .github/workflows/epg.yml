@@ -1,9 +1,9 @@
-name: versions
+name: epg
 
 on:
   repository_dispatch:
     types:
-      - versions
+      - epg
   schedule:
     # Times are in UTC
     - cron:  '10 1 * * *'
@@ -19,7 +19,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4
 
-      - name: get versions
+      - name: get epg
         run: |
           curl -sLo ~/am-epg "https://github.com/forwardcomputers/bin/raw/main/am-epg"
           chmod +x ~/am-epg
