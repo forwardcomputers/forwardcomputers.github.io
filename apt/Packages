@@ -16,16 +16,16 @@ Description: Fast neofetch-like system information tool
  fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. It is written mostly in C to achieve much better performance.
 
 Package: trash-cli
-Version: 0.24.5.26-0.1
+Version: 0.24.5.26-0.2
 Architecture: all
 Maintainer: Stefano Karapetsas <stefano@karapetsas.com>
 Installed-Size: 317
-Depends: python3-psutil, python3-six, python3-typing-extensions | python3-supported-min (>= 3.8), python3:any, python3-pkg-resources
+Depends: python3-psutil, python3-six, python3:any
 Filename: ./trash-cli.deb
 Size: 52880
-MD5sum: 3e73f6e8d47ae968d8e47ebc348f7f10
-SHA1: 557ece79c0f0c0237472dac3976db407810e9b52
-SHA256: f6afe34856919a60ac035ddc2801a0ec2f85c7786b81538726ef95a104971a19
+MD5sum: 0f74f61bbd88a01e51cc02954ff1744c
+SHA1: ba4e87a94c23620ed4a530b86b2d251886b53f73
+SHA256: 37e90639c803e150f99ba5fb342fd6fd74802745df07345382409fc8988b43a9
 Section: utils
 Priority: optional
 Homepage: https://github.com/andreafrancia/trash-cli
