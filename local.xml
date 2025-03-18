@@ -4,174 +4,6 @@
     <display-name>Global News</display-name>
     <icon src="https://github.com/forwardcomputers/forwardcomputers.github.io/raw/main/images/tv/citynews247.png" />
   </channel>
-  <programme channel="GlobalNews" start="20250317000000 +0000" stop="20250317010000 +0000">
-    <title>Global News</title>
-    <desc>Latest Canada news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="GlobalNews" start="20250317010000 +0000" stop="20250317020000 +0000">
-    <title>Global News</title>
-    <desc>Latest Canada news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="GlobalNews" start="20250317020000 +0000" stop="20250317030000 +0000">
-    <title>Global News</title>
-    <desc>Latest Canada news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="GlobalNews" start="20250317030000 +0000" stop="20250317040000 +0000">
-    <title>Global News</title>
-    <desc>Latest Canada news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="GlobalNews" start="20250317040000 +0000" stop="20250317050000 +0000">
-    <title>Global News</title>
-    <desc>Latest Canada news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="GlobalNews" start="20250317050000 +0000" stop="20250317060000 +0000">
-    <title>Global News</title>
-    <desc>Latest Canada news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="GlobalNews" start="20250317060000 +0000" stop="20250317070000 +0000">
-    <title>Global News</title>
-    <desc>Latest Canada news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="GlobalNews" start="20250317070000 +0000" stop="20250317080000 +0000">
-    <title>Global News</title>
-    <desc>Latest Canada news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="GlobalNews" start="20250317080000 +0000" stop="20250317090000 +0000">
-    <title>Global News</title>
-    <desc>Latest Canada news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="GlobalNews" start="20250317090000 +0000" stop="20250317100000 +0000">
-    <title>Global News</title>
-    <desc>Latest Canada news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="GlobalNews" start="20250317100000 +0000" stop="20250317110000 +0000">
-    <title>Global News</title>
-    <desc>Latest Canada news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="GlobalNews" start="20250317110000 +0000" stop="20250317120000 +0000">
-    <title>Global News</title>
-    <desc>Latest Canada news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="GlobalNews" start="20250317120000 +0000" stop="20250317130000 +0000">
-    <title>Global News</title>
-    <desc>Latest Canada news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="GlobalNews" start="20250317130000 +0000" stop="20250317140000 +0000">
-    <title>Global News</title>
-    <desc>Latest Canada news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="GlobalNews" start="20250317140000 +0000" stop="20250317150000 +0000">
-    <title>Global News</title>
-    <desc>Latest Canada news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="GlobalNews" start="20250317150000 +0000" stop="20250317160000 +0000">
-    <title>Global News</title>
-    <desc>Latest Canada news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="GlobalNews" start="20250317160000 +0000" stop="20250317170000 +0000">
-    <title>Global News</title>
-    <desc>Latest Canada news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="GlobalNews" start="20250317170000 +0000" stop="20250317180000 +0000">
-    <title>Global News</title>
-    <desc>Latest Canada news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="GlobalNews" start="20250317180000 +0000" stop="20250317190000 +0000">
-    <title>Global News</title>
-    <desc>Latest Canada news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="GlobalNews" start="20250317190000 +0000" stop="20250317200000 +0000">
-    <title>Global News</title>
-    <desc>Latest Canada news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="GlobalNews" start="20250317200000 +0000" stop="20250317210000 +0000">
-    <title>Global News</title>
-    <desc>Latest Canada news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="GlobalNews" start="20250317210000 +0000" stop="20250317220000 +0000">
-    <title>Global News</title>
-    <desc>Latest Canada news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="GlobalNews" start="20250317220000 +0000" stop="20250317230000 +0000">
-    <title>Global News</title>
-    <desc>Latest Canada news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="GlobalNews" start="20250317230000 +0000" stop="20250318000000 +0000">
-    <title>Global News</title>
-    <desc>Latest Canada news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
   <programme channel="GlobalNews" start="20250318000000 +0000" stop="20250318010000 +0000">
     <title>Global News</title>
     <desc>Latest Canada news.</desc>
@@ -1180,178 +1012,178 @@
   <rating>
     <value>TV-G</value>
   </rating>
+  <programme channel="GlobalNews" start="20250324000000 +0000" stop="20250324010000 +0000">
+    <title>Global News</title>
+    <desc>Latest Canada news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="GlobalNews" start="20250324010000 +0000" stop="20250324020000 +0000">
+    <title>Global News</title>
+    <desc>Latest Canada news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="GlobalNews" start="20250324020000 +0000" stop="20250324030000 +0000">
+    <title>Global News</title>
+    <desc>Latest Canada news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="GlobalNews" start="20250324030000 +0000" stop="20250324040000 +0000">
+    <title>Global News</title>
+    <desc>Latest Canada news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="GlobalNews" start="20250324040000 +0000" stop="20250324050000 +0000">
+    <title>Global News</title>
+    <desc>Latest Canada news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="GlobalNews" start="20250324050000 +0000" stop="20250324060000 +0000">
+    <title>Global News</title>
+    <desc>Latest Canada news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="GlobalNews" start="20250324060000 +0000" stop="20250324070000 +0000">
+    <title>Global News</title>
+    <desc>Latest Canada news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="GlobalNews" start="20250324070000 +0000" stop="20250324080000 +0000">
+    <title>Global News</title>
+    <desc>Latest Canada news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="GlobalNews" start="20250324080000 +0000" stop="20250324090000 +0000">
+    <title>Global News</title>
+    <desc>Latest Canada news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="GlobalNews" start="20250324090000 +0000" stop="20250324100000 +0000">
+    <title>Global News</title>
+    <desc>Latest Canada news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="GlobalNews" start="20250324100000 +0000" stop="20250324110000 +0000">
+    <title>Global News</title>
+    <desc>Latest Canada news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="GlobalNews" start="20250324110000 +0000" stop="20250324120000 +0000">
+    <title>Global News</title>
+    <desc>Latest Canada news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="GlobalNews" start="20250324120000 +0000" stop="20250324130000 +0000">
+    <title>Global News</title>
+    <desc>Latest Canada news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="GlobalNews" start="20250324130000 +0000" stop="20250324140000 +0000">
+    <title>Global News</title>
+    <desc>Latest Canada news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="GlobalNews" start="20250324140000 +0000" stop="20250324150000 +0000">
+    <title>Global News</title>
+    <desc>Latest Canada news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="GlobalNews" start="20250324150000 +0000" stop="20250324160000 +0000">
+    <title>Global News</title>
+    <desc>Latest Canada news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="GlobalNews" start="20250324160000 +0000" stop="20250324170000 +0000">
+    <title>Global News</title>
+    <desc>Latest Canada news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="GlobalNews" start="20250324170000 +0000" stop="20250324180000 +0000">
+    <title>Global News</title>
+    <desc>Latest Canada news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="GlobalNews" start="20250324180000 +0000" stop="20250324190000 +0000">
+    <title>Global News</title>
+    <desc>Latest Canada news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="GlobalNews" start="20250324190000 +0000" stop="20250324200000 +0000">
+    <title>Global News</title>
+    <desc>Latest Canada news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="GlobalNews" start="20250324200000 +0000" stop="20250324210000 +0000">
+    <title>Global News</title>
+    <desc>Latest Canada news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="GlobalNews" start="20250324210000 +0000" stop="20250324220000 +0000">
+    <title>Global News</title>
+    <desc>Latest Canada news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="GlobalNews" start="20250324220000 +0000" stop="20250324230000 +0000">
+    <title>Global News</title>
+    <desc>Latest Canada news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="GlobalNews" start="20250324230000 +0000" stop="20250325000000 +0000">
+    <title>Global News</title>
+    <desc>Latest Canada news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
   <channel id="CityNewsToronto">
     <display-name>CityNews 24/7 Toronto</display-name>
     <icon src="https://github.com/forwardcomputers/forwardcomputers.github.io/raw/main/images/tv/citynews247.png" />
   </channel>
-  <programme channel="CityNewsToronto" start="20250317000000 +0000" stop="20250317010000 +0000">
-    <title>CityNews 24/7 Toronto</title>
-    <desc>Latest Toronto news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="CityNewsToronto" start="20250317010000 +0000" stop="20250317020000 +0000">
-    <title>CityNews 24/7 Toronto</title>
-    <desc>Latest Toronto news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="CityNewsToronto" start="20250317020000 +0000" stop="20250317030000 +0000">
-    <title>CityNews 24/7 Toronto</title>
-    <desc>Latest Toronto news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="CityNewsToronto" start="20250317030000 +0000" stop="20250317040000 +0000">
-    <title>CityNews 24/7 Toronto</title>
-    <desc>Latest Toronto news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="CityNewsToronto" start="20250317040000 +0000" stop="20250317050000 +0000">
-    <title>CityNews 24/7 Toronto</title>
-    <desc>Latest Toronto news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="CityNewsToronto" start="20250317050000 +0000" stop="20250317060000 +0000">
-    <title>CityNews 24/7 Toronto</title>
-    <desc>Latest Toronto news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="CityNewsToronto" start="20250317060000 +0000" stop="20250317070000 +0000">
-    <title>CityNews 24/7 Toronto</title>
-    <desc>Latest Toronto news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="CityNewsToronto" start="20250317070000 +0000" stop="20250317080000 +0000">
-    <title>CityNews 24/7 Toronto</title>
-    <desc>Latest Toronto news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="CityNewsToronto" start="20250317080000 +0000" stop="20250317090000 +0000">
-    <title>CityNews 24/7 Toronto</title>
-    <desc>Latest Toronto news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="CityNewsToronto" start="20250317090000 +0000" stop="20250317100000 +0000">
-    <title>CityNews 24/7 Toronto</title>
-    <desc>Latest Toronto news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="CityNewsToronto" start="20250317100000 +0000" stop="20250317110000 +0000">
-    <title>CityNews 24/7 Toronto</title>
-    <desc>Latest Toronto news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="CityNewsToronto" start="20250317110000 +0000" stop="20250317120000 +0000">
-    <title>CityNews 24/7 Toronto</title>
-    <desc>Latest Toronto news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="CityNewsToronto" start="20250317120000 +0000" stop="20250317130000 +0000">
-    <title>CityNews 24/7 Toronto</title>
-    <desc>Latest Toronto news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="CityNewsToronto" start="20250317130000 +0000" stop="20250317140000 +0000">
-    <title>CityNews 24/7 Toronto</title>
-    <desc>Latest Toronto news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="CityNewsToronto" start="20250317140000 +0000" stop="20250317150000 +0000">
-    <title>CityNews 24/7 Toronto</title>
-    <desc>Latest Toronto news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="CityNewsToronto" start="20250317150000 +0000" stop="20250317160000 +0000">
-    <title>CityNews 24/7 Toronto</title>
-    <desc>Latest Toronto news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="CityNewsToronto" start="20250317160000 +0000" stop="20250317170000 +0000">
-    <title>CityNews 24/7 Toronto</title>
-    <desc>Latest Toronto news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="CityNewsToronto" start="20250317170000 +0000" stop="20250317180000 +0000">
-    <title>CityNews 24/7 Toronto</title>
-    <desc>Latest Toronto news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="CityNewsToronto" start="20250317180000 +0000" stop="20250317190000 +0000">
-    <title>CityNews 24/7 Toronto</title>
-    <desc>Latest Toronto news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="CityNewsToronto" start="20250317190000 +0000" stop="20250317200000 +0000">
-    <title>CityNews 24/7 Toronto</title>
-    <desc>Latest Toronto news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="CityNewsToronto" start="20250317200000 +0000" stop="20250317210000 +0000">
-    <title>CityNews 24/7 Toronto</title>
-    <desc>Latest Toronto news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="CityNewsToronto" start="20250317210000 +0000" stop="20250317220000 +0000">
-    <title>CityNews 24/7 Toronto</title>
-    <desc>Latest Toronto news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="CityNewsToronto" start="20250317220000 +0000" stop="20250317230000 +0000">
-    <title>CityNews 24/7 Toronto</title>
-    <desc>Latest Toronto news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="CityNewsToronto" start="20250317230000 +0000" stop="20250318000000 +0000">
-    <title>CityNews 24/7 Toronto</title>
-    <desc>Latest Toronto news.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
   <programme channel="CityNewsToronto" start="20250318000000 +0000" stop="20250318010000 +0000">
     <title>CityNews 24/7 Toronto</title>
     <desc>Latest Toronto news.</desc>
@@ -2360,178 +2192,178 @@
   <rating>
     <value>TV-G</value>
   </rating>
+  <programme channel="CityNewsToronto" start="20250324000000 +0000" stop="20250324010000 +0000">
+    <title>CityNews 24/7 Toronto</title>
+    <desc>Latest Toronto news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="CityNewsToronto" start="20250324010000 +0000" stop="20250324020000 +0000">
+    <title>CityNews 24/7 Toronto</title>
+    <desc>Latest Toronto news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="CityNewsToronto" start="20250324020000 +0000" stop="20250324030000 +0000">
+    <title>CityNews 24/7 Toronto</title>
+    <desc>Latest Toronto news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="CityNewsToronto" start="20250324030000 +0000" stop="20250324040000 +0000">
+    <title>CityNews 24/7 Toronto</title>
+    <desc>Latest Toronto news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="CityNewsToronto" start="20250324040000 +0000" stop="20250324050000 +0000">
+    <title>CityNews 24/7 Toronto</title>
+    <desc>Latest Toronto news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="CityNewsToronto" start="20250324050000 +0000" stop="20250324060000 +0000">
+    <title>CityNews 24/7 Toronto</title>
+    <desc>Latest Toronto news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="CityNewsToronto" start="20250324060000 +0000" stop="20250324070000 +0000">
+    <title>CityNews 24/7 Toronto</title>
+    <desc>Latest Toronto news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="CityNewsToronto" start="20250324070000 +0000" stop="20250324080000 +0000">
+    <title>CityNews 24/7 Toronto</title>
+    <desc>Latest Toronto news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="CityNewsToronto" start="20250324080000 +0000" stop="20250324090000 +0000">
+    <title>CityNews 24/7 Toronto</title>
+    <desc>Latest Toronto news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="CityNewsToronto" start="20250324090000 +0000" stop="20250324100000 +0000">
+    <title>CityNews 24/7 Toronto</title>
+    <desc>Latest Toronto news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="CityNewsToronto" start="20250324100000 +0000" stop="20250324110000 +0000">
+    <title>CityNews 24/7 Toronto</title>
+    <desc>Latest Toronto news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="CityNewsToronto" start="20250324110000 +0000" stop="20250324120000 +0000">
+    <title>CityNews 24/7 Toronto</title>
+    <desc>Latest Toronto news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="CityNewsToronto" start="20250324120000 +0000" stop="20250324130000 +0000">
+    <title>CityNews 24/7 Toronto</title>
+    <desc>Latest Toronto news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="CityNewsToronto" start="20250324130000 +0000" stop="20250324140000 +0000">
+    <title>CityNews 24/7 Toronto</title>
+    <desc>Latest Toronto news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="CityNewsToronto" start="20250324140000 +0000" stop="20250324150000 +0000">
+    <title>CityNews 24/7 Toronto</title>
+    <desc>Latest Toronto news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="CityNewsToronto" start="20250324150000 +0000" stop="20250324160000 +0000">
+    <title>CityNews 24/7 Toronto</title>
+    <desc>Latest Toronto news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="CityNewsToronto" start="20250324160000 +0000" stop="20250324170000 +0000">
+    <title>CityNews 24/7 Toronto</title>
+    <desc>Latest Toronto news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="CityNewsToronto" start="20250324170000 +0000" stop="20250324180000 +0000">
+    <title>CityNews 24/7 Toronto</title>
+    <desc>Latest Toronto news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="CityNewsToronto" start="20250324180000 +0000" stop="20250324190000 +0000">
+    <title>CityNews 24/7 Toronto</title>
+    <desc>Latest Toronto news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="CityNewsToronto" start="20250324190000 +0000" stop="20250324200000 +0000">
+    <title>CityNews 24/7 Toronto</title>
+    <desc>Latest Toronto news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="CityNewsToronto" start="20250324200000 +0000" stop="20250324210000 +0000">
+    <title>CityNews 24/7 Toronto</title>
+    <desc>Latest Toronto news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="CityNewsToronto" start="20250324210000 +0000" stop="20250324220000 +0000">
+    <title>CityNews 24/7 Toronto</title>
+    <desc>Latest Toronto news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="CityNewsToronto" start="20250324220000 +0000" stop="20250324230000 +0000">
+    <title>CityNews 24/7 Toronto</title>
+    <desc>Latest Toronto news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="CityNewsToronto" start="20250324230000 +0000" stop="20250325000000 +0000">
+    <title>CityNews 24/7 Toronto</title>
+    <desc>Latest Toronto news.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
   <channel id="Wanasah">
     <display-name>Wanasah</display-name>
     <icon src="https://github.com/tv-logo/tv-logos/raw/main/countries/united-arab-emirates/wanasah-ae.png" />
   </channel>
-  <programme channel="Wanasah" start="20250317000000 +0000" stop="20250317010000 +0000">
-    <title>Wanasah</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="Wanasah" start="20250317010000 +0000" stop="20250317020000 +0000">
-    <title>Wanasah</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="Wanasah" start="20250317020000 +0000" stop="20250317030000 +0000">
-    <title>Wanasah</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="Wanasah" start="20250317030000 +0000" stop="20250317040000 +0000">
-    <title>Wanasah</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="Wanasah" start="20250317040000 +0000" stop="20250317050000 +0000">
-    <title>Wanasah</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="Wanasah" start="20250317050000 +0000" stop="20250317060000 +0000">
-    <title>Wanasah</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="Wanasah" start="20250317060000 +0000" stop="20250317070000 +0000">
-    <title>Wanasah</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="Wanasah" start="20250317070000 +0000" stop="20250317080000 +0000">
-    <title>Wanasah</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="Wanasah" start="20250317080000 +0000" stop="20250317090000 +0000">
-    <title>Wanasah</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="Wanasah" start="20250317090000 +0000" stop="20250317100000 +0000">
-    <title>Wanasah</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="Wanasah" start="20250317100000 +0000" stop="20250317110000 +0000">
-    <title>Wanasah</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="Wanasah" start="20250317110000 +0000" stop="20250317120000 +0000">
-    <title>Wanasah</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="Wanasah" start="20250317120000 +0000" stop="20250317130000 +0000">
-    <title>Wanasah</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="Wanasah" start="20250317130000 +0000" stop="20250317140000 +0000">
-    <title>Wanasah</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="Wanasah" start="20250317140000 +0000" stop="20250317150000 +0000">
-    <title>Wanasah</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="Wanasah" start="20250317150000 +0000" stop="20250317160000 +0000">
-    <title>Wanasah</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="Wanasah" start="20250317160000 +0000" stop="20250317170000 +0000">
-    <title>Wanasah</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="Wanasah" start="20250317170000 +0000" stop="20250317180000 +0000">
-    <title>Wanasah</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="Wanasah" start="20250317180000 +0000" stop="20250317190000 +0000">
-    <title>Wanasah</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="Wanasah" start="20250317190000 +0000" stop="20250317200000 +0000">
-    <title>Wanasah</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="Wanasah" start="20250317200000 +0000" stop="20250317210000 +0000">
-    <title>Wanasah</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="Wanasah" start="20250317210000 +0000" stop="20250317220000 +0000">
-    <title>Wanasah</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="Wanasah" start="20250317220000 +0000" stop="20250317230000 +0000">
-    <title>Wanasah</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="Wanasah" start="20250317230000 +0000" stop="20250318000000 +0000">
-    <title>Wanasah</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
   <programme channel="Wanasah" start="20250318000000 +0000" stop="20250318010000 +0000">
     <title>Wanasah</title>
     <desc>Selection of the latest Arabic music.</desc>
@@ -3540,178 +3372,178 @@
   <rating>
     <value>TV-G</value>
   </rating>
+  <programme channel="Wanasah" start="20250324000000 +0000" stop="20250324010000 +0000">
+    <title>Wanasah</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="Wanasah" start="20250324010000 +0000" stop="20250324020000 +0000">
+    <title>Wanasah</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="Wanasah" start="20250324020000 +0000" stop="20250324030000 +0000">
+    <title>Wanasah</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="Wanasah" start="20250324030000 +0000" stop="20250324040000 +0000">
+    <title>Wanasah</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="Wanasah" start="20250324040000 +0000" stop="20250324050000 +0000">
+    <title>Wanasah</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="Wanasah" start="20250324050000 +0000" stop="20250324060000 +0000">
+    <title>Wanasah</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="Wanasah" start="20250324060000 +0000" stop="20250324070000 +0000">
+    <title>Wanasah</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="Wanasah" start="20250324070000 +0000" stop="20250324080000 +0000">
+    <title>Wanasah</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="Wanasah" start="20250324080000 +0000" stop="20250324090000 +0000">
+    <title>Wanasah</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="Wanasah" start="20250324090000 +0000" stop="20250324100000 +0000">
+    <title>Wanasah</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="Wanasah" start="20250324100000 +0000" stop="20250324110000 +0000">
+    <title>Wanasah</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="Wanasah" start="20250324110000 +0000" stop="20250324120000 +0000">
+    <title>Wanasah</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="Wanasah" start="20250324120000 +0000" stop="20250324130000 +0000">
+    <title>Wanasah</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="Wanasah" start="20250324130000 +0000" stop="20250324140000 +0000">
+    <title>Wanasah</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="Wanasah" start="20250324140000 +0000" stop="20250324150000 +0000">
+    <title>Wanasah</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="Wanasah" start="20250324150000 +0000" stop="20250324160000 +0000">
+    <title>Wanasah</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="Wanasah" start="20250324160000 +0000" stop="20250324170000 +0000">
+    <title>Wanasah</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="Wanasah" start="20250324170000 +0000" stop="20250324180000 +0000">
+    <title>Wanasah</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="Wanasah" start="20250324180000 +0000" stop="20250324190000 +0000">
+    <title>Wanasah</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="Wanasah" start="20250324190000 +0000" stop="20250324200000 +0000">
+    <title>Wanasah</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="Wanasah" start="20250324200000 +0000" stop="20250324210000 +0000">
+    <title>Wanasah</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="Wanasah" start="20250324210000 +0000" stop="20250324220000 +0000">
+    <title>Wanasah</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="Wanasah" start="20250324220000 +0000" stop="20250324230000 +0000">
+    <title>Wanasah</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="Wanasah" start="20250324230000 +0000" stop="20250325000000 +0000">
+    <title>Wanasah</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
   <channel id="AghaniAghani">
     <display-name>Aghani Aghani</display-name>
     <icon src="https://github.com/forwardcomputers/forwardcomputers.github.io/raw/main/images/tv/aghaniaghani.png" />
   </channel>
-  <programme channel="AghaniAghani" start="20250317000000 +0000" stop="20250317010000 +0000">
-    <title>Aghani Aghani</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="AghaniAghani" start="20250317010000 +0000" stop="20250317020000 +0000">
-    <title>Aghani Aghani</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="AghaniAghani" start="20250317020000 +0000" stop="20250317030000 +0000">
-    <title>Aghani Aghani</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="AghaniAghani" start="20250317030000 +0000" stop="20250317040000 +0000">
-    <title>Aghani Aghani</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="AghaniAghani" start="20250317040000 +0000" stop="20250317050000 +0000">
-    <title>Aghani Aghani</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="AghaniAghani" start="20250317050000 +0000" stop="20250317060000 +0000">
-    <title>Aghani Aghani</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="AghaniAghani" start="20250317060000 +0000" stop="20250317070000 +0000">
-    <title>Aghani Aghani</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="AghaniAghani" start="20250317070000 +0000" stop="20250317080000 +0000">
-    <title>Aghani Aghani</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="AghaniAghani" start="20250317080000 +0000" stop="20250317090000 +0000">
-    <title>Aghani Aghani</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="AghaniAghani" start="20250317090000 +0000" stop="20250317100000 +0000">
-    <title>Aghani Aghani</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="AghaniAghani" start="20250317100000 +0000" stop="20250317110000 +0000">
-    <title>Aghani Aghani</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="AghaniAghani" start="20250317110000 +0000" stop="20250317120000 +0000">
-    <title>Aghani Aghani</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="AghaniAghani" start="20250317120000 +0000" stop="20250317130000 +0000">
-    <title>Aghani Aghani</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="AghaniAghani" start="20250317130000 +0000" stop="20250317140000 +0000">
-    <title>Aghani Aghani</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="AghaniAghani" start="20250317140000 +0000" stop="20250317150000 +0000">
-    <title>Aghani Aghani</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="AghaniAghani" start="20250317150000 +0000" stop="20250317160000 +0000">
-    <title>Aghani Aghani</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="AghaniAghani" start="20250317160000 +0000" stop="20250317170000 +0000">
-    <title>Aghani Aghani</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="AghaniAghani" start="20250317170000 +0000" stop="20250317180000 +0000">
-    <title>Aghani Aghani</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="AghaniAghani" start="20250317180000 +0000" stop="20250317190000 +0000">
-    <title>Aghani Aghani</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="AghaniAghani" start="20250317190000 +0000" stop="20250317200000 +0000">
-    <title>Aghani Aghani</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="AghaniAghani" start="20250317200000 +0000" stop="20250317210000 +0000">
-    <title>Aghani Aghani</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="AghaniAghani" start="20250317210000 +0000" stop="20250317220000 +0000">
-    <title>Aghani Aghani</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="AghaniAghani" start="20250317220000 +0000" stop="20250317230000 +0000">
-    <title>Aghani Aghani</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="AghaniAghani" start="20250317230000 +0000" stop="20250318000000 +0000">
-    <title>Aghani Aghani</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
   <programme channel="AghaniAghani" start="20250318000000 +0000" stop="20250318010000 +0000">
     <title>Aghani Aghani</title>
     <desc>Selection of the latest Arabic music.</desc>
@@ -4720,178 +4552,178 @@
   <rating>
     <value>TV-G</value>
   </rating>
+  <programme channel="AghaniAghani" start="20250324000000 +0000" stop="20250324010000 +0000">
+    <title>Aghani Aghani</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="AghaniAghani" start="20250324010000 +0000" stop="20250324020000 +0000">
+    <title>Aghani Aghani</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="AghaniAghani" start="20250324020000 +0000" stop="20250324030000 +0000">
+    <title>Aghani Aghani</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="AghaniAghani" start="20250324030000 +0000" stop="20250324040000 +0000">
+    <title>Aghani Aghani</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="AghaniAghani" start="20250324040000 +0000" stop="20250324050000 +0000">
+    <title>Aghani Aghani</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="AghaniAghani" start="20250324050000 +0000" stop="20250324060000 +0000">
+    <title>Aghani Aghani</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="AghaniAghani" start="20250324060000 +0000" stop="20250324070000 +0000">
+    <title>Aghani Aghani</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="AghaniAghani" start="20250324070000 +0000" stop="20250324080000 +0000">
+    <title>Aghani Aghani</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="AghaniAghani" start="20250324080000 +0000" stop="20250324090000 +0000">
+    <title>Aghani Aghani</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="AghaniAghani" start="20250324090000 +0000" stop="20250324100000 +0000">
+    <title>Aghani Aghani</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="AghaniAghani" start="20250324100000 +0000" stop="20250324110000 +0000">
+    <title>Aghani Aghani</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="AghaniAghani" start="20250324110000 +0000" stop="20250324120000 +0000">
+    <title>Aghani Aghani</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="AghaniAghani" start="20250324120000 +0000" stop="20250324130000 +0000">
+    <title>Aghani Aghani</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="AghaniAghani" start="20250324130000 +0000" stop="20250324140000 +0000">
+    <title>Aghani Aghani</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="AghaniAghani" start="20250324140000 +0000" stop="20250324150000 +0000">
+    <title>Aghani Aghani</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="AghaniAghani" start="20250324150000 +0000" stop="20250324160000 +0000">
+    <title>Aghani Aghani</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="AghaniAghani" start="20250324160000 +0000" stop="20250324170000 +0000">
+    <title>Aghani Aghani</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="AghaniAghani" start="20250324170000 +0000" stop="20250324180000 +0000">
+    <title>Aghani Aghani</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="AghaniAghani" start="20250324180000 +0000" stop="20250324190000 +0000">
+    <title>Aghani Aghani</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="AghaniAghani" start="20250324190000 +0000" stop="20250324200000 +0000">
+    <title>Aghani Aghani</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="AghaniAghani" start="20250324200000 +0000" stop="20250324210000 +0000">
+    <title>Aghani Aghani</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="AghaniAghani" start="20250324210000 +0000" stop="20250324220000 +0000">
+    <title>Aghani Aghani</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="AghaniAghani" start="20250324220000 +0000" stop="20250324230000 +0000">
+    <title>Aghani Aghani</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="AghaniAghani" start="20250324230000 +0000" stop="20250325000000 +0000">
+    <title>Aghani Aghani</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
   <channel id="ArabicaTV">
     <display-name>Arabica TV</display-name>
     <icon src="https://github.com/forwardcomputers/forwardcomputers.github.io/raw/main/images/tv/arabicatv.png" />
   </channel>
-  <programme channel="ArabicaTV" start="20250317000000 +0000" stop="20250317010000 +0000">
-    <title>Arabica TV</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="ArabicaTV" start="20250317010000 +0000" stop="20250317020000 +0000">
-    <title>Arabica TV</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="ArabicaTV" start="20250317020000 +0000" stop="20250317030000 +0000">
-    <title>Arabica TV</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="ArabicaTV" start="20250317030000 +0000" stop="20250317040000 +0000">
-    <title>Arabica TV</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="ArabicaTV" start="20250317040000 +0000" stop="20250317050000 +0000">
-    <title>Arabica TV</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="ArabicaTV" start="20250317050000 +0000" stop="20250317060000 +0000">
-    <title>Arabica TV</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="ArabicaTV" start="20250317060000 +0000" stop="20250317070000 +0000">
-    <title>Arabica TV</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="ArabicaTV" start="20250317070000 +0000" stop="20250317080000 +0000">
-    <title>Arabica TV</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="ArabicaTV" start="20250317080000 +0000" stop="20250317090000 +0000">
-    <title>Arabica TV</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="ArabicaTV" start="20250317090000 +0000" stop="20250317100000 +0000">
-    <title>Arabica TV</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="ArabicaTV" start="20250317100000 +0000" stop="20250317110000 +0000">
-    <title>Arabica TV</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="ArabicaTV" start="20250317110000 +0000" stop="20250317120000 +0000">
-    <title>Arabica TV</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="ArabicaTV" start="20250317120000 +0000" stop="20250317130000 +0000">
-    <title>Arabica TV</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="ArabicaTV" start="20250317130000 +0000" stop="20250317140000 +0000">
-    <title>Arabica TV</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="ArabicaTV" start="20250317140000 +0000" stop="20250317150000 +0000">
-    <title>Arabica TV</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="ArabicaTV" start="20250317150000 +0000" stop="20250317160000 +0000">
-    <title>Arabica TV</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="ArabicaTV" start="20250317160000 +0000" stop="20250317170000 +0000">
-    <title>Arabica TV</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="ArabicaTV" start="20250317170000 +0000" stop="20250317180000 +0000">
-    <title>Arabica TV</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="ArabicaTV" start="20250317180000 +0000" stop="20250317190000 +0000">
-    <title>Arabica TV</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="ArabicaTV" start="20250317190000 +0000" stop="20250317200000 +0000">
-    <title>Arabica TV</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="ArabicaTV" start="20250317200000 +0000" stop="20250317210000 +0000">
-    <title>Arabica TV</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="ArabicaTV" start="20250317210000 +0000" stop="20250317220000 +0000">
-    <title>Arabica TV</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="ArabicaTV" start="20250317220000 +0000" stop="20250317230000 +0000">
-    <title>Arabica TV</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
-  <programme channel="ArabicaTV" start="20250317230000 +0000" stop="20250318000000 +0000">
-    <title>Arabica TV</title>
-    <desc>Selection of the latest Arabic music.</desc>
-  </programme>
-  <rating>
-    <value>TV-G</value>
-  </rating>
   <programme channel="ArabicaTV" start="20250318000000 +0000" stop="20250318010000 +0000">
     <title>Arabica TV</title>
     <desc>Selection of the latest Arabic music.</desc>
@@ -5894,6 +5726,174 @@
     <value>TV-G</value>
   </rating>
   <programme channel="ArabicaTV" start="20250323230000 +0000" stop="20250324000000 +0000">
+    <title>Arabica TV</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="ArabicaTV" start="20250324000000 +0000" stop="20250324010000 +0000">
+    <title>Arabica TV</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="ArabicaTV" start="20250324010000 +0000" stop="20250324020000 +0000">
+    <title>Arabica TV</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="ArabicaTV" start="20250324020000 +0000" stop="20250324030000 +0000">
+    <title>Arabica TV</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="ArabicaTV" start="20250324030000 +0000" stop="20250324040000 +0000">
+    <title>Arabica TV</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="ArabicaTV" start="20250324040000 +0000" stop="20250324050000 +0000">
+    <title>Arabica TV</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="ArabicaTV" start="20250324050000 +0000" stop="20250324060000 +0000">
+    <title>Arabica TV</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="ArabicaTV" start="20250324060000 +0000" stop="20250324070000 +0000">
+    <title>Arabica TV</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="ArabicaTV" start="20250324070000 +0000" stop="20250324080000 +0000">
+    <title>Arabica TV</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="ArabicaTV" start="20250324080000 +0000" stop="20250324090000 +0000">
+    <title>Arabica TV</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="ArabicaTV" start="20250324090000 +0000" stop="20250324100000 +0000">
+    <title>Arabica TV</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="ArabicaTV" start="20250324100000 +0000" stop="20250324110000 +0000">
+    <title>Arabica TV</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="ArabicaTV" start="20250324110000 +0000" stop="20250324120000 +0000">
+    <title>Arabica TV</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="ArabicaTV" start="20250324120000 +0000" stop="20250324130000 +0000">
+    <title>Arabica TV</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="ArabicaTV" start="20250324130000 +0000" stop="20250324140000 +0000">
+    <title>Arabica TV</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="ArabicaTV" start="20250324140000 +0000" stop="20250324150000 +0000">
+    <title>Arabica TV</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="ArabicaTV" start="20250324150000 +0000" stop="20250324160000 +0000">
+    <title>Arabica TV</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="ArabicaTV" start="20250324160000 +0000" stop="20250324170000 +0000">
+    <title>Arabica TV</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="ArabicaTV" start="20250324170000 +0000" stop="20250324180000 +0000">
+    <title>Arabica TV</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="ArabicaTV" start="20250324180000 +0000" stop="20250324190000 +0000">
+    <title>Arabica TV</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="ArabicaTV" start="20250324190000 +0000" stop="20250324200000 +0000">
+    <title>Arabica TV</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="ArabicaTV" start="20250324200000 +0000" stop="20250324210000 +0000">
+    <title>Arabica TV</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="ArabicaTV" start="20250324210000 +0000" stop="20250324220000 +0000">
+    <title>Arabica TV</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="ArabicaTV" start="20250324220000 +0000" stop="20250324230000 +0000">
+    <title>Arabica TV</title>
+    <desc>Selection of the latest Arabic music.</desc>
+  </programme>
+  <rating>
+    <value>TV-G</value>
+  </rating>
+  <programme channel="ArabicaTV" start="20250324230000 +0000" stop="20250325000000 +0000">
     <title>Arabica TV</title>
     <desc>Selection of the latest Arabic music.</desc>
   </programme>
