@@ -28,7 +28,7 @@ jobs:
         run: |
           curl -sLo ~/am-distro-versions "https://github.com/forwardcomputers/bin/raw/main/am-distro-versions"
           chmod +x ~/am-distro-versions
-          ~/am-distro-versions
+          ~/am-distro-versions "${{ secrets.GITHUB_TOKEN }}"
 
       - name: commit and push
         run: |
